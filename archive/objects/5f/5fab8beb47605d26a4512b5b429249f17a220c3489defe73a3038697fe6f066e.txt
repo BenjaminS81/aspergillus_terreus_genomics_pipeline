@@ -1,0 +1,403 @@
+# Original notebook code cell 0
+from pathlib import Path
+
+input_root = Path("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/unmod")
+output_root = Path("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/mod")
+
+for gbk in input_root.rglob("*.gbk"):
+    # genome directory is the directory two levels above the GBK:
+    # genome_1/results/file.gbk
+    genome_name = gbk.parent.parent.name
+
+    # Preserve directory structure in the output
+    relative_path = gbk.relative_to(input_root)
+    output_file = output_root / relative_path
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(gbk, "r") as f:
+        text = f.read()
+
+    old = "ORGANISM  Aspergillus terreus Unclassified."
+    new = f"ORGANISM  Aspergillus terreus {genome_name}"
+
+    if old not in text:
+        print(f"WARNING: pattern not found in {gbk}")
+    else:
+        text = text.replace(old, new)
+
+    with open(output_file, "w") as f:
+        f.write(text)
+
+    print(f"{gbk} -> {new}")
+
+# Original notebook code cell 1
+import pandas as pd
+
+df = pd.read_csv('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_1_bigscape/matrix/absence_presence(1).tsv', sep="\t", index_col="ACC")
+df = df.drop(["Aspergillus terreus HNGD-TM15","Aspergillus terreus SRR9691930", "Aspergillus terreus AT2022", "Aspergillus terreus TN-484", "Aspergillus terreus IFO6365", "Aspergillus terreus SRR9691932", "Aspergillus terreus SRR19634133"], axis=0)
+
+target_genomes = ["Aspergillus terreus 48", "Aspergillus terreus 57", "Aspergillus terreus 11"]
+#target_genomes = ["Aspergillus terreus 39", "Aspergillus terreus 50", "Aspergillus terreus 73", "Aspergillus terreus SRR9691934", "Aspergillus terreus TT0037"]
+#target_genomes = ["Aspergillus terreus 26", "Aspergillus terreus 40", "Aspergillus terreus 47", "Aspergillus terreus 56", "Aspergillus terreus 67"]
+all_other_genomes = [col for col in df.index if col not in target_genomes]
+
+unique_to_three = df.T[
+    (df.T[target_genomes].sum(axis=1) >= len(target_genomes)) &    # present in all three
+    (df.T[all_other_genomes].sum(axis=1) == 0)   # absent elsewhere
+]
+unique_to_three
+
+# Original notebook code cell 2
+target_genomes = ["Aspergillus terreus HNGD-TM15", "Aspergillus terreus SRR9691930", "Aspergillus terreus AT2022", "Aspergillus terreus TN-484", "Aspergillus terreus IFO6365", "Aspergillus terreus SRR9691932", "Aspergillus terreus SRR19634133"]
+all_other_genomes = [col for col in df.index if col not in target_genomes]
+
+unique_to_three = df.T[
+    (df.T[target_genomes].sum(axis=1) == 0)
+]
+unique_to_three
+
+# Original notebook code cell 3
+from collections import Counter
+
+effp = pd.read_csv('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_9_effectorp/11/effectorp_res', sep="\t", index_col="# Identifier")
+effp['Prediction']
+
+# Original notebook code cell 4
+import pandas as pd
+import os
+
+directory = "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_8_dbscan"
+# Load orthogroup mapping
+ortho = pd.read_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder/Results_Aug25/Orthogroups/Orthogroups.tsv", sep="\t")
+
+# Load dbCAN results per genome
+dbcan_per_genome = {}
+for genome in os.listdir(directory):
+    df = pd.read_csv(f"{directory}/{genome}/overview.tsv", sep="\t")
+    print(df)
+    # Get set of protein IDs that have at least one CAZcan_per_genome[genome] = set(df["Gene ID"].values)
+
+# For each orthogroup, determine which genomes have CAZyme hits
+results = []
+#for og, group in ortho.groupby("Orthogroup"):
+ #   for genome, cazy_set in dbcan_per_genome.items():
+     #   has_cazy = any(gene in cazy_set for gene in group["Gene"])
+      #  results.append({"orthogroup": og, "genome": genome, "has_cazyme": has_cazy})
+
+#matrix = pd.pivot_table(pd.DataFrame(results),
+ #                       index="orthogroup", columns="genome",
+  #                      values="has_cazyme", aggfunc="any")
+
+#matrix
+dbcan_per_genome
+
+# Original notebook code cell 5
+import pandas as pd
+from itertools import combinations
+import numpy as np
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.cluster import AgglomerativeClustering
+from sklearn.datasets import load_digits
+from sklearn.metrics import silhouette_score
+from scipy.cluster.hierarchy import dendrogram, linkage, to_tree
+
+
+ortho = pd.read_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder/Results_Aug25/Orthogroups/Orthogroups_mod_names.csv", sep="\t", index_col='Orthogroup')
+
+
+# Load all genome labels
+counters = {}
+for name in os.listdir(directory):
+    #if name != 'AT-1':
+        df = pd.read_csv(f"{directory}/{name}/overview.tsv", sep="\t")
+        df.replace('-', np.nan, inplace=True)
+        #print(df.shape)
+        #genomes[name] = df.set_index("Gene ID")["Recommend Results"]
+        #print(name)
+        #print(ortho[name])
+        #print(df[["Gene ID", "Recommend Results"]])
+        mapping = dict(zip(df['Gene ID'], df['Recommend Results']))
+        s = ortho[name].str.split(",\s*").explode()
+        #print(name, Counter(s))
+        s = s.apply(
+            lambda x: ", ".join(str(mapping.get(i.strip(), i.strip()))
+                                for i in x.split(",")) if pd.notna(x) else x
+        )
+        #print(name, Counter(s))
+        s = s[s.isin(df['Recommend Results'])].dropna()
+        #print(s)
+        counters[name] = Counter(s)
+
+counter_df = pd.DataFrame.from_dict(counters, orient="index").fillna(0).astype(int)
+#counter_df = counter_df.drop(["HNGD-TM15","SRR9691930", "AT2022", "TN-484", "IFO6365", "SRR9691932", "SRR19634133"], axis=0)
+
+labels = list(counter_df.index)
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(counter_df)
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
+
+plt.figure(figsize=(8,6))
+plt.scatter(X_pca[:, 0], X_pca[:, 1], cmap='coolwarm', edgecolor='k')
+plt.xlabel("Principal Component 1")
+plt.ylabel("Principal Component 2")
+plt.title("PCA Transformed Data")
+plt.colorbar(label="Diagnosis")
+#plt.show()
+
+#normalized_df = (counter_df-counter_df.mean())/counter_df.std()    
+#normalized_df
+
+
+model = AgglomerativeClustering(n_clusters=30)
+model.fit(counter_df)
+labels = model.labels_
+#print(len(labels))
+#print(list(counter_df.index))
+
+linked = linkage(X_scaled, method='ward')
+leaf_labels = counter_df.index.astype(str).tolist()
+
+plt.figure(figsize=(12, 6))
+dendrogram(
+    linked,
+    labels=leaf_labels,
+    leaf_rotation=90,
+    leaf_font_size=8
+)
+plt.title("Hierarchical Clustering Dendrogram")
+plt.xlabel("Cluster Size")
+plt.ylabel("Distance")
+#plt.show()
+
+#target_genomes = counter_df.T[["48", "57", "11"]]
+#target_genomes = counter_df.T[["39", "50", "73"]]
+target_genomes = counter_df.T[["26", "40", "47", "56", "67"]]
+all_other_genomes = counter_df.T[[col for col in counter_df.index if col not in target_genomes]]
+
+cluster_mean = target_genomes.T.mean()
+cluster_median = target_genomes.T.median()
+other_mean = all_other_genomes.T.mean()
+
+
+score = cluster_mean / (other_mean + 1e-10)
+cluster_profiles = score.sort_values(ascending=False)
+#print(target_genomes.T['AA7_e28'])
+cluster_profiles
+
+
+
+def linkage_to_newick(linked, labels=None):
+    """
+    Convert scipy linkage matrix to Newick tree string.
+    Parameters:
+        linked : array-like, linkage matrix from scipy.cluster.hierarchy
+        labels : list of strings (optional) – leaf labels. If None, uses 'i' as name.
+    Returns:
+        newick string
+    """
+    n = linked.shape[0] + 1  # number of leaves
+    
+    # Use labels if provided, else fallback to str(i)
+    if labels is not None:
+        node_name = {i: labels[i] for i in range(n)}
+    else:
+        node_name = {i: str(i) for i in range(n)}
+
+    for i, row in enumerate(linked):
+        a, b, dist, size = row
+        a, b = int(a), int(b)
+        node_name[i + n] = f"({node_name[a]}:{dist/2:.4f},{node_name[b]}:{dist/2:.4f})"
+
+    root = 2 * n - 2  # last internal node index
+    return node_name[root] + ";"
+
+# Example usage:
+newick_str = linkage_to_newick(linked, labels=leaf_labels)
+newick_str
+# Step 4: Save to file
+with open("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_8_dbscan/tree.nwk", "w") as f:
+    f.write(newick_str)
+
+
+# Original notebook code cell 6
+ortho = pd.read_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder/Results_Aug25/Orthogroups/Orthogroups_mod_names.csv", sep="\t", index_col='Orthogroup')
+
+directory = "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_9_effectorp"
+
+# Load all genome labels
+counters = {}
+for name in os.listdir(directory):
+    df = pd.read_csv(f"{directory}/{name}/effectorp_res", sep="\t")
+    df['# Identifier'] = df['# Identifier'].str[:14]
+    mapping = dict(zip(df['# Identifier'], df['Prediction']))
+    s = ortho[name].str.split(",\s*").explode()
+    s = s.apply(
+        lambda x: ", ".join(str(mapping.get(i.strip(), i.strip()))
+                            for i in x.split(",")) if pd.notna(x) else x
+    )
+    s = s[s.isin(df['Prediction'])].dropna()
+    print(s)
+    counters[name] = Counter(s)
+
+counter_df = pd.DataFrame.from_dict(counters, orient="index").fillna(0).astype(int)
+#counter_df = counter_df.drop(["HNGD-TM15","SRR9691930", "AT2022", "TN-484", "IFO6365", "SRR9691932", "SRR19634133"], axis=0)
+
+labels = list(counter_df.index)
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(counter_df)
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
+
+plt.figure(figsize=(8,6))
+plt.scatter(X_pca[:, 0], X_pca[:, 1], cmap='coolwarm', edgecolor='k')
+plt.xlabel("Principal Component 1")
+plt.ylabel("Principal Component 2")
+plt.title("PCA Transformed Data")
+plt.colorbar(label="Diagnosis")
+plt.show()
+
+model = AgglomerativeClustering(n_clusters=30)
+model.fit(counter_df)
+labels = model.labels_
+print(len(labels))
+print(list(counter_df.index))
+
+linked = linkage(X_scaled, method='ward')
+
+plt.figure(figsize=(12, 6))
+dendrogram(
+    linked,
+    labels=counter_df.index.astype(str).tolist(),
+    leaf_rotation=90,
+    leaf_font_size=8
+)
+plt.title("Hierarchical Clustering Dendrogram")
+plt.xlabel("Cluster Size")
+plt.ylabel("Distance")
+plt.show()
+
+target_genomes = counter_df.T[["48", "57", "11"]]
+#target_genomes = counter_df.T[["39", "50", "73"]]
+#target_genomes = counter_df.T[["26", "40", "47", "56", "67"]]
+all_other_genomes = counter_df.T[[col for col in counter_df.index if col not in target_genomes]]
+
+cluster_mean = target_genomes.T.mean()
+cluster_median = target_genomes.T.median()
+other_mean = all_other_genomes.T.mean()
+
+
+score = cluster_mean / (other_mean + 1e-10)
+cluster_profiles = score.sort_values(ascending=False)
+#print(target_genomes.T['AA7_e28'])
+cluster_profiles
+
+
+# Example usage:
+newick_str = linkage_to_newick(linked, labels=leaf_labels)
+newick_str
+# Step 4: Save to file
+with open("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_9_effectorp/tree.nwk", "w") as f:
+    f.write(newick_str)
+
+
+# Original notebook code cell 7
+ortho = pd.read_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder/Results_Aug25/Orthogroups/Orthogroups_mod_names.csv", sep="\t", index_col='Orthogroup')
+
+directory = "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_7_signalp"
+
+# Load all genome labels
+counters = {}
+for name in os.listdir(directory):
+    df = pd.read_csv(f"{directory}/{name}/_summary.signalp5", skiprows=1, sep="\t")
+    #display(df)
+    mapping = dict(zip(df['# ID'], df['Prediction']))
+    #print(mapping)
+    s = ortho[name].str.split(",\s*").explode()
+    s = s.apply(
+        lambda x: ", ".join(str(mapping.get(i.strip(), i.strip()))
+                            for i in x.split(",")) if pd.notna(x) else x
+    )
+    s = s[s.isin(df['Prediction'])].dropna()
+    #print(s)
+    counters[name] = Counter(s)
+
+counter_df = pd.DataFrame.from_dict(counters, orient="index").fillna(0).astype(int)
+#counter_df = counter_df.drop(["HNGD-TM15","SRR9691930", "AT2022", "TN-484", "IFO6365", "SRR9691932", "SRR19634133"], axis=0)
+
+labels = list(counter_df.index)
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(counter_df)
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
+
+plt.figure(figsize=(8,6))
+plt.scatter(X_pca[:, 0], X_pca[:, 1], cmap='coolwarm', edgecolor='k')
+plt.xlabel("Principal Component 1")
+plt.ylabel("Principal Component 2")
+plt.title("PCA Transformed Data")
+plt.colorbar(label="Diagnosis")
+plt.show()
+
+model = AgglomerativeClustering(n_clusters=30)
+model.fit(counter_df)
+labels = model.labels_
+#print(len(labels))
+#print(list(counter_df.index))
+
+linked = linkage(X_scaled, method='ward')
+
+plt.figure(figsize=(12, 6))
+dendrogram(
+    linked,
+    labels=counter_df.index.astype(str).tolist(),
+    leaf_rotation=90,
+    leaf_font_size=8
+)
+plt.title("Hierarchical Clustering Dendrogram")
+plt.xlabel("Cluster Size")
+plt.ylabel("Distance")
+plt.show()
+
+target_genomes = counter_df.T[["48", "57", "11"]]
+#target_genomes = counter_df.T[["39", "50", "73"]]
+#target_genomes = counter_df.T[["26", "40", "47", "56", "67"]]
+all_other_genomes = counter_df.T[[col for col in counter_df.index if col not in target_genomes]]
+
+cluster_mean = target_genomes.T.mean()
+cluster_median = target_genomes.T.median()
+other_mean = all_other_genomes.T.mean()
+
+
+score = cluster_mean / (other_mean + 1e-10)
+cluster_profiles = score.sort_values(ascending=False)
+#print(target_genomes.T['AA7_e28'])
+cluster_profiles
+
+# Example usage:
+newick_str = linkage_to_newick(linked, labels=leaf_labels)
+newick_str
+# Step 4: Save to file
+with open("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_7_signalp/tree.nwk", "w") as f:
+    f.write(newick_str)
+
+# Original notebook code cell 8
+from ete3 import Tree
+
+# Load two trees (Newick format)
+t1 = Tree("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_7_signalp/tree.nwk")
+t2 = Tree("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_4_mafft_iqtree/Aug25/iqtree/concatenated_53.fa_trunc.nwk")
+
+result = t1.compare(t2, unrooted=True)
+rf = result['rf']           # Robinson-Foulds distance
+max_rf = result['max_rf']   # maximum possible RF
+print(f"RF distance: {rf}")
+print(f"Normalized RF: {rf / max_rf if max_rf > 0 else None}")
+
+

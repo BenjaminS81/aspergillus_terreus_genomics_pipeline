@@ -1,0 +1,47 @@
+for f1 in /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/raw/aureoterreus/*_1.fastq.gz; do
+	base=$(basename "${f1%_1.fastq.gz}")
+	echo "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/aureoterreus/${base}_1.fastq.gz"
+		if [[ -f "/mnt/8EEE3D67EE3D492B/terreus_genotyping/data/raw/aureoterreus/${base}_2.fastq.gz" && ! -f "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/aureoterreus/${base}_2.fastq.gz" ]]; then
+		conda run -n spades fastp -i "/mnt/8EEE3D67EE3D492B/terreus_genotyping/data/raw/aureoterreus/${base}_1.fastq.gz" -I "/mnt/8EEE3D67EE3D492B/terreus_genotyping/data/raw/aureoterreus/${base}_2.fastq.gz" -o "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/aureoterreus/${base}_1.fastq.gz" -O "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/aureoterreus/${base}_2.fastq.gz" -h "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/aureoterreus/${base}.html" -j "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/aureoterreus/${base}.json"
+		conda run -n spades spades.py --memory 32 -1 /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/aureoterreus/${base}_1.fastq.gz -2 /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/aureoterreus/${base}_2.fastq.gz -o /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_1_spades/aureoterreus/${base}
+	fi
+done
+
+
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_1_spades/aureoterreus/*; do
+	base=$(basename "$dir")
+	echo "$base"
+done
+
+	mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate/aureoterreus
+	mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate/aureoterreus/$base
+	if [[ -f "$dir/contigs.fasta" && ! -d /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate/aureoterreus/$base/ater ]]; then
+		conda run -n seqkit seqkit replace -p ".+" -r "contig_{nr}" $dir/contigs.fasta > /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate/aureoterreus/$base/contigs_renamed.fasta
+	fi
+		conda run -n repeats BuildDatabase -name repeats_db contigs_renamed.fasta
+		conda run -n repeats RepeatModeler -database repeats_db -threads 16
+		conda run -n repeats RepeatMasker -pa 16 -lib repeats_db-families.fa -xsmall contigs_renamed.fasta
+		conda run -n funannotate2 funannotate2 clean -f contigs_renamed.fasta.masked -o cleaned_masked_contigs.fasta
+		conda run -n funannotate2 funannotate2 train -f cleaned_masked_contigs.fasta -s "Aspergillus terreus" -o ater
+		conda run -n funannotate2 funannotate2 predict -i ater
+		conda run -n funannotate2 funannotate2 annotate -i ater
+		
+		
+		
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping; do
+	conda run -n spades fastp -i "$dir/data/raw/aureoterreus/SRR8399223_1.fastq.gz" -I "$dir/data/raw/aureoterreus/SRR8399223_2.fastq.gz" -o "0_0_fastp/SRR8399223_1.fastq.gz" -O "0_0_fastp/SRR8399223_2.fastq.gz" -h "0_0_fastp/SRR8399223.html" -j "0_0_fastp/SRR8399223.json"
+	mkdir -p $dir/results2/0_0_fastp/aureoterreus
+	conda run -n spades spades.py --memory 32 -1 mkdir -p/SRR8399223_1.fastq.gz -2 $dir/results2/0_0_fastp/aureoterreus/SRR8399223_2.fastq.gz -o $dir/results2/0_1_spades/aureoterreus/SRR8399223
+	conda run -n seqkit seqkit replace -p ".+" -r "contig_{nr}" $dir/contigs.fasta > /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate/aureoterreus/$base/contigs_renamed.fasta
+	conda run -n repeats BuildDatabase -name repeats_db contigs_renamed.fasta
+	conda run -n repeats RepeatModeler -database repeats_db -threads 16
+	conda run -n repeats RepeatMasker -pa 16 -lib repeats_db-families.fa -xsmall contigs_renamed.fasta
+	conda run -n funannotate2 funannotate2 clean -f contigs_renamed.fasta.masked -o cleaned_masked_contigs.fasta
+	conda run -n funannotate2 funannotate2 train -f cleaned_masked_contigs.fasta -s "Aspergillus terreus" -o ater
+	conda run -n funannotate2 funannotate2 predict -i ater
+	conda run -n funannotate2 funannotate2 annotate -i ater
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping; do
+echo $dir
+done

@@ -1,0 +1,8 @@
+blastn -query RPB2/A_terreus_4147.fasta -subject ksnp/fasta/ATCC_20542.fasta -outfmt 6
+samtools faidx ksnp/fasta/ATCC_20542.fasta JAAWWR010000004.1:1729678-1730718 >> RPB2/terrei_RPB2.fasta
+
+blastn -query RPB2/A_terreus_4147.fasta -subject ksnp/fasta/11.fasta -outfmt 6
+samtools faidx ksnp/fasta/11.fasta NODE_17_length_457319_cov_15.394620:35056-36096 >> RPB2/terrei_RPB2.fasta
+
+blastn -query RPB2/A_terreus_4147.fasta -subject ksnp/fasta/29.fasta -outfmt 6
+samtools faidx ksnp/fasta/29.fasta NODE_4_length_922404_cov_22.786047:162819-163859 >> RPB2/terrei_RPB2.fasta

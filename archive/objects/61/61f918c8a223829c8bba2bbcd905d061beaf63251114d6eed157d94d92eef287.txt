@@ -1,0 +1,1 @@
+orthofinder -f terreus/ -d -t 12

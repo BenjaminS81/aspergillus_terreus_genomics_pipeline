@@ -1,0 +1,5 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_2_perSVade_align/*; do
+base="$(basename "$dir")"
+#echo /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_7_optimized/$base
+docker run -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/reference:/reference -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_8_perSVade_SVs/$base:/output -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_2_perSVade_align/$base:/aligned -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_7_perSVade_optimized_parameters/$base:/optimized -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_1_persSVade_repeats:/repeats mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade call_SVs --ref /reference/GCA_000149615.1_ASM14961v1_genomic.fna -o /output -sbam /aligned/aligned_reads.bam.sorted --mitochondrial_chromosome CH981540.1 --SVcalling_parameters /optimized/optimized_parameters.json --repeats_file /repeats/combined_repeats.tab --fraction_available_mem 0.7
+done

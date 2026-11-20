@@ -1,0 +1,18 @@
+# config.yaml
+spades
+  memory: 32
+seqkit
+  p: ".+"
+repeats
+  threads: 16
+  pa: 16
+orthofinder
+  t: 12
+persvade
+  fraction_available_mem: 0.7
+  min_AF: 0.9
+  min_coverage: 20
+  p: 1
+  mcode: 4
+  gcode: 1
+  mitochondrial_chromosome: JAAWWR010000001.1

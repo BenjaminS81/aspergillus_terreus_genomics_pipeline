@@ -1,0 +1,58 @@
+[
+  {
+    "gate": "C0",
+    "status": "PARTIAL",
+    "input": "Assembly accessions, sample/culture keys, current BUSCO and assembly QC; type references",
+    "action": "Resolve duplicate sequence hashes versus biological replicates; include missing public genomes only after QC. Obtain verified type genomes for terreus and montoensis; broaden section-wide sampling.",
+    "output": "Frozen training/holdout panel and provenance manifest; explicit exclusions.",
+    "criterion": "Unique sequence identity and culture identity separately tracked; no confident species scheme for unresolved assignments."
+  },
+  {
+    "gate": "C1",
+    "status": "OPEN",
+    "input": "Genome FASTA + harmonized fungal GFF3/CDS/protein files",
+    "action": "Validate coordinate-consistent exon-joined CDS, translation, genetic code, internal stops and one representative isoform per gene. Distinguish missing assembly sequence from failed annotation.",
+    "output": "Versioned fungal CDS and protein catalog with per-locus callability codes.",
+    "criterion": "Fungal annotation pipeline validated across assembly sources; protein-only/transcript-only data cannot by themselves supply comparable nucleotide genome alleles."
+  },
+  {
+    "gate": "C2",
+    "status": "SCREENED, NOT VALIDATED",
+    "input": "14,964 current orthogroups; 4,661 strict single-copy candidates",
+    "action": "Review orthology with protein trees, duplication histories, reciprocal matches and synteny. Screen paralogs, repeats and unstable models. Re-evaluate on a species-balanced independent panel.",
+    "output": "Candidate loci with stable IDs, coordinates, copy-state evidence and exclusions.",
+    "criterion": "Exactly one defensible ortholog per callable genome; copy count alone is insufficient."
+  },
+  {
+    "gate": "C3",
+    "status": "OPEN",
+    "input": "Validated loci and representative diversity panel",
+    "action": "Pilot exon-joined nucleotide CDS alleles using chewBBACA CDS mode or a validated allele catalog/caller. Benchmark intron handling against curated loci. Keep intronic genomic haplotypes as a separately named optional analysis.",
+    "output": "Reproducible allele sequences, hashes and immutable allele IDs; schema version and allele profiles.",
+    "criterion": "No arbitrary paralog selection; missing, ambiguous, truncated and multicopy calls remain distinct from valid allele IDs."
+  },
+  {
+    "gate": "C4",
+    "status": "DESIGN READY",
+    "input": "Validated section-wide catalog and defensible species groups",
+    "action": "Define a stable section-wide backbone plus species-specific extensions. Retain global locus identifiers and version membership lists. Compare 95%, 99% and 100% occupancy thresholds on training data.",
+    "output": "Section backbone and nested species views/extensions; no silently changing core.",
+    "criterion": "Thresholds are proposed pilot settings, selected using holdout callability and stability, not declared universal fungal standards."
+  },
+  {
+    "gate": "C5",
+    "status": "OPEN",
+    "input": "Independent holdout genomes, alternate assemblies/platforms and technical replicates",
+    "action": "Measure allele-call reproducibility, dropout, discrimination, saturation and agreement with validated core SNP/phylogenomic relationships. Test annotation-version sensitivity and species imbalance.",
+    "output": "Validation report, failure matrix and minimum-callability policy.",
+    "criterion": "Report differences/shared callable loci per pair; no missing-as-zero distance, no universal outbreak cutoff without empirical validation."
+  },
+  {
+    "gate": "C6",
+    "status": "OPEN",
+    "input": "Frozen allele catalog and validation evidence",
+    "action": "Package allele nomenclature, schema changelog, test panel and reproducible caller. Keep lovastatin architecture/phenotypes as accessory traits for structure-aware evolutionary analyses.",
+    "output": "Research cgMLST release and reproducible profiles, with optional later public registry submission.",
+    "criterion": "Research pilot clearly separated from externally validated nomenclature; ecological or clinical thresholds require independent evidence."
+  }
+]

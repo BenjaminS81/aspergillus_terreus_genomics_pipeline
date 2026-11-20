@@ -1,0 +1,21 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/*; do
+base="$(basename "$dir")"
+echo $base
+#echo $dir/ater/annotate_results
+mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/$base
+conda run -n antismash filter_gbk.py $dir/ater/annotate_results/Aspergillus_terreus.gbk -o /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/$base/filtered.gbk
+conda run -n antismash antismash /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/$base/filtered.gbk --taxon fungi --cpus 10 --output-dir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/$base/res
+done
+
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus_existing_annotations/*; do
+base="$(basename "$dir")"
+echo $base
+#echo $dir/ater/annotate_results
+mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/unmod/$base
+conda run -n antismash filter_gbk.py $dir/ater/annotate_results/Aspergillus_terreus.gbk -o /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/unmod/$base/filtered.gbk
+conda run -n antismash antismash /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/unmod/$base/filtered.gbk --taxon fungi --cpus 10 --output-dir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_6_antismash/unmod/$base/res
+done
+
+
+find -type f -name "filtered.gbk" -delete

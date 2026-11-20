@@ -1,0 +1,12 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/*; do
+base="$(basename "$dir")"
+	if [[ ! -f "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_1_braker/$base/braker.gtf" ]]; then
+		#echo $dir/ater/annotate_results/Aspergillus_terreus.fasta
+		echo $base
+		braker.pl --species=Aspergillus terreus --genome $dir/ater/annotate_results/Aspergillus_terreus.fasta --useexisting --threads=8 --workingdir=/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_1_braker/$base
+	fi
+done
+
+
+
+braker.pl --species=Aspergillus terreus --genome=genome.fasta --threads=8

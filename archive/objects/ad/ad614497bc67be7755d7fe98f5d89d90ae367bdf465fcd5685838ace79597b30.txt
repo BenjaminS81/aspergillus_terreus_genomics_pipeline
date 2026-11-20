@@ -1,0 +1,5 @@
+#there is a weird bug where saving to the secondary drive /mnt/ fails. so I save it to the /home folder and move it after. not elegant but it works
+
+docker run -v /home/davideisele/Documents/repeat_test/ref:/reference -v /home/davideisele/Documents/repeat_test/1_6_perSVade_homologous_regions:/output mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade find_homologous_regions --ref /reference/GCA_000149615.1_ASM14961v1_genomic.fna -o /output --fraction_available_mem 0.7
+
+mv /home/davideisele/Documents/repeat_test/1_6_perSVade_homologous_regions /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_6_perSVade_homologous_regions

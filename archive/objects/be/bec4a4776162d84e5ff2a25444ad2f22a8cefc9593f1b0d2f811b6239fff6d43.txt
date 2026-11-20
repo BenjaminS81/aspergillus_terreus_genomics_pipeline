@@ -1,0 +1,12 @@
+/mnt/8EEE3D67EE3D492B/terreus_genotyping/notebooks/Orthogroups_terreus.ipynb
+-> create core_orthogroups.txt
+
+for file in $(cat /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_3_orthofinder/OrthoFinder/Results_Jul20/core_orthogroups.txt); do
+	conda run -n mafft mafft --inputorder --adjustdirectionaccurately /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_3_orthofinder/OrthoFinder/Results_Jul20/Orthogroup_Sequences/"$file".fa > /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_4_mafft_iqtree/mafft/"$file"_mafft.fa
+	#echo "$file".fa
+done
+
+/mnt/8EEE3D67EE3D492B/terreus_genotyping/notebooks/Orthogroups_terreus.ipynb
+-> create names.txt and concatenated.fa
+
+conda run -n iqtree iqtree -s /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_4_mafft_iqtree/concatenated.fa -m MFP -nt AUTO

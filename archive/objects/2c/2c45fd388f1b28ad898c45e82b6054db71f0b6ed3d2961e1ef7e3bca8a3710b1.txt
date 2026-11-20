@@ -1,0 +1,4 @@
+for file in *; do
+	conda run -n mafft mafft --inputorder --adjustdirectionaccurately "$file" > mafft/"$file".fa
+	echo "$file"
+done

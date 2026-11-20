@@ -1,0 +1,9 @@
+#for dir in *;
+#do
+#if [[ -f "$dir/annot.fna" ]]; then
+#	echo "$dir/annot.fna"
+#	conda run -n fastani fastANI -q "$dir/annot.fna" -r RLA-25-N-0034_final/annot.fna -o r_RLA-25-N-0034_q_$dir
+#fi
+#done
+
+conda run -n fastani fastANI --ql files.txt --rl files.txt -o fastani_output

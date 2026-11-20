@@ -1,0 +1,4 @@
+for f1 in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/terreus/*_1.fastq.gz; do
+	base=$(basename "${f1%_1.fastq.gz}")
+	conda run -n spades spades.py --memory 32 -1 /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/terreus/${base}_1.fastq.gz -2 /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_0_fastp/terreus/${base}_2.fastq.gz -o /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_1_spades/terreus/${base}
+done

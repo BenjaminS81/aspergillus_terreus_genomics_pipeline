@@ -1,0 +1,127 @@
+# Original notebook code cell 0
+import pandas as pd
+import numpy as np
+
+
+#df = pd.read_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_3_orthofinder/OrthoFinder/Results_Jul20/Orthogroups/Orthogroups.GeneCount.tsv", sep="\t", index_col="Orthogroup")
+df = pd.read_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder/Results_Aug25/Orthogroups/Orthogroups.GeneCount.tsv", sep="\t", index_col="Orthogroup")
+df = df.drop('Total', axis=1)
+#df = df.drop(['Total', 'ATCC20541_transcripts'], axis=1)
+df = df[(df == 1).all(axis=1)]
+#df.index.to_series().to_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_3_orthofinder/OrthoFinder/Results_Jul20/core_orthogroups.txt", index=False, header=False)
+df.index.to_series().to_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder/Results_Aug25/Orthogroups/core_orthogroups.txt", index=False, header=False)
+df
+
+# Original notebook code cell 1
+#df.columns.to_series().to_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_3_orthofinder/OrthoFinder/Results_Jul20/names.txt", index=False, header=False)
+df.columns.to_series().to_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder/Results_Aug25/names.txt", index=False, header=False)
+
+# Original notebook code cell 2
+import glob
+from pathlib import Path
+#files = glob.glob("/mnt/8EEE3D67EE3D492B/Sandoz_terreus/Orthofinder/terreus/OrthoFinder/Results_Jun16/mafft/*.fa")9
+#names = [line.strip() for line in open("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_3_orthofinder/OrthoFinder/Results_Jul20/names.txt")]
+names = [line.strip() for line in open("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder/Results_Aug25/names.txt")]
+#print(names)
+#for fasta_file in Path("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_4_mafft_iqtree/mafft").glob("*.fa"):
+for fasta_file in Path("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_4_mafft_iqtree/Aug25/mafft").glob("*.fa"):
+    output_file = fasta_file.with_name(fasta_file.stem + "_renamed.fa")
+    i = 0
+    output_file = fasta_file.with_name(fasta_file.stem + "_renamed.fa")
+
+    with open(fasta_file) as fin, open(output_file, "w") as fout:
+        for line in fin:
+            if line.startswith(">"):
+                old_id = line[1:].strip()
+                fout.write(f">{names[i]} {old_id}\n")
+                i += 1
+            else:
+                fout.write(line)
+
+    #print(f"Processed {fasta_file}")
+
+# Original notebook code cell 3
+from collections import OrderedDict
+from Bio import SeqIO
+from pathlib import Path
+
+seqs = OrderedDict()
+
+#for fasta in Path("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_4_mafft_iqtree/mafft").glob("*_renamed.fa"):
+for fasta in Path("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_4_mafft_iqtree/Aug25/mafft").glob("*_renamed.fa"):
+    for record in SeqIO.parse(fasta, "fasta"):
+        if record.id not in seqs:
+            seqs[record.id] = ""
+        seqs[record.id] += str(record.seq)
+
+#with open("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_4_mafft_iqtree/concatenated.fa", "w") as out:
+with open("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_4_mafft_iqtree/Aug25/concatenated.fa", "w") as out:
+    for header, seq in seqs.items():
+        out.write(f">{header}\n{seq}\n")
+
+# Original notebook code cell 4
+from Bio import SeqIO
+
+for record in SeqIO.parse("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_4_mafft_iqtree/concatenated.fa", "fasta"):
+    print(record.id, len(record.seq))
+
+# Original notebook code cell 5
+names = [line.strip() for line in open("/mnt/8EEE3D67EE3D492B/Sandoz_terreus/Orthofinder/terreus/OrthoFinder/Results_Jun12/names.txt")]
+
+i = 0
+for file in 
+#with open("/mnt/8EEE3D67EE3D492B/Sandoz_terreus/Orthofinder/terreus/OrthoFinder/Results_Jun12/mafft/*.fa") as fin, open("/mnt/8EEE3D67EE3D492B/Sandoz_terreus/Orthofinder/terreus/OrthoFinder/Results_Jun12/mafft_renamed/*.fa", "w") as fout:
+ #   print(fin)
+  #  print(fout)
+    #for line in fin:
+     #   if line.startswith(">"):
+      #      old_id = line[1:].strip()
+       #     fout.write(f">{names[i]} {old_id}\n")
+        #    i += 1
+        #else:
+         #   fout.write(line)
+
+# Original notebook code cell 6
+from pathlib import Path
+
+for fasta_file in Path("/mnt/8EEE3D67EE3D492B/Sandoz_terreus/Orthofinder/terreus/OrthoFinder/Results_Jun12/mafft").glob("*.fa"):
+
+    names_file = fasta_file.with_name(fasta_file.stem + "_names.txt")
+    print(names_file)
+
+    #names = [line.strip() for line in open(names_file)]
+
+    #i = 0
+    #output_file = fasta_file.with_name(fasta_file.stem + "_renamed.fa")
+
+    #with open(fasta_file) as fin, open(output_file, "w") as fout:
+     #   for line in fin:
+      #      if line.startswith(">"):
+       #         old_id = line[1:].strip()
+        #        fout.write(f">{names[i]} {old_id}\n")
+         #       i += 1
+          #  else:
+           #     fout.write(line)
+
+    #print(f"Processed {fasta_file}")
+
+# Original notebook code cell 7
+df1 = pd.read_csv("/mnt/8EEE3D67EE3D492B/Sandoz_terreus/Orthofinder/terreus/OrthoFinder/Results_Jun23/Orthogroups/Orthogroups.GeneCount.tsv", sep="\t", index_col="Orthogroup")
+df1
+#statin_gene_11 = {"lovD": "FUN2_010502", "lovC": "FUN2_010503", "lovG": "FUN2_010504", "lovB": "FUN2_010505", "lovA": "FUN2_010506", "lovE": "FUN2_010639", "lovF": "FUN2_010641"}
+#statin_og = {"lovD": "OG0006550", "lovC": "OG0008185", "lovG": "OG0008186", "lovB": "OG0008187", "lovA": "OG0008188", "lovE": "OG0002365", "lovF": "OG0001490", "lovI?": "OG0009090", "lvrA?": "OG0006586"}
+statin_og = {"lovD": "OG0006550", "lovC": "OG0008185", "lovG": "OG0008186", "lovB": "OG0008187", "lovA": "OG0008188", "lovE": "OG0002365", "lovF": "OG0001490", "lovI?": "OG0009090", "lvrA?": "OG0006586"}
+df2 = df1[df1.index.isin(list(statin_og.values()))]
+df3 = df2.drop(columns=['SRR9691932.transcripts', 'SRR19634133.transcripts', 'Total'])#['SRR9691930.transcripts', 'TN-484_cds', 'IFO6365_cds', 'SRR9691932.transcripts', 'SRR19634133.transcripts', 'Total'])
+#df2['SRR25636132.transcripts']
+df4 = df3[(df3 == 1).all(axis=1)]
+df2
+
+# Original notebook code cell 8
+df1 = pd.read_csv("/mnt/8EEE3D67EE3D492B/Sandoz_terreus/Orthofinder/terreus/OrthoFinder/Results_Jun16/Orthogroups/Orthogroups.tsv", sep="\t", index_col="Orthogroup")
+df2 = df1[df1.index.isin(list(statin_og.values()))]
+#list(df2.drop(columns=['SRR9691930.transcripts', 'TN-484_cds', 'IFO6365_cds', 'SRR9691932.transcripts', 'SRR19634133.transcripts']))
+df2['ATCC20542_cds']
+
+# Original notebook code cell 9
+

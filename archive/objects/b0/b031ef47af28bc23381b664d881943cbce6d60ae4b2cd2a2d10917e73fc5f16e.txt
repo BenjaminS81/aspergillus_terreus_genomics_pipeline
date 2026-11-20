@@ -1,0 +1,12 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/*; do
+base="$(basename "$dir")"
+mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_9_effectorp/$base
+python /home/davideisele/EffectorP-3.0/EffectorP.py -i $dir/ater/annotate_results/Aspergillus_terreus.proteins.fa -o /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_9_effectorp/$base/effectorp_res
+done
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus_existing_annotations/*; do
+base="$(basename "$dir")"
+mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_9_effectorp/$base
+python /home/davideisele/EffectorP-3.0/EffectorP.py -i $dir/ater/annotate_results/Aspergillus_terreus.proteins.fa -o /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_9_effectorp/$base/effectorp_res
+done
+

@@ -1,0 +1,6 @@
+nextflow run nf-core/taxprofiler \
+  -profile docker \
+  --input samplesheet.csv \
+  --databases databases.csv \
+  --run_kraken2 \
+  --outdir results4

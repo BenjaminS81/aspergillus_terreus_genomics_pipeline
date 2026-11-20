@@ -1,0 +1,224 @@
+[
+  {
+    "accession": "Q0C8L6",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "10334994"
+            }
+          ],
+          "value": "lovF"
+        },
+        "orfNames": [
+          {
+            "value": "ATEG_09968"
+          }
+        ]
+      }
+    ],
+    "length": 2452,
+    "sequence_version": 1,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/Q0C8L6",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  },
+  {
+    "accession": "Q0C8M4",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "10334994"
+            }
+          ],
+          "value": "lovA"
+        },
+        "orfNames": [
+          {
+            "value": "ATEG_09960"
+          }
+        ]
+      }
+    ],
+    "length": 528,
+    "sequence_version": 1,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/Q0C8M4",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  },
+  {
+    "accession": "Q0C8M3",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "geneName": {
+          "value": "lovB"
+        },
+        "orfNames": [
+          {
+            "value": "ATEG_09961"
+          }
+        ]
+      }
+    ],
+    "length": 3038,
+    "sequence_version": 2,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/Q0C8M3",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  },
+  {
+    "accession": "Q0C8M2",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "23653178"
+            }
+          ],
+          "value": "lovG"
+        },
+        "orfNames": [
+          {
+            "value": "ATEG_09962"
+          }
+        ]
+      }
+    ],
+    "length": 256,
+    "sequence_version": 1,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/Q0C8M2",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  },
+  {
+    "accession": "Q0C8M1",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "10334994"
+            }
+          ],
+          "value": "lovC"
+        },
+        "orfNames": [
+          {
+            "value": "ATEG_09963"
+          }
+        ]
+      }
+    ],
+    "length": 363,
+    "sequence_version": 1,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/Q0C8M1",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  },
+  {
+    "accession": "Q0C8L8",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "10334994"
+            }
+          ],
+          "value": "lovE"
+        },
+        "orfNames": [
+          {
+            "value": "ATEG_09966"
+          }
+        ]
+      }
+    ],
+    "length": 503,
+    "sequence_version": 1,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/Q0C8L8",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  },
+  {
+    "accession": "Q0C8M0",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "orfNames": [
+          {
+            "value": "ATEG_09964"
+          }
+        ]
+      }
+    ],
+    "length": 413,
+    "sequence_version": 1,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/Q0C8M0",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  },
+  {
+    "accession": "Q0C8L9",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "orfNames": [
+          {
+            "value": "ATEG_09965"
+          }
+        ]
+      }
+    ],
+    "length": 1048,
+    "sequence_version": 1,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/Q0C8L9",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  },
+  {
+    "accession": "A0ACN5CPM8",
+    "organism": "Aspergillus terreus (strain NIH 2624 / FGSC A1156)",
+    "genes": [
+      {
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "EAU29416.1"
+              }
+            ],
+            "value": "ATEG_09967"
+          }
+        ]
+      }
+    ],
+    "length": 542,
+    "sequence_version": 1,
+    "source_file": "uniprot_lov_cluster_nine.json",
+    "url": "https://www.uniprot.org/uniprotkb/A0ACN5CPM8",
+    "role": "lovastatin cluster protein reference; sequence payload excluded"
+  }
+]

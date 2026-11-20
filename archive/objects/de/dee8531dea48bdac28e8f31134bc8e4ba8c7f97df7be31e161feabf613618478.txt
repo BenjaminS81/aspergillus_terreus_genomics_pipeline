@@ -1,0 +1,5 @@
+for dir in */; do
+	if [[ -f "$dir/trimmed_reads1.fastq.gz" && -f "$dir/trimmed_reads2.fastq.gz" ]]; then
+	fastq_screen --force --threads 12 --outdir "$dir" "$dir/trimmed_reads1.fastq.gz" "$dir/trimmed_reads2.fastq.gz"
+	fi
+done

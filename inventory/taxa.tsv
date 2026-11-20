@@ -1,0 +1,61 @@
+taxon_name	genus	sequence_fetched	used_core	used_complete230	used_full283	roles
+Aspergillus alabamensis	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108
+Aspergillus alboluteus	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus alboviridis	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus allahabadii	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus allportiae	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus alvaroi	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus ambiguus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus anomalus	Aspergillus	True	False	False	False	marker_sequence_fetched
+Aspergillus ardalensis	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus aureoterreus	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108
+Aspergillus barbosae	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus bicephalus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus candidus	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus capensis	Aspergillus	True	False	False	False	marker_sequence_fetched
+Aspergillus carneus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus citrinoterreus	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_full283; used_type108
+Aspergillus ellipticus	Aspergillus	True	False	False	False	marker_sequence_fetched
+Aspergillus flavipes	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus floccosus	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108
+Aspergillus fumigatus	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus heldtiae	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus hortae	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108
+Aspergillus iizukae	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus inusitatus	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus iranicus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus jilinensis	Aspergillus	True	False	False	True	analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_full283; used_type108
+Aspergillus lanuginosus	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus luppiae	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus mahabadensis	Aspergillus	False	False	False	False	nomenclature_catalog_only
+Aspergillus marneyi	Aspergillus	True	False	False	False	marker_sequence_fetched
+Aspergillus microcysticus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus micronesiensis	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus montoensis	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_full283; used_type108
+Aspergillus movilensis	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus neoafricanus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus neoflavipes	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus neoindicus	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_full283; used_type108
+Aspergillus neoniveus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283
+Aspergillus neoterreus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus niveus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus okavangoensis	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus olivimuriae	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus pelloeae	Aspergillus	True	False	False	False	marker_sequence_fetched
+Aspergillus plumeriae	Aspergillus	False	False	False	False	nomenclature_catalog_only; reference_library
+Aspergillus polyporicola	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus pseudoalabamensis	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus pseudoterreus	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108
+Aspergillus ralucae	Aspergillus	True	False	False	True	analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_full283; used_type108
+Aspergillus recifensis	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus sofiae	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only
+Aspergillus sp	Aspergillus	True	False	False	False	genome_source_name; historical_sequence_fetched; marker_sequence_fetched
+Aspergillus spelaeus	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus stefaniae	Aspergillus	True	False	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108
+Aspergillus sunderbanii	Aspergillus	True	False	False	False	marker_sequence_fetched
+Aspergillus suttoniae	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus templicola	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus terreus	Aspergillus	True	True	True	True	analysis_name_complete230; analysis_name_full283; analysis_name_type108; assembly_metadata_queried; genome_download_verified; genome_source_name; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; protein_reference_fetched; provisional_core_assignment; read_metadata_queried; reference_library; used_complete230; used_core_source_name; used_full283; used_type108
+Aspergillus terreus var. subfloccosus	Aspergillus	True	False	False	True	analysis_name_full283; historical_sequence_fetched
+Aspergillus urmiensis	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library
+Aspergillus xishaensis	Aspergillus	True	False	False	False	marker_sequence_fetched; nomenclature_catalog_only; reference_library

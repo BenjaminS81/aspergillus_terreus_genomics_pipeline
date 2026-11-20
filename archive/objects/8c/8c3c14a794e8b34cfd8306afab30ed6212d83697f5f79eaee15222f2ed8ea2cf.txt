@@ -1,0 +1,9 @@
+for f1 in *_1.fastq.gz; do
+	base="${f1%_1.fastq.gz}"
+	echo "${base}_2.fastq.gz"
+	echo "fastp/${base}_2.fastq.gz"
+	if [[ -f "${base}_2.fastq.gz" && ! -f "fastp/${base}_2.fastq.gz" ]]; then
+		conda run -n spades fastp -i "${base}_1.fastq.gz" -I "${base}_2.fastq.gz" -o "fastp/${base}_1.fastq.gz" -O "fastp/${base}_2.fastq.gz" -h "fastp/${base}.html" -j "fastp/${base}.json"
+		conda run -n spades spades.py --memory 32 -1 fastp/${base}_1.fastq.gz -2 fastp/${base}_2.fastq.gz -o spades/${base}
+	fi
+done

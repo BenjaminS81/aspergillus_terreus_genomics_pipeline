@@ -1,0 +1,1882 @@
+[
+  {
+    "accession": "GCA_000149615.1",
+    "paired_refseq": "GCF_000149615.1",
+    "label": "NIH2624",
+    "biosample": "SAMN02953635",
+    "bioproject": "PRJNA15631",
+    "release_date": "2006-09-08",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/annotated/NIH2624/GCA_000149615.1_ASM14961v1_genomic.fna",
+        "accession": "GCA_000149615.1",
+        "bytes": 29733784,
+        "mtime_ns": 1782794510000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/data/reference/GCA_000149615.1_ASM14961v1_genomic.fna",
+        "accession": "GCA_000149615.1",
+        "bytes": 29733784,
+        "mtime_ns": 1776647174000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/NIH_ref/reference/ncbi_dataset(3)/ncbi_dataset/data/GCF_000149615.1/GCF_000149615.1_ASM14961v1_genomic.fna",
+        "accession": "GCF_000149615.1",
+        "bytes": 29733811,
+        "mtime_ns": 1776647176000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "NIH2624"
+    ],
+    "in_66_tip_core": [
+      "NIH2624"
+    ],
+    "in_230_tip_three_gene": [
+      "NIH2624"
+    ],
+    "biosample_linked_sources": [
+      "NIH2624"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000149615.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_000149615.1",
+    "assembly_stats": {
+      "total_sequence_length": "29331195",
+      "total_ungapped_length": "29197939",
+      "number_of_contigs": 267,
+      "contig_n50": 224147,
+      "contig_l50": 42,
+      "number_of_scaffolds": 26,
+      "scaffold_n50": 1912493,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 267,
+      "atgc_count": "29197939",
+      "gc_count": "15445058",
+      "gc_percent": 53,
+      "number_of_organelles": 1
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "NIH2624"
+    ],
+    "actual_complete230_sources": [
+      "NIH2624"
+    ],
+    "actual_full283_sources": [
+      "NIH2624"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_054661595.1",
+    "paired_refseq": "",
+    "label": "TT0037",
+    "biosample": "SAMD00802036",
+    "bioproject": "PRJDB18479",
+    "release_date": "2025-11-28",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/annotated/TT0037/GCA_054661595.1_ATERTT00037_1.0_genomic.fna",
+        "accession": "GCA_054661595.1",
+        "bytes": 30293283,
+        "mtime_ns": 1782794558000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/TT0037/GCA_054661595.1_ATERTT00037_1.0_genomic.fna",
+        "accession": "GCA_054661595.1",
+        "bytes": 30293283,
+        "mtime_ns": 1776842248000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "TT0037"
+    ],
+    "in_66_tip_core": [
+      "TT0037"
+    ],
+    "in_230_tip_three_gene": [
+      "TT0037"
+    ],
+    "biosample_linked_sources": [
+      "TT0037"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_054661595.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_054661595.1",
+    "assembly_stats": {
+      "total_sequence_length": "29918180",
+      "total_ungapped_length": "29918180",
+      "number_of_contigs": 12,
+      "contig_n50": 4258709,
+      "contig_l50": 4,
+      "number_of_scaffolds": 12,
+      "scaffold_n50": 4258709,
+      "scaffold_l50": 4,
+      "number_of_component_sequences": 12,
+      "atgc_count": "29918180",
+      "gc_count": "15646672",
+      "gc_percent": 52.5,
+      "genome_coverage": "41.7"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "TT0037"
+    ],
+    "actual_complete230_sources": [
+      "TT0037"
+    ],
+    "actual_full283_sources": [
+      "TT0037"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_009834425.1",
+    "paired_refseq": "",
+    "label": "M6925",
+    "biosample": "SAMN10132561",
+    "bioproject": "PRJNA493231",
+    "release_date": "2020-01-08",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/M6925/GCA_009834425.1_ASM983442v1_genomic.fna",
+        "accession": "GCA_009834425.1",
+        "bytes": 32240469,
+        "mtime_ns": 1782794516000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_009834425.1/GCA_009834425.1_ASM983442v1_genomic.fna",
+        "accession": "GCA_009834425.1",
+        "bytes": 32240469,
+        "mtime_ns": 1777351426000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "M6925"
+    ],
+    "in_66_tip_core": [
+      "M6925"
+    ],
+    "in_230_tip_three_gene": [
+      "M6925"
+    ],
+    "biosample_linked_sources": [
+      "M6925"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009834425.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_009834425.1",
+    "assembly_stats": {
+      "total_sequence_length": "31839144",
+      "total_ungapped_length": "31839144",
+      "number_of_contigs": 35,
+      "contig_n50": 4133337,
+      "contig_l50": 4,
+      "number_of_scaffolds": 35,
+      "scaffold_n50": 4133337,
+      "scaffold_l50": 4,
+      "number_of_component_sequences": 35,
+      "atgc_count": "31839144",
+      "gc_count": "16605642",
+      "gc_percent": 52,
+      "genome_coverage": "100"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "M6925"
+    ],
+    "actual_complete230_sources": [
+      "M6925"
+    ],
+    "actual_full283_sources": [
+      "M6925"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_016808415.1",
+    "paired_refseq": "",
+    "label": "ATCC 20542",
+    "biosample": "SAMN14533759",
+    "bioproject": "PRJNA622971",
+    "release_date": "2021-02-05",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/annotated/ATCC20542/GCA_016808415.1_ASM1680841v1_genomic.fna",
+        "accession": "GCA_016808415.1",
+        "bytes": 30741148,
+        "mtime_ns": 1782794522000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/ATCC_ref/reference/GCA_016808415.1_ASM1680841v1_genomic.fna",
+        "accession": "GCA_016808415.1",
+        "bytes": 30741152,
+        "mtime_ns": 1776671223000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "ATCC20542"
+    ],
+    "in_66_tip_core": [
+      "ATCC20542"
+    ],
+    "in_230_tip_three_gene": [
+      "ATCC20542"
+    ],
+    "biosample_linked_sources": [
+      "ATCC20542"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_016808415.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_016808415.1",
+    "assembly_stats": {
+      "total_sequence_length": "30360760",
+      "total_ungapped_length": "30360750",
+      "number_of_contigs": 10,
+      "contig_n50": 4095360,
+      "contig_l50": 4,
+      "number_of_scaffolds": 9,
+      "scaffold_n50": 4253827,
+      "scaffold_l50": 4,
+      "number_of_component_sequences": 9,
+      "atgc_count": "30360750",
+      "gc_count": "15833652",
+      "gc_percent": 52,
+      "genome_coverage": "100"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "ATCC20542"
+    ],
+    "actual_complete230_sources": [
+      "ATCC20542"
+    ],
+    "actual_full283_sources": [
+      "ATCC20542"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_034642025.1",
+    "paired_refseq": "",
+    "label": "AT2022",
+    "biosample": "SAMN37989274",
+    "bioproject": "PRJNA1032281",
+    "release_date": "2023-12-26",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/AT2022/GCA_034642025.1_ASM3464202v1_genomic.fna",
+        "accession": "GCA_034642025.1",
+        "bytes": 29966942,
+        "mtime_ns": 1782794538000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_034642025.1/GCA_034642025.1_ASM3464202v1_genomic.fna",
+        "accession": "GCA_034642025.1",
+        "bytes": 29966942,
+        "mtime_ns": 1777351428000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "AT2022"
+    ],
+    "in_66_tip_core": [
+      "AT2022"
+    ],
+    "in_230_tip_three_gene": [
+      "AT2022"
+    ],
+    "biosample_linked_sources": [
+      "AT2022"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_034642025.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_034642025.1",
+    "assembly_stats": {
+      "total_sequence_length": "29596028",
+      "total_ungapped_length": "29596028",
+      "number_of_contigs": 10,
+      "contig_n50": 3869038,
+      "contig_l50": 4,
+      "number_of_scaffolds": 10,
+      "scaffold_n50": 3869038,
+      "scaffold_l50": 4,
+      "number_of_component_sequences": 10,
+      "atgc_count": "29596028",
+      "gc_count": "15464719",
+      "gc_percent": 52.5,
+      "genome_coverage": "106.48"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "AT2022"
+    ],
+    "actual_complete230_sources": [
+      "AT2022"
+    ],
+    "actual_full283_sources": [
+      "AT2022"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_033632065.1",
+    "paired_refseq": "",
+    "label": "ATCC 20541",
+    "biosample": "SAMN29929631",
+    "bioproject": "PRJNA861866",
+    "release_date": "2023-11-14",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna",
+        "accession": "GCA_033632065.1",
+        "bytes": 30333591,
+        "mtime_ns": 1782794536000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/ATCC_41_ref/GCA_033632065.1_ASM3363206v1_genomic.fna",
+        "accession": "GCA_033632065.1",
+        "bytes": 30333591,
+        "mtime_ns": 1776843052000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/ATCC_41_ref/ater/train_results/cleaned_masked_GCA_033632065.1.fasta",
+        "accession": "GCA_033632065.1",
+        "bytes": 30307933,
+        "mtime_ns": 1779779446000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/ATCC_41_ref/cleaned_masked_GCA_033632065.1.fasta",
+        "accession": "GCA_033632065.1",
+        "bytes": 30307933,
+        "mtime_ns": 1779778209000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna",
+        "accession": "GCA_033632065.1",
+        "bytes": 30333591,
+        "mtime_ns": 1776843052000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ATCC20541/ater_ATCC20541/train_results/cleaned_GCA_033632065.1_ASM3363206v1_genomic.fna",
+        "accession": "GCA_033632065.1",
+        "bytes": 30307933,
+        "mtime_ns": 1776931604000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ATCC20541/cleaned_GCA_033632065.1_ASM3363206v1_genomic.fna",
+        "accession": "GCA_033632065.1",
+        "bytes": 30307933,
+        "mtime_ns": 1776931501000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "ATCC20541"
+    ],
+    "in_66_tip_core": [
+      "ATCC20541"
+    ],
+    "in_230_tip_three_gene": [
+      "ATCC20541"
+    ],
+    "biosample_linked_sources": [
+      "ATCC20541"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_033632065.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_033632065.1",
+    "assembly_stats": {
+      "total_sequence_length": "29947147",
+      "total_ungapped_length": "29947111",
+      "number_of_contigs": 114,
+      "contig_n50": 1581806,
+      "contig_l50": 7,
+      "number_of_scaffolds": 112,
+      "scaffold_n50": 1581806,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 112,
+      "atgc_count": "29947101",
+      "gc_count": "15662232",
+      "gc_percent": 52.5,
+      "genome_coverage": "349"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "ATCC20541"
+    ],
+    "actual_complete230_sources": [
+      "ATCC20541"
+    ],
+    "actual_full283_sources": [
+      "ATCC20541"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_023625535.1",
+    "paired_refseq": "",
+    "label": "PB4404",
+    "biosample": "SAMN27963312",
+    "bioproject": "PRJNA833221",
+    "release_date": "2022-06-01",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/PB4404/GCA_023625535.1_ASM2362553v1_genomic.fna",
+        "accession": "GCA_023625535.1",
+        "bytes": 30123386,
+        "mtime_ns": 1782794530000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_023625535.1/GCA_023625535.1_ASM2362553v1_genomic.fna",
+        "accession": "GCA_023625535.1",
+        "bytes": 30123386,
+        "mtime_ns": 1777351428000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "PB4404"
+    ],
+    "in_66_tip_core": [
+      "PB4404"
+    ],
+    "in_230_tip_three_gene": [
+      "PB4404"
+    ],
+    "biosample_linked_sources": [
+      "PB4404"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_023625535.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_023625535.1",
+    "assembly_stats": {
+      "total_sequence_length": "29748606",
+      "total_ungapped_length": "29748004",
+      "number_of_contigs": 48,
+      "contig_n50": 1309251,
+      "contig_l50": 9,
+      "number_of_scaffolds": 32,
+      "scaffold_n50": 1927056,
+      "scaffold_l50": 6,
+      "number_of_component_sequences": 32,
+      "atgc_count": "29747991",
+      "gc_count": "15561002",
+      "gc_percent": 52.5,
+      "genome_coverage": "220"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "PB4404"
+    ],
+    "actual_complete230_sources": [
+      "PB4404"
+    ],
+    "actual_full283_sources": [
+      "PB4404"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_023625575.1",
+    "paired_refseq": "",
+    "label": "PA2902",
+    "biosample": "SAMN27963311",
+    "bioproject": "PRJNA833221",
+    "release_date": "2022-06-01",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/PA2902/GCA_023625575.1_ASM2362557v1_genomic.fna",
+        "accession": "GCA_023625575.1",
+        "bytes": 30696683,
+        "mtime_ns": 1782794534000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_023625575.1/GCA_023625575.1_ASM2362557v1_genomic.fna",
+        "accession": "GCA_023625575.1",
+        "bytes": 30696683,
+        "mtime_ns": 1777351428000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "PA2902"
+    ],
+    "in_66_tip_core": [
+      "PA2902"
+    ],
+    "in_230_tip_three_gene": [
+      "PA2902"
+    ],
+    "biosample_linked_sources": [
+      "PA2902"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_023625575.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_023625575.1",
+    "assembly_stats": {
+      "total_sequence_length": "30312211",
+      "total_ungapped_length": "30311097",
+      "number_of_contigs": 84,
+      "contig_n50": 1142015,
+      "contig_l50": 10,
+      "number_of_scaffolds": 61,
+      "scaffold_n50": 1381172,
+      "scaffold_l50": 8,
+      "number_of_component_sequences": 61,
+      "atgc_count": "30311091",
+      "gc_count": "15824321",
+      "gc_percent": 52,
+      "genome_coverage": "219"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "PA2902"
+    ],
+    "actual_complete230_sources": [
+      "PA2902"
+    ],
+    "actual_full283_sources": [
+      "PA2902"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_023625495.1",
+    "paired_refseq": "",
+    "label": "P3406A",
+    "biosample": "SAMN27963314",
+    "bioproject": "PRJNA833221",
+    "release_date": "2022-06-01",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/P3406A/GCA_023625495.1_ASM2362549v1_genomic.fna",
+        "accession": "GCA_023625495.1",
+        "bytes": 31280526,
+        "mtime_ns": 1782794526000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_023625495.1/GCA_023625495.1_ASM2362549v1_genomic.fna",
+        "accession": "GCA_023625495.1",
+        "bytes": 31280526,
+        "mtime_ns": 1777351428000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "P3406A"
+    ],
+    "in_66_tip_core": [
+      "P3406A"
+    ],
+    "in_230_tip_three_gene": [
+      "P3406A"
+    ],
+    "biosample_linked_sources": [
+      "P3406A"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_023625495.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_023625495.1",
+    "assembly_stats": {
+      "total_sequence_length": "30887395",
+      "total_ungapped_length": "30885903",
+      "number_of_contigs": 102,
+      "contig_n50": 946183,
+      "contig_l50": 11,
+      "number_of_scaffolds": 77,
+      "scaffold_n50": 1691216,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 77,
+      "atgc_count": "30885898",
+      "gc_count": "16127800",
+      "gc_percent": 52,
+      "genome_coverage": "222"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "P3406A"
+    ],
+    "actual_complete230_sources": [
+      "P3406A"
+    ],
+    "actual_full283_sources": [
+      "P3406A"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_015333565.1",
+    "paired_refseq": "",
+    "label": "ML-44",
+    "biosample": "SAMN16078970",
+    "bioproject": "PRJNA662267",
+    "release_date": "2020-11-06",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/ML-44/GCA_015333565.1_ASM1533356v1_genomic.fna",
+        "accession": "GCA_015333565.1",
+        "bytes": 31260858,
+        "mtime_ns": 1782794520000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_015333565.1/GCA_015333565.1_ASM1533356v1_genomic.fna",
+        "accession": "GCA_015333565.1",
+        "bytes": 31260858,
+        "mtime_ns": 1777351426000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "ML-44"
+    ],
+    "in_66_tip_core": [
+      "ML-44"
+    ],
+    "in_230_tip_three_gene": [
+      "ML-44"
+    ],
+    "biosample_linked_sources": [
+      "ML-44"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_015333565.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_015333565.1",
+    "assembly_stats": {
+      "total_sequence_length": "30863936",
+      "total_ungapped_length": "30863526",
+      "number_of_contigs": 152,
+      "contig_n50": 713573,
+      "contig_l50": 15,
+      "number_of_scaffolds": 111,
+      "scaffold_n50": 1671991,
+      "scaffold_l50": 8,
+      "number_of_component_sequences": 152,
+      "atgc_count": "30863526",
+      "gc_count": "16126534",
+      "gc_percent": 52.5,
+      "genome_coverage": "1"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "ML-44"
+    ],
+    "actual_complete230_sources": [
+      "ML-44"
+    ],
+    "actual_full283_sources": [
+      "ML-44"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_982397235.1",
+    "paired_refseq": "",
+    "label": "SAMIN0016981-T59F",
+    "biosample": "SAMEA118140654",
+    "bioproject": "PRJEB88900",
+    "release_date": "2026-04-10",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/T59-F/GCA_982397235.1_T59-F_genomic.fna",
+        "accession": "GCA_982397235.1",
+        "bytes": 30409941,
+        "mtime_ns": 1782794564000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_982397235.1/GCA_982397235.1_T59-F_genomic.fna",
+        "accession": "GCA_982397235.1",
+        "bytes": 30409941,
+        "mtime_ns": 1777351430000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "T59-F"
+    ],
+    "in_66_tip_core": [
+      "T59-F"
+    ],
+    "in_230_tip_three_gene": [
+      "T59-F"
+    ],
+    "biosample_linked_sources": [
+      "ERR14883637",
+      "T59-F",
+      "T59-F_ERR14883637"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_982397235.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_982397235.1",
+    "assembly_stats": {
+      "total_sequence_length": "30011305",
+      "total_ungapped_length": "30011305",
+      "number_of_contigs": 180,
+      "contig_n50": 636458,
+      "contig_l50": 17,
+      "number_of_scaffolds": 180,
+      "scaffold_n50": 636458,
+      "scaffold_l50": 17,
+      "number_of_component_sequences": 180,
+      "atgc_count": "30011305",
+      "gc_count": "15692814",
+      "gc_percent": 52.5,
+      "genome_coverage": "50"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "T59-F"
+    ],
+    "actual_complete230_sources": [
+      "T59-F"
+    ],
+    "actual_full283_sources": [
+      "T59-F"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_015266375.1",
+    "paired_refseq": "",
+    "label": "ASM-1",
+    "biosample": "SAMN16120065",
+    "bioproject": "PRJNA663100",
+    "release_date": "2020-11-06",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/ASM-1/GCA_015266375.1_ASM1526637v1_genomic.fna",
+        "accession": "GCA_015266375.1",
+        "bytes": 31122363,
+        "mtime_ns": 1782794520000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_015266375.1/GCA_015266375.1_ASM1526637v1_genomic.fna",
+        "accession": "GCA_015266375.1",
+        "bytes": 31122363,
+        "mtime_ns": 1777351426000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "ASM-1"
+    ],
+    "in_66_tip_core": [
+      "ASM-1"
+    ],
+    "in_230_tip_three_gene": [
+      "ASM-1"
+    ],
+    "biosample_linked_sources": [
+      "ASM-1"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_015266375.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_015266375.1",
+    "assembly_stats": {
+      "total_sequence_length": "30719467",
+      "total_ungapped_length": "30718772",
+      "number_of_contigs": 263,
+      "contig_n50": 592658,
+      "contig_l50": 18,
+      "number_of_scaffolds": 199,
+      "scaffold_n50": 1140755,
+      "scaffold_l50": 9,
+      "number_of_component_sequences": 199,
+      "atgc_count": "30718772",
+      "gc_count": "16101804",
+      "gc_percent": 52.5,
+      "genome_coverage": "1"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "ASM-1"
+    ],
+    "actual_complete230_sources": [
+      "ASM-1"
+    ],
+    "actual_full283_sources": [
+      "ASM-1"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_023625515.1",
+    "paired_refseq": "",
+    "label": "S1101B",
+    "biosample": "SAMN27963313",
+    "bioproject": "PRJNA833221",
+    "release_date": "2022-06-01",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/S1101B/GCA_023625515.1_ASM2362551v1_genomic.fna",
+        "accession": "GCA_023625515.1",
+        "bytes": 32228937,
+        "mtime_ns": 1782794528000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_023625515.1/GCA_023625515.1_ASM2362551v1_genomic.fna",
+        "accession": "GCA_023625515.1",
+        "bytes": 32228937,
+        "mtime_ns": 1777351428000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "S1101B"
+    ],
+    "in_66_tip_core": [
+      "S1101B"
+    ],
+    "in_230_tip_three_gene": [
+      "S1101B"
+    ],
+    "biosample_linked_sources": [
+      "S1101B"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_023625515.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_023625515.1",
+    "assembly_stats": {
+      "total_sequence_length": "31810783",
+      "total_ungapped_length": "31809135",
+      "number_of_contigs": 255,
+      "contig_n50": 550831,
+      "contig_l50": 22,
+      "number_of_scaffolds": 223,
+      "scaffold_n50": 635021,
+      "scaffold_l50": 18,
+      "number_of_component_sequences": 223,
+      "atgc_count": "31809124",
+      "gc_count": "16600836",
+      "gc_percent": 52,
+      "genome_coverage": "221"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "S1101B"
+    ],
+    "actual_complete230_sources": [
+      "S1101B"
+    ],
+    "actual_full283_sources": [
+      "S1101B"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_988135485.1",
+    "paired_refseq": "",
+    "label": "SAMIN0038916-59TF",
+    "biosample": "SAMEA123268433",
+    "bioproject": "PRJEB123122",
+    "release_date": "2026-09-09",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": false,
+    "files": [],
+    "selected_sources": [],
+    "in_66_tip_core": [],
+    "in_230_tip_three_gene": [],
+    "biosample_linked_sources": [
+      "ERR17672364"
+    ],
+    "status": "release_not_found",
+    "notes": "59TF is genome-sized (29.99 Mb, 179 contigs). Its BioSample links to ERR17672364 already in the trees. The locally assigned ERR17672364 assembly shares a canonical sequence hash with ERR14883637; compare the published releases before treating this as an independent genome. The two public assemblies have different lengths/contig statistics.",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_988135485.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_988135485.1",
+    "assembly_stats": {
+      "total_sequence_length": "29988775",
+      "total_ungapped_length": "29988775",
+      "number_of_contigs": 179,
+      "contig_n50": 548355,
+      "contig_l50": 18,
+      "number_of_scaffolds": 179,
+      "scaffold_n50": 548355,
+      "scaffold_l50": 18,
+      "number_of_component_sequences": 179,
+      "atgc_count": "29988775",
+      "gc_count": "15687659",
+      "gc_percent": 52.5,
+      "genome_coverage": "50"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [],
+    "actual_complete230_sources": [],
+    "actual_full283_sources": [],
+    "recommendation": "High: download for provenance reconciliation",
+    "rationale": "59TF is genome-sized (29.99 Mb, 179 contigs). Its BioSample links to ERR17672364 already in the trees. The locally assigned ERR17672364 assembly shares a canonical sequence hash with ERR14883637; compare the published releases before treating this as an independent genome. The two public assemblies have different lengths/contig statistics.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_037041815.1",
+    "paired_refseq": "",
+    "label": "R6201Q",
+    "biosample": "SAMN38095068",
+    "bioproject": "PRJNA833221",
+    "release_date": "2024-03-06",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/R6201Q/GCA_037041815.1_ASM3704181v1_genomic.fna",
+        "accession": "GCA_037041815.1",
+        "bytes": 31884940,
+        "mtime_ns": 1782794548000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_037041815.1/GCA_037041815.1_ASM3704181v1_genomic.fna",
+        "accession": "GCA_037041815.1",
+        "bytes": 31884940,
+        "mtime_ns": 1777351428000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "R6201Q"
+    ],
+    "in_66_tip_core": [
+      "R6201Q"
+    ],
+    "in_230_tip_three_gene": [
+      "R6201Q"
+    ],
+    "biosample_linked_sources": [
+      "R6201Q"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_037041815.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_037041815.1",
+    "assembly_stats": {
+      "total_sequence_length": "31450754",
+      "total_ungapped_length": "31450754",
+      "number_of_contigs": 445,
+      "contig_n50": 532559,
+      "contig_l50": 21,
+      "number_of_scaffolds": 445,
+      "scaffold_n50": 532559,
+      "scaffold_l50": 21,
+      "number_of_component_sequences": 445,
+      "atgc_count": "31450721",
+      "gc_count": "16412428",
+      "gc_percent": 52,
+      "genome_coverage": "429"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "R6201Q"
+    ],
+    "actual_complete230_sources": [
+      "R6201Q"
+    ],
+    "actual_full283_sources": [
+      "R6201Q"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_009014675.2",
+    "paired_refseq": "",
+    "label": "TN-484",
+    "biosample": "SAMD00185304",
+    "bioproject": "PRJDB8764",
+    "release_date": "2019-10-25",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/annotated/TN-484/GCA_009014675.2_Ater_TN-484_02_genomic.fna",
+        "accession": "GCA_009014675.2",
+        "bytes": 30116668,
+        "mtime_ns": 1782794514000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/TN-484/GCA_009014675.2_Ater_TN-484_02_genomic.fna",
+        "accession": "GCA_009014675.2",
+        "bytes": 30116668,
+        "mtime_ns": 1776842220000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "TN-484"
+    ],
+    "in_66_tip_core": [
+      "TN-484"
+    ],
+    "in_230_tip_three_gene": [
+      "TN-484"
+    ],
+    "biosample_linked_sources": [
+      "TN-484",
+      "TN-484_DRR191518"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009014675.2/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_009014675.2",
+    "assembly_stats": {
+      "total_sequence_length": "29742689",
+      "total_ungapped_length": "29605369",
+      "number_of_contigs": 1363,
+      "contig_n50": 527635,
+      "contig_l50": 15,
+      "number_of_scaffolds": 24,
+      "scaffold_n50": 1952528,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 24,
+      "atgc_count": "29605340",
+      "gc_count": "15528705",
+      "gc_percent": 52.5,
+      "genome_coverage": "174.9"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "TN-484"
+    ],
+    "actual_complete230_sources": [
+      "TN-484"
+    ],
+    "actual_full283_sources": [
+      "TN-484"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_061584345.1",
+    "paired_refseq": "",
+    "label": "CMI 44339",
+    "biosample": "SAMN62800636",
+    "bioproject": "PRJNA1521432",
+    "release_date": "2026-09-22",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": false,
+    "files": [],
+    "selected_sources": [],
+    "in_66_tip_core": [],
+    "in_230_tip_three_gene": [],
+    "biosample_linked_sources": [],
+    "status": "release_not_found",
+    "notes": "CMI 44339 is a genome-sized, reasonably contiguous assembly (29.88 Mb; 153 scaffolds; scaffold N50 0.886 Mb). It adds a named culture and a connection to experimental terramide biosynthesis. Run standard genome/locus QC before inclusion; the terramide study does not itself establish a lovastatin phenotype.",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_061584345.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_061584345.1",
+    "assembly_stats": {
+      "total_sequence_length": "29880645",
+      "total_ungapped_length": "29879924",
+      "number_of_contigs": 217,
+      "contig_n50": 516672,
+      "contig_l50": 19,
+      "number_of_scaffolds": 153,
+      "scaffold_n50": 885762,
+      "scaffold_l50": 12,
+      "number_of_component_sequences": 153,
+      "atgc_count": "29879924",
+      "gc_count": "15651821",
+      "gc_percent": 52.5,
+      "genome_coverage": "89"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [],
+    "actual_complete230_sources": [],
+    "actual_full283_sources": [],
+    "recommendation": "High: download assembly",
+    "rationale": "CMI 44339 is a genome-sized, reasonably contiguous assembly (29.88 Mb; 153 scaffolds; scaffold N50 0.886 Mb). It adds a named culture and a connection to experimental terramide biosynthesis. Run standard genome/locus QC before inclusion; the terramide study does not itself establish a lovastatin phenotype.",
+    "publication": "https://www.nature.com/articles/s42004-024-01311-2.pdf"
+  },
+  {
+    "accession": "GCA_049862995.1",
+    "paired_refseq": "",
+    "label": "UA-600B",
+    "biosample": "SAMN47548922",
+    "bioproject": "PRJNA1241247",
+    "release_date": "2025-04-23",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/UA-600B/GCA_049862995.1_ASM4986299v1_genomic.fna",
+        "accession": "GCA_049862995.1",
+        "bytes": 31078390,
+        "mtime_ns": 1782794554000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_049862995.1/GCA_049862995.1_ASM4986299v1_genomic.fna",
+        "accession": "GCA_049862995.1",
+        "bytes": 31078390,
+        "mtime_ns": 1777351428000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "UA-600B"
+    ],
+    "in_66_tip_core": [
+      "UA-600B"
+    ],
+    "in_230_tip_three_gene": [
+      "UA-600B"
+    ],
+    "biosample_linked_sources": [
+      "UA-600B",
+      "UA-600B_SRR33476766"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_049862995.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_049862995.1",
+    "assembly_stats": {
+      "total_sequence_length": "30629058",
+      "total_ungapped_length": "30629058",
+      "number_of_contigs": 552,
+      "contig_n50": 505149,
+      "contig_l50": 20,
+      "number_of_scaffolds": 552,
+      "scaffold_n50": 505149,
+      "scaffold_l50": 20,
+      "number_of_component_sequences": 552,
+      "atgc_count": "30629058",
+      "gc_count": "15977225",
+      "gc_percent": 52,
+      "genome_coverage": "50"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "UA-600B"
+    ],
+    "actual_complete230_sources": [
+      "UA-600B"
+    ],
+    "actual_full283_sources": [
+      "UA-600B"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_009932835.1",
+    "paired_refseq": "",
+    "label": "IFO 6365",
+    "biosample": "SAMD00185311",
+    "bioproject": "PRJDB8765",
+    "release_date": "2020-01-23",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/annotated/IFO6365/GCA_009932835.1_Ater_IFO6365_01_genomic.fna",
+        "accession": "GCA_009932835.1",
+        "bytes": 29028208,
+        "mtime_ns": 1782794518000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/IFO6365/GCA_009932835.1_Ater_IFO6365_01_genomic.fna",
+        "accession": "GCA_009932835.1",
+        "bytes": 29028208,
+        "mtime_ns": 1776842196000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "IFO6365"
+    ],
+    "in_66_tip_core": [
+      "IFO6365"
+    ],
+    "in_230_tip_three_gene": [
+      "IFO6365"
+    ],
+    "biosample_linked_sources": [
+      "IFO6365",
+      "IFO6365_DRR204676"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_009932835.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_009932835.1",
+    "assembly_stats": {
+      "total_sequence_length": "28667710",
+      "total_ungapped_length": "28633559",
+      "number_of_contigs": 364,
+      "contig_n50": 448575,
+      "contig_l50": 15,
+      "number_of_scaffolds": 23,
+      "scaffold_n50": 2163102,
+      "scaffold_l50": 6,
+      "number_of_component_sequences": 23,
+      "atgc_count": "28633404",
+      "gc_count": "15198526",
+      "gc_percent": 53,
+      "genome_coverage": "170.3"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "IFO6365"
+    ],
+    "actual_complete230_sources": [
+      "IFO6365"
+    ],
+    "actual_full283_sources": [
+      "IFO6365"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_002749855.1",
+    "paired_refseq": "",
+    "label": "w25",
+    "biosample": "SAMN07736483",
+    "bioproject": "PRJNA413107",
+    "release_date": "2017-11-03",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/w25/GCA_002749855.1_ASM274985v1_genomic.fna",
+        "accession": "GCA_002749855.1",
+        "bytes": 29851413,
+        "mtime_ns": 1782794512000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_002749855.1/GCA_002749855.1_ASM274985v1_genomic.fna",
+        "accession": "GCA_002749855.1",
+        "bytes": 29851413,
+        "mtime_ns": 1777351426000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "w25"
+    ],
+    "in_66_tip_core": [
+      "w25"
+    ],
+    "in_230_tip_three_gene": [
+      "w25"
+    ],
+    "biosample_linked_sources": [
+      "w25"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_002749855.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_002749855.1",
+    "assembly_stats": {
+      "total_sequence_length": "29423947",
+      "total_ungapped_length": "29423859",
+      "number_of_contigs": 537,
+      "contig_n50": 326294,
+      "contig_l50": 29,
+      "number_of_scaffolds": 536,
+      "scaffold_n50": 326294,
+      "scaffold_l50": 29,
+      "number_of_component_sequences": 536,
+      "atgc_count": "29423859",
+      "gc_count": "15505439",
+      "gc_percent": 52.5,
+      "genome_coverage": "8"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "w25"
+    ],
+    "actual_complete230_sources": [
+      "w25"
+    ],
+    "actual_full283_sources": [
+      "w25"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_057814615.1",
+    "paired_refseq": "",
+    "label": "AT.1",
+    "biosample": "SAMN56256256",
+    "bioproject": "PRJNA1429839",
+    "release_date": "2026-06-01",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/AT.1/GCA_057814615.1_ASM5781461v1_genomic.fna",
+        "accession": "GCA_057814615.1",
+        "bytes": 34381021,
+        "mtime_ns": 1782794560000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "AT.1"
+    ],
+    "in_66_tip_core": [
+      "AT.1"
+    ],
+    "in_230_tip_three_gene": [
+      "AT.1"
+    ],
+    "biosample_linked_sources": [
+      "AT.1"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_057814615.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_057814615.1",
+    "assembly_stats": {
+      "total_sequence_length": "33874412",
+      "total_ungapped_length": "33871807",
+      "number_of_contigs": 1123,
+      "contig_n50": 137310,
+      "contig_l50": 65,
+      "number_of_scaffolds": 872,
+      "scaffold_n50": 235066,
+      "scaffold_l50": 47,
+      "number_of_component_sequences": 872,
+      "atgc_count": "33871807",
+      "gc_count": "17694215",
+      "gc_percent": 52,
+      "genome_coverage": "100"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "AT.1"
+    ],
+    "actual_complete230_sources": [
+      "AT.1"
+    ],
+    "actual_full283_sources": [
+      "AT.1"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_058225725.1",
+    "paired_refseq": "",
+    "label": "AT-1",
+    "biosample": "SAMN59719601",
+    "bioproject": "PRJNA1464502",
+    "release_date": "2026-06-16",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/AT-1/GCA_058225725.1_ASM5822572v1_genomic.fna",
+        "accession": "GCA_058225725.1",
+        "bytes": 34380149,
+        "mtime_ns": 1782794562000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "AT-1"
+    ],
+    "in_66_tip_core": [
+      "AT-1"
+    ],
+    "in_230_tip_three_gene": [
+      "AT-1"
+    ],
+    "biosample_linked_sources": [
+      "AT-1"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_058225725.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_058225725.1",
+    "assembly_stats": {
+      "total_sequence_length": "33874412",
+      "total_ungapped_length": "33871807",
+      "number_of_contigs": 1123,
+      "contig_n50": 137310,
+      "contig_l50": 65,
+      "number_of_scaffolds": 872,
+      "scaffold_n50": 235066,
+      "scaffold_l50": 47,
+      "number_of_component_sequences": 872,
+      "atgc_count": "33871807",
+      "gc_count": "17694215",
+      "gc_percent": 52,
+      "genome_coverage": "100"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "AT-1"
+    ],
+    "actual_complete230_sources": [
+      "AT-1"
+    ],
+    "actual_full283_sources": [
+      "AT-1"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_056506665.1",
+    "paired_refseq": "",
+    "label": "HNGD-TM15",
+    "biosample": "SAMN40452934",
+    "bioproject": "PRJNA1087691",
+    "release_date": "2026-04-01",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/HNGD-TM15/GCA_056506665.1_ASM5650666v1_genomic.fna",
+        "accession": "GCA_056506665.1",
+        "bytes": 25306234,
+        "mtime_ns": 1782794560000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_056506665.1/GCA_056506665.1_ASM5650666v1_genomic.fna",
+        "accession": "GCA_056506665.1",
+        "bytes": 25306234,
+        "mtime_ns": 1777351430000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "HNGD-TM15"
+    ],
+    "in_66_tip_core": [],
+    "in_230_tip_three_gene": [],
+    "biosample_linked_sources": [],
+    "status": "available_selected",
+    "notes": "HNGD-TM15 is present in the broader 283-tip tree but absent from core66 and complete230. The selection audit contains BenA only (CaM and RPB2 absent). Inclusion in a complete three-locus tree requires validated recovery, not simply a new download.",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_056506665.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_056506665.1",
+    "assembly_stats": {
+      "total_sequence_length": "24983996",
+      "total_ungapped_length": "23950170",
+      "number_of_contigs": 229,
+      "contig_n50": 122462,
+      "contig_l50": 63,
+      "number_of_scaffolds": 101,
+      "scaffold_n50": 485206,
+      "scaffold_l50": 17,
+      "number_of_component_sequences": 101,
+      "atgc_count": "23950162",
+      "gc_count": "12509296",
+      "gc_percent": 52,
+      "genome_coverage": "1562"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [],
+    "actual_complete230_sources": [],
+    "actual_full283_sources": [
+      "HNGD-TM15"
+    ],
+    "recommendation": "Already downloaded: retain exclusion pending marker rescue",
+    "rationale": "HNGD-TM15 is present in the broader 283-tip tree but absent from core66 and complete230. The selection audit contains BenA only (CaM and RPB2 absent). Inclusion in a complete three-locus tree requires validated recovery, not simply a new download.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_001630395.1",
+    "paired_refseq": "",
+    "label": "45A",
+    "biosample": "SAMN04574062",
+    "bioproject": "PRJNA316035",
+    "release_date": "2016-04-25",
+    "assembly_level": "Scaffold",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/45A/GCA_001630395.1_ASM163039v1_genomic.fna",
+        "accession": "GCA_001630395.1",
+        "bytes": 29694048,
+        "mtime_ns": 1782794512000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_001630395.1/GCA_001630395.1_ASM163039v1_genomic.fna",
+        "accession": "GCA_001630395.1",
+        "bytes": 29694048,
+        "mtime_ns": 1777351426000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "45A"
+    ],
+    "in_66_tip_core": [
+      "45A"
+    ],
+    "in_230_tip_three_gene": [
+      "45A"
+    ],
+    "biosample_linked_sources": [
+      "45A"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001630395.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_001630395.1",
+    "assembly_stats": {
+      "total_sequence_length": "29325441",
+      "total_ungapped_length": "28289794",
+      "number_of_contigs": 1717,
+      "contig_n50": 90395,
+      "contig_l50": 91,
+      "number_of_scaffolds": 26,
+      "scaffold_n50": 1912382,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 26,
+      "atgc_count": "28271042",
+      "gc_count": "14994348",
+      "gc_percent": 53,
+      "genome_coverage": "200"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "45A"
+    ],
+    "actual_complete230_sources": [
+      "45A"
+    ],
+    "actual_full283_sources": [
+      "45A"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_037041615.1",
+    "paired_refseq": "",
+    "label": "PG6503",
+    "biosample": "SAMN38095047",
+    "bioproject": "PRJNA833221",
+    "release_date": "2024-03-06",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/data/assemblies/unannotated/PG6503/GCA_037041615.1_ASM3704161v1_genomic.fna",
+        "accession": "GCA_037041615.1",
+        "bytes": 30523375,
+        "mtime_ns": 1782794542000000000,
+        "nonempty": true
+      },
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_037041615.1/GCA_037041615.1_ASM3704161v1_genomic.fna",
+        "accession": "GCA_037041615.1",
+        "bytes": 30523375,
+        "mtime_ns": 1777351428000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [
+      "PG6503"
+    ],
+    "in_66_tip_core": [
+      "PG6503"
+    ],
+    "in_230_tip_three_gene": [
+      "PG6503"
+    ],
+    "biosample_linked_sources": [
+      "PG6503"
+    ],
+    "status": "available_selected",
+    "notes": "",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_037041615.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_037041615.1",
+    "assembly_stats": {
+      "total_sequence_length": "30067085",
+      "total_ungapped_length": "30067085",
+      "number_of_contigs": 871,
+      "contig_n50": 80013,
+      "contig_l50": 119,
+      "number_of_scaffolds": 871,
+      "scaffold_n50": 80013,
+      "scaffold_l50": 119,
+      "number_of_component_sequences": 871,
+      "atgc_count": "30067080",
+      "gc_count": "15704767",
+      "gc_percent": 52,
+      "genome_coverage": "302"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [
+      "PG6503"
+    ],
+    "actual_complete230_sources": [
+      "PG6503"
+    ],
+    "actual_full283_sources": [
+      "PG6503"
+    ],
+    "recommendation": "Already included: no assembly download needed",
+    "rationale": "Retain current selected assembly, subject to the ongoing QC and provenance gates.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_002930435.1",
+    "paired_refseq": "",
+    "label": "T3_Kankrej",
+    "biosample": "SAMN08289489",
+    "bioproject": "PRJNA428406",
+    "release_date": "2018-02-16",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": true,
+    "files": [
+      {
+        "path": "PROJECT/inbox/strains/ncbi_dataset(4)/ncbi_dataset/data/GCA_002930435.1/GCA_002930435.1_ASM293043v1_genomic.fna",
+        "accession": "GCA_002930435.1",
+        "bytes": 29602136,
+        "mtime_ns": 1777351426000000000,
+        "nonempty": true
+      }
+    ],
+    "selected_sources": [],
+    "in_66_tip_core": [],
+    "in_230_tip_three_gene": [],
+    "biosample_linked_sources": [],
+    "status": "available_not_selected",
+    "notes": "T3_Kankrej is in inbox but absent from both released tree datasets. Highly fragmented: 13,340 contigs, contig N50 3,497 bp, reported coverage 6.87x. Attempt validated marker recovery and assess completeness/contamination before any genome-tree inclusion. No re-download needed.",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_002930435.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_002930435.1",
+    "assembly_stats": {
+      "total_sequence_length": "27963153",
+      "total_ungapped_length": "27963153",
+      "number_of_contigs": 13340,
+      "contig_n50": 3497,
+      "contig_l50": 2357,
+      "number_of_scaffolds": 13340,
+      "scaffold_n50": 3497,
+      "scaffold_l50": 2357,
+      "number_of_component_sequences": 13340,
+      "atgc_count": "27963153",
+      "gc_count": "14577383",
+      "gc_percent": 52,
+      "genome_coverage": "6.87"
+    },
+    "ncbi_warnings": [],
+    "actual_core66_sources": [],
+    "actual_complete230_sources": [],
+    "actual_full283_sources": [],
+    "recommendation": "Already downloaded: conditional QC / marker recovery",
+    "rationale": "T3_Kankrej is in inbox but absent from both released tree datasets. Highly fragmented: 13,340 contigs, contig N50 3,497 bp, reported coverage 6.87x. Attempt validated marker recovery and assess completeness/contamination before any genome-tree inclusion. No re-download needed.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_986281685.1",
+    "paired_refseq": "",
+    "label": "DAH1047FM",
+    "biosample": "SAMEA122955176",
+    "bioproject": "PRJEB104476",
+    "release_date": "2026-07-06",
+    "assembly_level": "Complete Genome",
+    "assembly_status": "current",
+    "available_exact_release": false,
+    "files": [],
+    "selected_sources": [],
+    "in_66_tip_core": [],
+    "in_230_tip_three_gene": [],
+    "biosample_linked_sources": [],
+    "status": "release_not_found",
+    "notes": "DAH1047FM is only 347 bp, sequenced by ABI 3500xl and assembled with Chromas; NCBI flags genome length too small. Despite the submitted Complete Genome label, this is not a usable whole-genome reference. Locus identity would need separate sequence verification before any marker use.",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_986281685.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_986281685.1",
+    "assembly_stats": {
+      "total_number_of_chromosomes": 1,
+      "total_sequence_length": "347",
+      "total_ungapped_length": "347",
+      "number_of_contigs": 1,
+      "contig_n50": 347,
+      "contig_l50": 1,
+      "number_of_scaffolds": 1,
+      "scaffold_n50": 347,
+      "scaffold_l50": 1,
+      "number_of_component_sequences": 1,
+      "atgc_count": "347",
+      "gc_count": "197",
+      "gc_percent": 56.5,
+      "genome_coverage": "100"
+    },
+    "ncbi_warnings": [
+      "genome length too small"
+    ],
+    "actual_core66_sources": [],
+    "actual_complete230_sources": [],
+    "actual_full283_sources": [],
+    "recommendation": "Do not add as a genome",
+    "rationale": "DAH1047FM is only 347 bp, sequenced by ABI 3500xl and assembled with Chromas; NCBI flags genome length too small. Despite the submitted Complete Genome label, this is not a usable whole-genome reference. Locus identity would need separate sequence verification before any marker use.",
+    "publication": ""
+  },
+  {
+    "accession": "GCA_000166915.1",
+    "paired_refseq": "",
+    "label": "ATCC 20542",
+    "biosample": "SAMN02953582",
+    "bioproject": "PRJNA187",
+    "release_date": "2002-12-19",
+    "assembly_level": "Contig",
+    "assembly_status": "current",
+    "available_exact_release": false,
+    "files": [],
+    "selected_sources": [],
+    "in_66_tip_core": [],
+    "in_230_tip_three_gene": [],
+    "biosample_linked_sources": [],
+    "status": "release_not_found",
+    "notes": "Older ATCC 20542 release: only 138,520 bp across 175 contigs, NCBI partial flag. The culture is already represented by a modern public assembly and public-read assembly. It adds neither a complete genome nor an independent strain.",
+    "ncbi_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000166915.1/",
+    "ena_url": "https://www.ebi.ac.uk/ena/browser/view/GCA_000166915.1",
+    "assembly_stats": {
+      "total_sequence_length": "138520",
+      "total_ungapped_length": "138520",
+      "number_of_contigs": 175,
+      "contig_n50": 840,
+      "contig_l50": 41,
+      "number_of_scaffolds": 175,
+      "scaffold_n50": 840,
+      "scaffold_l50": 41,
+      "number_of_component_sequences": 175,
+      "atgc_count": "136980",
+      "gc_count": "73825",
+      "gc_percent": 54
+    },
+    "ncbi_warnings": [
+      "partial"
+    ],
+    "actual_core66_sources": [],
+    "actual_complete230_sources": [],
+    "actual_full283_sources": [],
+    "recommendation": "Low: historical comparison only",
+    "rationale": "Older ATCC 20542 release: only 138,520 bp across 175 contigs, NCBI partial flag. The culture is already represented by a modern public assembly and public-read assembly. It adds neither a complete genome nor an independent strain.",
+    "publication": ""
+  }
+]

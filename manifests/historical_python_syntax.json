@@ -1,0 +1,1177 @@
+[
+  {
+    "source": "workspace/additional_ncbi_citations.py",
+    "stored_path": "archive/objects/a5/a5c78960b6ca3eda4292ac2050ca8a827922875c5a5b40a66badebf4120f9692.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/annotate_terreus_trees_v2.py",
+    "stored_path": "archive/objects/a4/a42d1166fceef03c59689139330f4c9757941dc07e1f7c9af14b937e34183271.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/assembly_metrics.py",
+    "stored_path": "archive/objects/75/759e9f1a77f3fbc8eaa908890bfe813fd24ba562f8875d3197721c6ab5b031dc.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/assess_core66_bootstrap_RF.py",
+    "stored_path": "archive/objects/bb/bb39b093114a866b8f4569f60823277462555482e0f32f353f84f560fae130c0.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/assess_reference_placements.py",
+    "stored_path": "archive/objects/54/549a84115f8fd75dd4814f842d79eb33c32b7cd3efcf456f19e229fc00ee5000.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/assess_supported_terreus_clades.py",
+    "stored_path": "archive/objects/c7/c7eaf6c8a8c70c5359445586b94dcbca64b034e8da4b4e0b3e53586c2d33bf91.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/audit_actual_old_alignment.py",
+    "stored_path": "archive/objects/8e/8e44006acbd3cb216ba0950a0cb4c5b1c03237fe52c62c996c3f73f31727bb43.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/audit_assembly_variants.py",
+    "stored_path": "archive/objects/cc/ccb049e882a92efe064911a5a1286246da2306df7148d80af154b2724c2e81ff.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/audit_genome_type_anchors.py",
+    "stored_path": "archive/objects/2c/2cef1a804df88caa3d8ddc4bf9b8871d965e6c526ec2a26426f10df2ccc29a72.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/audit_latest_outputs.py",
+    "stored_path": "archive/objects/86/869113d3e8049b335d1902d7f5b030cb3bee9892d01d42f1a3984d7cb180a304.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/audit_marker_orthogroup_members.py",
+    "stored_path": "archive/objects/38/38bc16bfdc4b3d49a0ba628164c320dffea24dabf47a6b06b9527285bc2a1b99.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/audit_public_terreus_inventory.py",
+    "stored_path": "archive/objects/42/42698e2018140bba0088ff8844b6498a18469fc87146675e31dc3547c99d57e1.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/build_comparative_visual_report.py",
+    "stored_path": "archive/objects/e9/e957fae26fff98a8608b851bf02743f61bd1a128c950dd1f8b23dac29e8c0138.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/build_complete_inventory.py",
+    "stored_path": "archive/objects/8f/8f3131b4c07e699b0c34272af6a172f30ab5f93b362fb464ec70f47de1a65f3c.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/build_deep_review.py",
+    "stored_path": "archive/objects/5a/5a0714bba203560ca910f46372c104f8638d8ef9356daaf7f423e53d424c4a2b.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/build_lovastatin_visual_data.py",
+    "stored_path": "archive/objects/d6/d63ffc0515eec2aecf7d19e32b70f7c3cc64a41218ac48fef8bb8615535c3b89.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/build_ncbi_metadata_report.py",
+    "stored_path": "archive/objects/b5/b55c31fd85ceb94b38ffcb8d0a459ebda555249a9a4ab7df82719fe7f129cd4f.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/build_terreus_reference_report.py",
+    "stored_path": "archive/objects/c0/c06d19e6674606e606b33ac7e5bfc8a5ab443c1b4a8c9b7eb979f967e48a4fb5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/build_type_monophyly_release.py",
+    "stored_path": "archive/objects/f9/f91514235a2418a49b4ab74a477a80bee0a9fbc6646d0368678e85c22172c37d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/chronological_inventory.py",
+    "stored_path": "archive/objects/4a/4a7da5044365eb74dc29532d7ba837c191d7f232b71090ecf36d3488f58b3065.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/circos_review_common.py",
+    "stored_path": "archive/objects/0b/0b9c21abef0ebb39abe2ed3c808d16f4fa344c3a56c937229ae6128f79a43e56.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/collect_terreus_taxonomy_papers.py",
+    "stored_path": "archive/objects/cc/ccec7a2250f12288f4cd1e4ea6f0c8cac634239adfa1b4827a4160773ac59d89.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/compare_all_core66_combinations.py",
+    "stored_path": "archive/objects/45/45265408d1a84f8f983ea51cdfdfdec0ba57a296bef0317f4e42004c4dae19ff.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/compare_assembly_marker_versions.py",
+    "stored_path": "archive/objects/78/7825e1403013161ba636de4a91075b1e3bfbcbb2ea5ae94bfccbf6ccb504e680.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/compare_terreus_tree_topologies.py",
+    "stored_path": "archive/objects/09/09ad184e943566179d3a1ceeabffdf4d7f58e8d0e0abb6e5e1aa9bd70746bef1.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/complete_reference_bibliography.py",
+    "stored_path": "archive/objects/40/406db792b98ec90dd20e886bc969a6832f34604baa0d601b708d2067148cac3e.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/correct_core_clade_labels.py",
+    "stored_path": "archive/objects/e3/e3218295e5d000fe1be7acae25004840393432b712c9cd915bf03cc2274611b3.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/crop_terreus_local_markers.py",
+    "stored_path": "archive/objects/35/359ce92b2f431ee9cb439f190ae9ec3644bd1888e98c5325263203c330909e47.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/download_2025_taxonomy_pdf.py",
+    "stored_path": "archive/objects/a0/a09a9200ac399a32a157a44f434cb7e1accf8bce591fa105f3990ce7670e4918.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/download_icpa_reference_tables.py",
+    "stored_path": "archive/objects/4e/4ebbf090c48b9c7607fdffa381abcaf5a6a1cf123320ac008cd8e58d5b23057e.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/enrich_ncbi_core_metadata.py",
+    "stored_path": "archive/objects/60/6076cf0f30e68b56cfe5ca22e7f319824e0d6fb73be5a7382534c54eec22373b.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/export_combined_tree_types.py",
+    "stored_path": "archive/objects/28/2892099660594340cfe9bf32154366b96df9031d73372962ec63005b9f3c2bf7.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/export_terreus_crosscheck_tables.py",
+    "stored_path": "archive/objects/44/44c4b84b71f0c616fc8c535ff1e92d6e3867165cedd13234ff58795ffab711d3.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/extend_clade_congruence.py",
+    "stored_path": "archive/objects/73/73740c18a2e2d7f2f232a0dacbe307504477ea5d9f86176083d06f99abfbee6a.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/extract_terreus_genomic_markers.py",
+    "stored_path": "archive/objects/0f/0f2a785a02dbc23e1db10ed711d1a0f8452358dce09b7f6e4fae893aef4de5b5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/extract_terreus_reference_library.py",
+    "stored_path": "archive/objects/a8/a8d65be37a0577b497774f2302898e7ceb09b886b8686f4c6d8a60c54188398b.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/fetch_historical_terreus_sequences.py",
+    "stored_path": "archive/objects/db/dbfa9dd006c5de8ab98d0a0b93696d95484934cf8d03ccecd633aedd79be13bf.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/fetch_lov_reference.py",
+    "stored_path": "archive/objects/7e/7e54bff9058c0a3dc25d84f8feffdeb9d551e52f728fd6c6e630bc20730dbab1.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/fetch_relevant_public_additions.py",
+    "stored_path": "archive/objects/aa/aab03ee4b3ef817f6cf688595f6f1edda3dd454be9bf77ac2ccf15bbe0267932.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/fetch_taxonomy_repositories.py",
+    "stored_path": "archive/objects/e4/e48fe89dc62365496281c135baee01107d9e3cbc2457673d8109e556030e8355.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/fetch_terreus_reference_genbank.py",
+    "stored_path": "archive/objects/7d/7d990e7cb50dcc3f6cbccc4c36bd83d6ca46fa4add3003231161fc1e8878ea58.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/fetch_tubulin_annotation.py",
+    "stored_path": "archive/objects/72/72e6f8047207918f1098bce438629100221325b3441fb9817af2db87cee760c4.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/finalize_circos_review.py",
+    "stored_path": "archive/objects/40/40c6ea1f9c5493862c2eec2beb39c0a3438e583c8985f2c0ff90b3fca11fa73f.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/finalize_comparative_visual_package.py",
+    "stored_path": "archive/objects/14/14fb4c91c2ece461c5b15a26051192a60ba3f4f41bb26b92386aa082e83a8547.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/finalize_terreus_reference_package.py",
+    "stored_path": "archive/objects/e6/e6bee31af52c3d3156bb4a3c400ad061115ce290f5f933b9c143d1467e5db832.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/finish_terreus_alignments.py",
+    "stored_path": "archive/objects/01/01c1f5fa69e35141769b9c5305613f015e8ab88c54644bc1a22479e42117a79a.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/finish_type_monophyly_release.py",
+    "stored_path": "archive/objects/2a/2ae6c8ba7b37949d1c25eec9716791af2f2b76a5ce69acad8c981038c2678a31.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/finish_variant_rescue.py",
+    "stored_path": "archive/objects/b1/b18951fe7451fc2ff1063fdbf63c0a8c093f39f656284b210b28577455cdc264.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/harvest_ncbi_core_metadata.py",
+    "stored_path": "archive/objects/d9/d927ee38a81deb7c6113e00f977ff3c6ad3ce4dfae4e8a6c97d003669e8b6170.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/infer_core66_combinations.py",
+    "stored_path": "archive/objects/3a/3aa4d882eb634402c0ed33aca07fe226c39836948e53128df7e415a98c3a5e2c.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/infer_reference_pair_trees.py",
+    "stored_path": "archive/objects/b6/b6cbe52f2737be9845835592f642e07893ee89dfb514d74a2c2791b89fed9ac4.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_genomic_recovery.py",
+    "stored_path": "archive/objects/41/410539e0061fef535fa37cbcbcb012a209c1025b8fb41c602e97159efe888ccb.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_historical_reference_coverage.py",
+    "stored_path": "archive/objects/a5/a56edf338c39dafc85b1fcfb7699029f941b39c1504ccf252ba96f261d33ab7d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_icpa_tables.py",
+    "stored_path": "archive/objects/89/89f487b3ac3254f686b77143f160624f9b2828c1965ee81da01987e2bd1f342d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_ncbi_publication_evidence.py",
+    "stored_path": "archive/objects/33/3371cd9cbd3252809fb530709445b9c7738557ceca4297a83283a831b4a6b0ee.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_orthology_flags.py",
+    "stored_path": "archive/objects/5b/5b83d8b464d516d7356975293764c984bca02c1ad06c72d630695563a2906c9d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_phylogenetic_diagnostics.py",
+    "stored_path": "archive/objects/16/16940028085fbb4eb40184fca873bcc146c37c7b0816d026d47a65fda6e59360.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_reference_discrepancies.py",
+    "stored_path": "archive/objects/44/44c769fa1e3a9528ac4dc5d41d2dca1c1f8e7970580986d0be7d347fdcb7e372.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_taxonomy_downloads.py",
+    "stored_path": "archive/objects/9d/9d17ddb58a818dd6198fda15246f72e7f6cb352ebae12e82802f61675745fbf2.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_terreus_sources.py",
+    "stored_path": "archive/objects/32/32bae0f9dea445e0b04986cc4f080c5bfcb9a4f35cd5a04bc2a66a98b9c5bc7c.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_tubulin_identity.py",
+    "stored_path": "archive/objects/a3/a349716c102b7f18702b64178c764f934551594447c68c47ea5110a88b6f9623.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/inspect_type_placement_cases.py",
+    "stored_path": "archive/objects/14/142e0cf0f16dcd19915364feaa823fe1b049386f9cd256c4e14e7f04652b15f0.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/map_markers_to_orthogroups.py",
+    "stored_path": "archive/objects/9b/9b079894f4e158c414b2570f5dcfae4288a5e8893e4b630b7b2865c1730199e7.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/package_circos_review.py",
+    "stored_path": "archive/objects/41/4150517826157731b1458bfa4ba130345b4faedf3b54786d9dbe529e7e7718a2.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/package_combined_tree_versions.py",
+    "stored_path": "archive/objects/00/00d3e3205a9e0d135805bdfd77cae8068206b9f50e5aef703c10121126e35c56.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/plot_circos_review.py",
+    "stored_path": "archive/objects/f3/f37107ad7763412f00295a38b9bbbe56bf1849a1b11f123b30827bad52874820.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/plot_lovastatin_comparisons.py",
+    "stored_path": "archive/objects/c2/c21d878e0a609c05fb9823a3f1e063fd86dfef58de6f720a29a8a8a67839d0be.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/plot_marker_provenance.py",
+    "stored_path": "archive/objects/11/1185911f007c17b16c6023fe42529462afbe74337ef44a6adac38791dc64a771.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/plot_plain_terreus_views.py",
+    "stored_path": "archive/objects/99/9926f9461dc392a530108980e77cf24f6e9daac33b2279c5f96e8db8f71a9362.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/plot_terreus_marker_qc.py",
+    "stored_path": "archive/objects/4e/4e5986a6ddae7575a483a20e2f0fcbb6c3c05059e5a90f023c0b7fdab542f7f6.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/plot_terreus_reference_trees.py",
+    "stored_path": "archive/objects/2f/2fcef3c56ebf21ce80c04fd3455a9528d54f6a15fbc5dea56757500462ca4a1a.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_all_terreus_genomes.py",
+    "stored_path": "archive/objects/c0/c0ef985238ddbcddfa665c51596f411afdb005b8b1d61253cdbb0d312d10f92c.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_circos_review.py",
+    "stored_path": "archive/objects/2e/2e92c62b9705ba9cb1d4f17c9f70c689590433d5a3fdd1bb7d75e4afe20fdfae.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_complete_three_gene.py",
+    "stored_path": "archive/objects/3e/3ed800dabc8744a6010bb9c9440c25103036cf9dd5788cec445d03e753b5b68f.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_core66_marker_combinations.py",
+    "stored_path": "archive/objects/a4/a46df3852a8ded9ccb1e98e917940732a95f5ebfde0627c7df5b6e6e29282b9d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_genomic_combined_alignments.py",
+    "stored_path": "archive/objects/20/20e1ba846e275b2c73ece294b18930d4f0f1c69ba48e762cde92acd539e9a8a5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_historical_merge.py",
+    "stored_path": "archive/objects/e5/e56b5b65967036df7d04a89c6b7a9abdc4bac5e9456846b8e426fe30a97629e1.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_lov_genomic_screen.py",
+    "stored_path": "archive/objects/7c/7cb029a6ab724abb74d04f325eeb7d556cd86c1961da4e1755a3d84425068b02.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_reference_pair_trees.py",
+    "stored_path": "archive/objects/20/20357e3b52329c70a24227e84e0d26e1ceaec6ff86128959ffb50a477f881f16.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_terreus_combined_data.py",
+    "stored_path": "archive/objects/69/698bd122e18b18737f495a440cc15b65bad242bcd82c8ca3decfae0608c3470d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_terreus_genome_search.py",
+    "stored_path": "archive/objects/e9/e9786797d1090c4fcc6979d2a7a2c6a2df9595a3245f45a602f609aefdd83370.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/prepare_type_sensitivity.py",
+    "stored_path": "archive/objects/38/38776073d0dd456538e95939a5107977649c4594c7a5b8da6a781d615996bdde.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/qa_clade_congruence.py",
+    "stored_path": "archive/objects/f9/f976c05b7b14da001d43b675ac542d4850ba5119cb79de2210e22d022e22cb84.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/qa_type_monophyly_release.py",
+    "stored_path": "archive/objects/fe/feb1f96fb9f9ca66d918e81e626af80e5edc22d2bd2573ed28a066f5cf65c252.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/reconcile_reference_sequences.py",
+    "stored_path": "archive/objects/76/7692d57684a7e3c6ba8d881b51af0569c8bdef0c75352f4559d113934e749eab.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/refresh_terreus_annotation_legend.py",
+    "stored_path": "archive/objects/71/71808b5e20cae7164ff8b68f747aeb34e21a7cb9b9d66a0db19030d7b4df9ad2.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/related_ncbi_records.py",
+    "stored_path": "archive/objects/ec/ec5c77bb36371d1d62c868d083940ce981990926e70293abfa5f44b90ea8bedc.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/render_clade_congruence.py",
+    "stored_path": "archive/objects/b8/b86ef6651a3b4763a15e60b5625ab4d93e734c7b99279e4684c6b45a5203636d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/render_core66_and_pair_trees.py",
+    "stored_path": "archive/objects/1d/1d8fbdcca3dff8846001d1c534b60043a4ac764f0d9c737621e39b3ee57a9da3.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/rescue_divergent_terreus_markers.py",
+    "stored_path": "archive/objects/52/529664425ce756cf6652d871ae8056629b8bd1a39940c4bf01771f896eeadba5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/rescue_lov_proteins.py",
+    "stored_path": "archive/objects/de/def59930b254a63efe1877c01abcc23b68e939b206ed0c0d5e3c346020929498.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/restore_core_original_labels.py",
+    "stored_path": "archive/objects/9e/9ecdeb09085a3c3e65d208f28c3f6f3e34fff65e1c2871c9bfe419367dd277a9.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/review_download_relevance.py",
+    "stored_path": "archive/objects/0f/0f304783a24e7709754376a79b5eab0fc932bc1b5d867e95177c492214958a96.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/run_lov_genomic_screen.py",
+    "stored_path": "archive/objects/3e/3ee66ca076b03c242cced632970686b45d8b304f7324d45a558a26706fa8f3c2.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/search_terreus_genomes.py",
+    "stored_path": "archive/objects/33/33742a94ae16bcd18d436283ff0d11f0028d41ff3ae4250d891244ba46099f61.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/summarize_complete_qc.py",
+    "stored_path": "archive/objects/d7/d766b96a3f33d063ecf7fa62500457c061404106c198f19f9530108fae696534.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/summarize_lov_genomic_screen.py",
+    "stored_path": "archive/objects/01/01f3d36ad6484a0c8ec6aed59a2d3d9c181e213a14543eb5fade8eb6d2f80134.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/summarize_public_terreus_audit.py",
+    "stored_path": "archive/objects/1c/1cc707506d3b0aadb239fc24ea0849dedd46afc9d5f0eaa59151e6173d1a0393.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/summarize_qc.py",
+    "stored_path": "archive/objects/fc/fc20e059347a6b718c7d9db7955f9b34ed97ebab46bf57546c1a89ff737a113d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/supplement_ncbi_core_metadata.py",
+    "stored_path": "archive/objects/5c/5ce90334909e313ac2b2a0aeefdc32d64367375e1bf7dd35bf416cfa9147f341.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/targeted_ncbi_publications.py",
+    "stored_path": "archive/objects/17/177c86b12f871312974ae4da6127c1bc09b2d6585f80bc49f32c3ccd67f7adcb.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/terreus_reference_sources.py",
+    "stored_path": "archive/objects/8b/8b0d0085c9bb112d34cf7271df5e4bfd2983e9057f6b4604d5f49b285dce4599.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/terreus_tree_helpers.py",
+    "stored_path": "archive/objects/b6/b63c024394ffc7c3b189634cad44fd6ec3330c59bea4732d79bf35c68e7f38c6.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/transcript_metrics.py",
+    "stored_path": "archive/objects/87/876904f0d0ea9aca868eedf571242bd0c0f1e85124efac3900caaa0d8fced548.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/validate_comparative_visual_package.py",
+    "stored_path": "archive/objects/e0/e09c3ce93cf7c1fed63919ad5e83223c74632bd2a68c8232753c8f7d3e73755d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/validate_curated_reference_library.py",
+    "stored_path": "archive/objects/d4/d4bb577c1a6585a7c831659e22c457109c1c532410ff0de9db469e6436b20802.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/validate_ncbi_package.py",
+    "stored_path": "archive/objects/14/144233c28e17718be8b490febca5f5b0ea869996d1e13e49c680feab1f7fe697.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/validate_terreus_reference_package.py",
+    "stored_path": "archive/objects/67/671995294181a922ea2d5cc32a6312051ed743c9416495866f25d9bcf74341a2.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/verify_concatenation_order.py",
+    "stored_path": "archive/objects/99/9930a8ac12618996cb6c86fa7282e386fbb41a724b71567c72457a2cd09051fb.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/verify_review_report.py",
+    "stored_path": "archive/objects/bc/bc5f70fb5268c88ce27b231ce099ebdf3ef8a3bcc99e706cf648e8416e60c109.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/annotate_terreus_trees_v2.py",
+    "stored_path": "archive/objects/a4/a42d1166fceef03c59689139330f4c9757941dc07e1f7c9af14b937e34183271.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/assess_core66_bootstrap_RF.py",
+    "stored_path": "archive/objects/bb/bb39b093114a866b8f4569f60823277462555482e0f32f353f84f560fae130c0.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/audit_genome_type_anchors.py",
+    "stored_path": "archive/objects/2c/2cef1a804df88caa3d8ddc4bf9b8871d965e6c526ec2a26426f10df2ccc29a72.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/build_comparative_visual_report.py",
+    "stored_path": "archive/objects/e9/e957fae26fff98a8608b851bf02743f61bd1a128c950dd1f8b23dac29e8c0138.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/build_lovastatin_visual_data.py",
+    "stored_path": "archive/objects/d6/d63ffc0515eec2aecf7d19e32b70f7c3cc64a41218ac48fef8bb8615535c3b89.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/compare_all_core66_combinations.py",
+    "stored_path": "archive/objects/45/45265408d1a84f8f983ea51cdfdfdec0ba57a296bef0317f4e42004c4dae19ff.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/compare_terreus_tree_topologies.py",
+    "stored_path": "archive/objects/09/09ad184e943566179d3a1ceeabffdf4d7f58e8d0e0abb6e5e1aa9bd70746bef1.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/fetch_lov_reference.py",
+    "stored_path": "archive/objects/7e/7e54bff9058c0a3dc25d84f8feffdeb9d551e52f728fd6c6e630bc20730dbab1.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/finalize_comparative_visual_package.py",
+    "stored_path": "archive/objects/14/14fb4c91c2ece461c5b15a26051192a60ba3f4f41bb26b92386aa082e83a8547.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/infer_core66_combinations.py",
+    "stored_path": "archive/objects/3a/3aa4d882eb634402c0ed33aca07fe226c39836948e53128df7e415a98c3a5e2c.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/infer_reference_pair_trees.py",
+    "stored_path": "archive/objects/b6/b6cbe52f2737be9845835592f642e07893ee89dfb514d74a2c2791b89fed9ac4.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/plot_lovastatin_comparisons.py",
+    "stored_path": "archive/objects/c2/c21d878e0a609c05fb9823a3f1e063fd86dfef58de6f720a29a8a8a67839d0be.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/prepare_core66_marker_combinations.py",
+    "stored_path": "archive/objects/a4/a46df3852a8ded9ccb1e98e917940732a95f5ebfde0627c7df5b6e6e29282b9d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/prepare_lov_genomic_screen.py",
+    "stored_path": "archive/objects/7c/7cb029a6ab724abb74d04f325eeb7d556cd86c1961da4e1755a3d84425068b02.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/prepare_reference_pair_trees.py",
+    "stored_path": "archive/objects/20/20357e3b52329c70a24227e84e0d26e1ceaec6ff86128959ffb50a477f881f16.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/refresh_terreus_annotation_legend.py",
+    "stored_path": "archive/objects/71/71808b5e20cae7164ff8b68f747aeb34e21a7cb9b9d66a0db19030d7b4df9ad2.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/render_core66_and_pair_trees.py",
+    "stored_path": "archive/objects/1d/1d8fbdcca3dff8846001d1c534b60043a4ac764f0d9c737621e39b3ee57a9da3.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/rescue_lov_proteins.py",
+    "stored_path": "archive/objects/de/def59930b254a63efe1877c01abcc23b68e939b206ed0c0d5e3c346020929498.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/run_lov_genomic_screen.py",
+    "stored_path": "archive/objects/3e/3ee66ca076b03c242cced632970686b45d8b304f7324d45a558a26706fa8f3c2.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/summarize_lov_genomic_screen.py",
+    "stored_path": "archive/objects/01/01f3d36ad6484a0c8ec6aed59a2d3d9c181e213a14543eb5fade8eb6d2f80134.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/terreus_tree_helpers.py",
+    "stored_path": "archive/objects/b6/b63c024394ffc7c3b189634cad44fd6ec3330c59bea4732d79bf35c68e7f38c6.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-11/provenance/scripts/validate_comparative_visual_package.py",
+    "stored_path": "archive/objects/e0/e09c3ce93cf7c1fed63919ad5e83223c74632bd2a68c8232753c8f7d3e73755d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/marker_provenance/circos_review_common.py",
+    "stored_path": "archive/objects/0b/0b9c21abef0ebb39abe2ed3c808d16f4fa344c3a56c937229ae6128f79a43e56.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/marker_provenance/plot_marker_provenance.py",
+    "stored_path": "archive/objects/11/1185911f007c17b16c6023fe42529462afbe74337ef44a6adac38791dc64a771.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/marker_provenance/terreus_tree_helpers.py",
+    "stored_path": "archive/objects/b6/b63c024394ffc7c3b189634cad44fd6ec3330c59bea4732d79bf35c68e7f38c6.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/plain_views/plot_plain_terreus_views.py",
+    "stored_path": "archive/objects/99/9926f9461dc392a530108980e77cf24f6e9daac33b2279c5f96e8db8f71a9362.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/scripts/circos_review_common.py",
+    "stored_path": "archive/objects/0b/0b9c21abef0ebb39abe2ed3c808d16f4fa344c3a56c937229ae6128f79a43e56.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/scripts/finalize_circos_review.py",
+    "stored_path": "archive/objects/40/40c6ea1f9c5493862c2eec2beb39c0a3438e583c8985f2c0ff90b3fca11fa73f.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/scripts/package_circos_review.py",
+    "stored_path": "archive/objects/41/4150517826157731b1458bfa4ba130345b4faedf3b54786d9dbe529e7e7718a2.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/scripts/plot_circos_review.py",
+    "stored_path": "archive/objects/f3/f37107ad7763412f00295a38b9bbbe56bf1849a1b11f123b30827bad52874820.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/comparative_visualization/2026-11-13/scripts/prepare_circos_review.py",
+    "stored_path": "archive/objects/2e/2e92c62b9705ba9cb1d4f17c9f70c689590433d5a3fdd1bb7d75e4afe20fdfae.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/archive/pilot_4GiB_oom_20261118/run_after_pilot.py",
+    "stored_path": "archive/objects/d9/d957eb81bcd0e65b692bfd448640d3be54122842de6ec7a8c9d38ab1143661b5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/archive/pilot_4GiB_oom_20261118/worker.py",
+    "stored_path": "archive/objects/ca/ca1f4bee2df33462c22b42d01f3843641e3054e2f7788036b05be5db1bd62311.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/acceptance_report.py",
+    "stored_path": "archive/objects/9e/9e52f60be58646d7252857603b7ba6724406947fcec71c1c8c11694673d8e910.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/compare_supported_core.py",
+    "stored_path": "archive/objects/70/706a7f7c79c15281d8d7594b472db6fa5b79b9bf2381a01a55efb7b7b354dd27.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/read_qc.py",
+    "stored_path": "archive/objects/f7/f7e60ee95f169252ee7638a7e05857e9c711a67e80667d4a7c83fb9ff184dbf3.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/reconcile_functional.py",
+    "stored_path": "archive/objects/4e/4efe612d0be88a45b4b8706c12b33b0b697eecdf2b8419f195fa48d99fa61a8c.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/recover_orthofinder_inputs.py",
+    "stored_path": "archive/objects/00/001f6fa16d3edac21a0df18196136257af5882b33664362094efc4a066ffe568.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/resolve_annotation_links.py",
+    "stored_path": "archive/objects/da/da571f20c6de88f906bd237ee1be5d3c3d310185a5d864f151db131ee8ad3399.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/run_after_pilot.py",
+    "stored_path": "archive/objects/d9/d957eb81bcd0e65b692bfd448640d3be54122842de6ec7a8c9d38ab1143661b5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/save_pause_checkpoint.py",
+    "stored_path": "archive/objects/43/43e963d6596936b0d8801f832d2f165ceab303b97cb40657db74293f4ae2e609.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/validate_annotations.py",
+    "stored_path": "archive/objects/0e/0e86359fb861e8a11e0035c57ee3736aeb43f17a00a417cd7f67a59b7e661874.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/validate_resource_caps.py",
+    "stored_path": "archive/objects/0a/0a54369610ff78fb71b445c2d116d2646d3f50f2847f64bd78ad5f095f3dea1b.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/checkpoints/20261119T183733Z_user_pause/scripts/worker.py",
+    "stored_path": "archive/objects/24/245873c946b51e1a48de2d78131e0d7e681ca6774c18ac59b9fdc17c0ea6242e.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/acceptance_report.py",
+    "stored_path": "archive/objects/9e/9e52f60be58646d7252857603b7ba6724406947fcec71c1c8c11694673d8e910.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/compare_supported_core.py",
+    "stored_path": "archive/objects/70/706a7f7c79c15281d8d7594b472db6fa5b79b9bf2381a01a55efb7b7b354dd27.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/read_qc.py",
+    "stored_path": "archive/objects/f7/f7e60ee95f169252ee7638a7e05857e9c711a67e80667d4a7c83fb9ff184dbf3.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/reconcile_functional.py",
+    "stored_path": "archive/objects/4e/4efe612d0be88a45b4b8706c12b33b0b697eecdf2b8419f195fa48d99fa61a8c.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/recover_orthofinder_inputs.py",
+    "stored_path": "archive/objects/00/001f6fa16d3edac21a0df18196136257af5882b33664362094efc4a066ffe568.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/resolve_annotation_links.py",
+    "stored_path": "archive/objects/da/da571f20c6de88f906bd237ee1be5d3c3d310185a5d864f151db131ee8ad3399.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/resume_checkpoint.py",
+    "stored_path": "archive/objects/50/50e698ec9551743f52f461874fca174c434364600764667b8a1a6828dc4d1286.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/resume_disk_queue.py",
+    "stored_path": "archive/objects/6c/6cbef667d747fbfea27b0d81d8c2a5ed1aed2666cb8056187266c785e88cfe3f.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/run_after_pilot.py",
+    "stored_path": "archive/objects/d9/d957eb81bcd0e65b692bfd448640d3be54122842de6ec7a8c9d38ab1143661b5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/save_pause_checkpoint.py",
+    "stored_path": "archive/objects/43/43e963d6596936b0d8801f832d2f165ceab303b97cb40657db74293f4ae2e609.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/validate_annotations.py",
+    "stored_path": "archive/objects/0e/0e86359fb861e8a11e0035c57ee3736aeb43f17a00a417cd7f67a59b7e661874.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/validate_resource_caps.py",
+    "stored_path": "archive/objects/0a/0a54369610ff78fb71b445c2d116d2646d3f50f2847f64bd78ad5f095f3dea1b.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_execution/2026-11-18_v1/scripts/worker.py",
+    "stored_path": "archive/objects/24/245873c946b51e1a48de2d78131e0d7e681ca6774c18ac59b9fdc17c0ea6242e.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_preparation/2026-11-18_v1/scripts/export_primary_proteins.py",
+    "stored_path": "archive/objects/27/27a7e40c84353c310189606e3d3900cfd2507ef8c0ff5e8041be380617ba01b5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_preparation/2026-11-18_v1/scripts/finalize_package.py",
+    "stored_path": "archive/objects/b3/b3a717c41558ad76e81de8285bcf5d0d58b7ce6fecc92396476c3cf285bebe0f.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_preparation/2026-11-18_v1/scripts/prepare_core_command.py",
+    "stored_path": "archive/objects/f2/f26b3f920e8469600b5baf0b9a519dd332ff181a5e7555c8c8ba51200e7e225f.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_preparation/2026-11-18_v1/scripts/prepare_gates.py",
+    "stored_path": "archive/objects/71/712c1f130bb86d035daeb2bc971261485f4f4a953e8faf60126bf7ea835c7972.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_preparation/2026-11-18_v1/scripts/reconcile_annotation_assemblies.py",
+    "stored_path": "archive/objects/7d/7d97bb89deaa7af34023d2b9fc8aecb2fe0be9ac5fec0ce180dab51746ae9018.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/gate_preparation/2026-11-18_v1/scripts/run_one_busco.py",
+    "stored_path": "archive/objects/6e/6eb27ee308ccf398010de6be3e0c0d82d0a5b837b8ef40185f36b0c89c75b0bf.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v1/scripts/build_figures.py",
+    "stored_path": "archive/objects/12/12370d2dd42214453cd514ec213c5b81cebc1547bb2238f8a5aea25cd58931fc.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v1/scripts/circos_review_common.py",
+    "stored_path": "archive/objects/0b/0b9c21abef0ebb39abe2ed3c808d16f4fa344c3a56c937229ae6128f79a43e56.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v1/scripts/finalize_release.py",
+    "stored_path": "archive/objects/06/066db41e1fca2f81c72c1358e15f6393c5a61a0f8dfeebc6348b3a3f74dba396.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v1/scripts/plot_plain_terreus_views.py",
+    "stored_path": "archive/objects/99/9926f9461dc392a530108980e77cf24f6e9daac33b2279c5f96e8db8f71a9362.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v1/scripts/prepare_data.py",
+    "stored_path": "archive/objects/b4/b4b7d18909a33946cb9497165b5077703e60dca40ece4411baa93c25570cccbf.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v1/scripts/run_workbook.py",
+    "stored_path": "archive/objects/ae/aeee1e1b79bda748c58c44e9103df74491c91e0f5c36f043c206a18255d3fbeb.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v1/scripts/terreus_tree_helpers.py",
+    "stored_path": "archive/objects/b6/b63c024394ffc7c3b189634cad44fd6ec3330c59bea4732d79bf35c68e7f38c6.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v1_single_page_pdfs/upgrade_print_exports.py",
+    "stored_path": "archive/objects/8c/8c860d7147aab1bfdb75c51c5fb5b71b5b145a86e81c08eb71f460ae51f438e5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v3_taxonomy_review/scripts/build_review.py",
+    "stored_path": "archive/objects/6e/6e0a876fb51ad09d1b6fe2fd5d34fbedc2fd73fbe314e27c2f773cc4ebbff3b9.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v3_taxonomy_review/scripts/export_print.py",
+    "stored_path": "archive/objects/e9/e93b00309ee340668e4748739582e1a09926a540263ff96dc4f2e855702295cc.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-17_v3_taxonomy_review/scripts/tiff_writer_frozen.py",
+    "stored_path": "archive/objects/aa/aa00c9934dceca1c7fa9b18dd213414fc799666ca0a353b72eb91fbd927e66fb.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-18_v1_complete_three_gene/scripts/finish_package.py",
+    "stored_path": "archive/objects/a3/a34bbaad63f58e68b025932c28e0932ba782c8393da04732b595d2c0824101da.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-18_v1_complete_three_gene/scripts/render_complete.py",
+    "stored_path": "archive/objects/9f/9f37aa68dbb9c3fd323b3c85592fd1cca1422d2862cab35b9d06d4cb54dd72e0.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-18_v1_complete_three_gene/scripts/run_tree.py",
+    "stored_path": "archive/objects/2f/2f5b9e0ed7f4909391032dc2384f718fcb2c8956aa150ff6c178e1b7b5fe4c67.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v1_type_monophyly/scripts/build_type_monophyly_release.py",
+    "stored_path": "archive/objects/f9/f91514235a2418a49b4ab74a477a80bee0a9fbc6646d0368678e85c22172c37d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v1_type_monophyly/scripts/finish_type_monophyly_release.py",
+    "stored_path": "archive/objects/2a/2ae6c8ba7b37949d1c25eec9716791af2f2b76a5ce69acad8c981038c2678a31.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v1_type_monophyly/scripts/qa_type_monophyly_release.py",
+    "stored_path": "archive/objects/fe/feb1f96fb9f9ca66d918e81e626af80e5edc22d2bd2573ed28a066f5cf65c252.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v2_core_label_fix/scripts/correct_core_clade_labels.py",
+    "stored_path": "archive/objects/e3/e3218295e5d000fe1be7acae25004840393432b712c9cd915bf03cc2274611b3.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v3_original_taxon_labels/scripts/restore_core_original_labels.py",
+    "stored_path": "archive/objects/9e/9ecdeb09085a3c3e65d208f28c3f6f3e34fff65e1c2871c9bfe419367dd277a9.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v4_clade_congruence_cgmlst/scripts/extend_clade_congruence.py",
+    "stored_path": "archive/objects/73/73740c18a2e2d7f2f232a0dacbe307504477ea5d9f86176083d06f99abfbee6a.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v4_clade_congruence_cgmlst/scripts/qa_clade_congruence.py",
+    "stored_path": "archive/objects/f9/f976c05b7b14da001d43b675ac542d4850ba5119cb79de2210e22d022e22cb84.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v4_clade_congruence_cgmlst/scripts/render_clade_congruence.py",
+    "stored_path": "archive/objects/b8/b86ef6651a3b4763a15e60b5625ab4d93e734c7b99279e4684c6b45a5203636d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v5_core_vs_combined_versions/scripts/extend_clade_congruence.py",
+    "stored_path": "archive/objects/73/73740c18a2e2d7f2f232a0dacbe307504477ea5d9f86176083d06f99abfbee6a.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v5_core_vs_combined_versions/scripts/package_combined_tree_versions.py",
+    "stored_path": "archive/objects/00/00d3e3205a9e0d135805bdfd77cae8068206b9f50e5aef703c10121126e35c56.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/stakeholder_release/2026-11-20_v5_core_vs_combined_versions/scripts/render_clade_congruence.py",
+    "stored_path": "archive/objects/b8/b86ef6651a3b4763a15e60b5625ab4d93e734c7b99279e4684c6b45a5203636d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/assess_reference_placements.py",
+    "stored_path": "archive/objects/54/549a84115f8fd75dd4814f842d79eb33c32b7cd3efcf456f19e229fc00ee5000.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/assess_supported_terreus_clades.py",
+    "stored_path": "archive/objects/c7/c7eaf6c8a8c70c5359445586b94dcbca64b034e8da4b4e0b3e53586c2d33bf91.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/audit_actual_old_alignment.py",
+    "stored_path": "archive/objects/8e/8e44006acbd3cb216ba0950a0cb4c5b1c03237fe52c62c996c3f73f31727bb43.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/audit_assembly_variants.py",
+    "stored_path": "archive/objects/cc/ccb049e882a92efe064911a5a1286246da2306df7148d80af154b2724c2e81ff.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/audit_marker_orthogroup_members.py",
+    "stored_path": "archive/objects/38/38bc16bfdc4b3d49a0ba628164c320dffea24dabf47a6b06b9527285bc2a1b99.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/build_terreus_reference_report.py",
+    "stored_path": "archive/objects/c0/c06d19e6674606e606b33ac7e5bfc8a5ab443c1b4a8c9b7eb979f967e48a4fb5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/compare_assembly_marker_versions.py",
+    "stored_path": "archive/objects/78/7825e1403013161ba636de4a91075b1e3bfbcbb2ea5ae94bfccbf6ccb504e680.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/complete_reference_bibliography.py",
+    "stored_path": "archive/objects/40/406db792b98ec90dd20e886bc969a6832f34604baa0d601b708d2067148cac3e.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/export_terreus_crosscheck_tables.py",
+    "stored_path": "archive/objects/44/44c4b84b71f0c616fc8c535ff1e92d6e3867165cedd13234ff58795ffab711d3.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/extract_terreus_genomic_markers.py",
+    "stored_path": "archive/objects/0f/0f2a785a02dbc23e1db10ed711d1a0f8452358dce09b7f6e4fae893aef4de5b5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/extract_terreus_reference_library.py",
+    "stored_path": "archive/objects/a8/a8d65be37a0577b497774f2302898e7ceb09b886b8686f4c6d8a60c54188398b.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/fetch_historical_terreus_sequences.py",
+    "stored_path": "archive/objects/db/dbfa9dd006c5de8ab98d0a0b93696d95484934cf8d03ccecd633aedd79be13bf.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/fetch_terreus_reference_genbank.py",
+    "stored_path": "archive/objects/7d/7d990e7cb50dcc3f6cbccc4c36bd83d6ca46fa4add3003231161fc1e8878ea58.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/finalize_terreus_reference_package.py",
+    "stored_path": "archive/objects/e6/e6bee31af52c3d3156bb4a3c400ad061115ce290f5f933b9c143d1467e5db832.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/finish_terreus_alignments.py",
+    "stored_path": "archive/objects/01/01c1f5fa69e35141769b9c5305613f015e8ab88c54644bc1a22479e42117a79a.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/finish_variant_rescue.py",
+    "stored_path": "archive/objects/b1/b18951fe7451fc2ff1063fdbf63c0a8c093f39f656284b210b28577455cdc264.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/inspect_phylogenetic_diagnostics.py",
+    "stored_path": "archive/objects/16/16940028085fbb4eb40184fca873bcc146c37c7b0816d026d47a65fda6e59360.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/map_markers_to_orthogroups.py",
+    "stored_path": "archive/objects/9b/9b079894f4e158c414b2570f5dcfae4288a5e8893e4b630b7b2865c1730199e7.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/plot_terreus_marker_qc.py",
+    "stored_path": "archive/objects/4e/4e5986a6ddae7575a483a20e2f0fcbb6c3c05059e5a90f023c0b7fdab542f7f6.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/plot_terreus_reference_trees.py",
+    "stored_path": "archive/objects/2f/2fcef3c56ebf21ce80c04fd3455a9528d54f6a15fbc5dea56757500462ca4a1a.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/prepare_all_terreus_genomes.py",
+    "stored_path": "archive/objects/c0/c0ef985238ddbcddfa665c51596f411afdb005b8b1d61253cdbb0d312d10f92c.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/prepare_genomic_combined_alignments.py",
+    "stored_path": "archive/objects/20/20e1ba846e275b2c73ece294b18930d4f0f1c69ba48e762cde92acd539e9a8a5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/prepare_historical_merge.py",
+    "stored_path": "archive/objects/e5/e56b5b65967036df7d04a89c6b7a9abdc4bac5e9456846b8e426fe30a97629e1.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/prepare_terreus_combined_data.py",
+    "stored_path": "archive/objects/69/698bd122e18b18737f495a440cc15b65bad242bcd82c8ca3decfae0608c3470d.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/prepare_type_sensitivity.py",
+    "stored_path": "archive/objects/38/38776073d0dd456538e95939a5107977649c4594c7a5b8da6a781d615996bdde.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/reconcile_reference_sequences.py",
+    "stored_path": "archive/objects/76/7692d57684a7e3c6ba8d881b51af0569c8bdef0c75352f4559d113934e749eab.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/rescue_divergent_terreus_markers.py",
+    "stored_path": "archive/objects/52/529664425ce756cf6652d871ae8056629b8bd1a39940c4bf01771f896eeadba5.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/search_terreus_genomes.py",
+    "stored_path": "archive/objects/33/33742a94ae16bcd18d436283ff0d11f0028d41ff3ae4250d891244ba46099f61.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/terreus_reference_sources.py",
+    "stored_path": "archive/objects/8b/8b0d0085c9bb112d34cf7271df5e4bfd2983e9057f6b4604d5f49b285dce4599.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/terreus_tree_helpers.py",
+    "stored_path": "archive/objects/b6/b63c024394ffc7c3b189634cad44fd6ec3330c59bea4732d79bf35c68e7f38c6.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/validate_curated_reference_library.py",
+    "stored_path": "archive/objects/d4/d4bb577c1a6585a7c831659e22c457109c1c532410ff0de9db469e6436b20802.py",
+    "status": "parses"
+  },
+  {
+    "source": "workspace/taxonomy_reference_build/2026-11-10/provenance/scripts/validate_terreus_reference_package.py",
+    "stored_path": "archive/objects/67/671995294181a922ea2d5cc32a6312051ed743c9416495866f25d9bcf74341a2.py",
+    "status": "parses"
+  },
+  {
+    "source": "project/terreus_qc_check/scripts/assembly_metrics.py",
+    "stored_path": "archive/objects/75/759e9f1a77f3fbc8eaa908890bfe813fd24ba562f8875d3197721c6ab5b031dc.py",
+    "status": "parses"
+  },
+  {
+    "source": "project/terreus_qc_check/scripts/build_complete_inventory.py",
+    "stored_path": "archive/objects/8f/8f3131b4c07e699b0c34272af6a172f30ab5f93b362fb464ec70f47de1a65f3c.py",
+    "status": "parses"
+  },
+  {
+    "source": "project/terreus_qc_check/scripts/summarize_complete_qc.py",
+    "stored_path": "archive/objects/d7/d766b96a3f33d063ecf7fa62500457c061404106c198f19f9530108fae696534.py",
+    "status": "parses"
+  },
+  {
+    "source": "project/terreus_qc_check/scripts/summarize_qc.py",
+    "stored_path": "archive/objects/fc/fc20e059347a6b718c7d9db7955f9b34ed97ebab46bf57546c1a89ff737a113d.py",
+    "status": "parses"
+  },
+  {
+    "source": "project/terreus_qc_check/scripts/transcript_metrics.py",
+    "stored_path": "archive/objects/87/876904f0d0ea9aca868eedf571242bd0c0f1e85124efac3900caaa0d8fced548.py",
+    "status": "parses"
+  }
+]

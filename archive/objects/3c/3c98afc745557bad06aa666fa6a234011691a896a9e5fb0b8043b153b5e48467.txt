@@ -1,0 +1,13 @@
+while read accession; do
+    prefetch $accession
+    fasterq-dump $accession
+done < SRR_terrei.txt
+
+
+docker run -v /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/terrei/SRR35107300:/output_directory -v /mnt/8EEE3D67EE3D492B/Sandoz_terreus/fastq/terrei:/reads mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade trim_reads_and_QC -f1 /reads/SRR35107300_1.fastq.gz -f2 /reads/SRR35107300_2.fastq.gz -o /output_directory --fraction_available_mem 0.7
+
+
+
+fastp -i SRR25636141_1.fastq.gz -I SRR25636141_2.fastq.gz -o fastp/SRR25636141_1.fastq.gz -O fastp/SRR25636141_2.fastq.gz -h fastp/SRR25636141.html -j fastp/SRR25636141.json
+
+spades.py --memory 32 -1 fastp/SRR25636141_1.fastq.gz -2 fastp/SRR25636141_2.fastq.gz -o spades/SRR25636141

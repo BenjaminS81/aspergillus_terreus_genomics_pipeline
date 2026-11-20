@@ -1,0 +1,234 @@
+./interproscan.sh -b Sandoz_terreus/interpro_res -cpu 20 -t p -goterms -i Sandoz_terreus/protein.faa
+
+
+ATCC_42 reference
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/repeats2:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade infer_repeats --ref /reference/GCA_016808415.1_ASM1680841v1_genomic.fna -o /repeats --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/trimmed/40_Aterreus_S8:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/fastq:/reads mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade trim_reads_and_QC -f1 /reads/40_Aterreus_S8_L001_R1_001.fastq.gz -f2 /reads/40_Aterreus_S8_L001_R2_001.fastq.gz -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/trimmed/40_Aterreus_S8:/reads -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/aligned/40_Aterreus_S8:/output_directory mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade align_reads -f1 /reads/trimmed_reads1.fastq.gz -f2 /reads/trimmed_reads2.fastq.gz --ref /reference/GCA_016808415.1_ASM1680841v1_genomic.fna -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/small_vars/40_Aterreus_S8:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/aligned/40_Aterreus_S8:/aligned -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/repeats:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade  call_small_variants -o /output_directory --ref /reference/GCA_016808415.1_ASM1680841v1_genomic.fna -p 2 -sbam /aligned/aligned_reads.bam.sorted --repeats_file /repeats/combined_repeats.tab --callers bcftools,freebayes,HaplotypeCaller --min_AF 0.25 --min_coverage 20 --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/small_vars_annotated/40_Aterreus_S8:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/small_vars/40_Aterreus_S8:/vcf mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade  annotate_small_vars -o /output_directory --ref /reference/GCA_016808415.1_ASM1680841v1_genomic.fna --mitochondrial_chromosome JAAWWR010000001.1 -gff /reference/genomic.gff -mcode 4 -gcode 1 --merged_vcf /vcf/variants_atLeast3PASS_ploidy2.vcf --fraction_available_mem 0.7
+
+
+ATCC_41
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/trimmed/SRR25636132:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/fastq:/reads mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade trim_reads_and_QC -f1 /reads/SRR25636132_1.fastq.gz -f2 /reads/SRR25636132_2.fastq.gz -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/trimmed/SRR35107300:/reads -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_41_ref:/reference -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_41_ref/aligned/SRR35107300:/output_directory mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade align_reads -f1 /reads/trimmed_reads1.fastq.gz -f2 /reads/trimmed_reads2.fastq.gz --ref /reference/GCA_033632065.1_ASM3363206v1_genomic.fna -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_41_ref/small_vars/SRR9691932:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_41_ref:/reference -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_41_ref/aligned/SRR9691932:/aligned -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_41_ref/repeats:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade  call_small_variants -o /output_directory --ref /reference/GCA_033632065.1_ASM3363206v1_genomic.fna -p 1 -sbam /aligned/aligned_reads.bam.sorted --repeats_file /repeats/combined_repeats.tab --callers bcftools,freebayes,HaplotypeCaller --min_AF 0.9 --min_coverage 20 --fraction_available_mem 0.9
+
+
+
+NIH reference
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/repeats:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade infer_repeats --ref /reference/GCA_000149615.1_ASM14961v1_genomic.fna -o /repeats --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/trimmed/40_Aterreus_S8:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/fastq:/reads mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade trim_reads_and_QC -f1 /reads/40_Aterreus_S8_L001_R1_001.fastq.gz -f2 /reads/40_Aterreus_S8_L001_R2_001.fastq.gz -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/trimmed/40_Aterreus_S8:/reads -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/aligned/40_Aterreus_S8:/output_directory mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade align_reads -f1 /reads/trimmed_reads1.fastq.gz -f2 /reads/trimmed_reads2.fastq.gz --ref /reference/GCA_000149615.1_ASM14961v1_genomic.fna -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/small_vars/40_Aterreus_S8:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/aligned/40_Aterreus_S8:/aligned -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/repeats:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade  call_small_variants -o /output_directory --ref /reference/GCA_000149615.1_ASM14961v1_genomic.fna -p 2 -sbam /aligned/aligned_reads.bam.sorted --repeats_file /repeats/combined_repeats.tab --callers bcftools,freebayes,HaplotypeCaller --min_AF 0.25 --min_coverage 20 --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/small_vars_annotated/40_Aterreus_S8:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/NIH_ref/small_vars/40_Aterreus_S8:/vcf mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade  annotate_small_vars -o /output_directory --ref /reference/GCA_000149615.1_ASM14961v1_genomic.fna --mitochondrial_chromosome CH981540.1 -gff /reference/genomic.gff -mcode 4 -gcode 1 --merged_vcf /vcf/variants_atLeast3PASS_ploidy2.vcf --fraction_available_mem 0.7
+
+
+#identify lovastatin genes in genome
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject ATCC_ref/reference/GCA_016808415.1_ASM1680841v1_genomic.fna -outfmt 6
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject NIH_ref/reference/GCA_000149615.1_ASM14961v1_genomic.fna -outfmt 6
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject 260416_Aterreus_SPAdes/11/contigs.fasta -outfmt 6
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject strains/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna -outfmt 6
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject strains/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna -outfmt 6
+
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject /home/davideisele/Documents/Terreus_Sandoz/ksnp/fasta/ASM-1.fasta -outfmt 6
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject /home/davideisele/Documents/Terreus_Sandoz/ksnp/fasta/ML-44.fasta -outfmt 6
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject /home/davideisele/Documents/Terreus_Sandoz/ksnp/fasta/TT0037.fasta -outfmt 6
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject /home/davideisele/Documents/Terreus_Sandoz/ksnp/fasta/T59-F.fasta -outfmt 6
+blastn -query ATCC_ref/reference/lovastatin_genes.fasta -subject /home/davideisele/Documents/Terreus_Sandoz/ksnp/fasta/MCA8_A_hortae.fasta -outfmt 6
+
+samtools faidx contigs.fasta NODE_56_length_178439_cov_21.531630:159993-161725 NODE_56_length_178439_cov_21.531630:147292-148544 NODE_56_length_178439_cov_21.531630:145530-146923 NODE_56_length_178439_cov_21.531630:138870-140382 NODE_56_length_178439_cov_21.531630:126213-134241 > lovastatin_genes.fasta
+
+samtools faidx contigs.fasta NODE_40_length_303482_cov_17.190737:19333-21065 NODE_40_length_303482_cov_17.190737:32511-33763 NODE_40_length_303482_cov_17.190737:34163-35556 NODE_40_length_303482_cov_17.190737:40713-42224 NODE_40_length_303482_cov_17.190737:46783-54817 > lovastatin_genes.fasta
+
+samtools faidx contigs.fasta NODE_36_length_289677_cov_16.656733:281088-282820 NODE_36_length_289677_cov_16.656733:268387-269639 NODE_36_length_289677_cov_16.656733:266615-268008 NODE_36_length_289677_cov_16.656733:259946-261457 NODE_36_length_289677_cov_16.656733:247298-255333 > lovastatin_genes.fasta
+
+#gene1
+samtools faidx R22/contigs.fasta NODE_56_length_178439_cov_21.531630:159993-161725 > lovastatin_gene1.fasta
+samtools faidx R23/contigs.fasta NODE_40_length_303482_cov_17.190737:19333-21065 >> lovastatin_gene1.fasta
+samtools faidx R24/contigs.fasta NODE_36_length_289677_cov_16.656733:281088-282820 >> lovastatin_gene1.fasta
+samtools faidx 11/contigs.fasta NODE_109_length_48848_cov_22.852589:35741-37473 >> lovastatin_gene1.fasta
+samtools faidx 26/contigs.fasta NODE_29_length_361874_cov_15.132974:17028-18760 >> lovastatin_gene1.fasta
+samtools faidx 29/contigs.fasta NODE_26_length_474295_cov_23.024647:47303-49035 >> lovastatin_gene1.fasta
+samtools faidx 39/contigs.fasta NODE_26_length_420615_cov_18.774122:54350-56082 >> lovastatin_gene1.fasta
+samtools faidx 40/contigs.fasta NODE_49_length_168169_cov_14.262458:11317-13049 >> lovastatin_gene1.fasta
+samtools faidx 47/contigs.fasta NODE_47_length_168165_cov_21.721010:11317-13049 >> lovastatin_gene1.fasta
+samtools faidx 48/contigs.fasta NODE_90_length_78063_cov_15.404691:19354-21086 >> lovastatin_gene1.fasta
+samtools faidx 50/contigs.fasta NODE_24_length_420614_cov_18.635342:364534-366266 >> lovastatin_gene1.fasta
+samtools faidx 56/contigs.fasta NODE_53_length_168189_cov_21.134379:155141-156873 >> lovastatin_gene1.fasta
+samtools faidx 57/contigs.fasta NODE_81_length_59347_cov_22.246792:46240-47972 >> lovastatin_gene1.fasta
+samtools faidx 67/contigs.fasta NODE_51_length_173598_cov_18.052239:16857-18589 >> lovastatin_gene1.fasta
+samtools faidx 73/contigs.fasta NODE_26_length_420613_cov_18.810962:54349-56081 >> lovastatin_gene1.fasta
+
+#gene2
+samtools faidx R22/contigs.fasta NODE_56_length_178439_cov_21.531630:147292-148544 > lovastatin_gene2.fasta
+samtools faidx R23/contigs.fasta NODE_40_length_303482_cov_17.190737:32511-33763 >> lovastatin_gene2.fasta
+samtools faidx R24/contigs.fasta NODE_36_length_289677_cov_16.656733:268387-269639 >> lovastatin_gene2.fasta
+samtools faidx 11/contigs.fasta NODE_109_length_48848_cov_22.852589:23042-24294 >> lovastatin_gene2.fasta
+samtools faidx 26/contigs.fasta NODE_29_length_361874_cov_15.132974:30207-31459 >> lovastatin_gene2.fasta
+samtools faidx 29/contigs.fasta NODE_26_length_474295_cov_23.024647:60481-61733 >> lovastatin_gene2.fasta
+samtools faidx 39/contigs.fasta NODE_26_length_420615_cov_18.774122:67528-68780 >> lovastatin_gene2.fasta
+samtools faidx 40/contigs.fasta NODE_49_length_168169_cov_14.262458:24496-25748 >> lovastatin_gene2.fasta
+samtools faidx 47/contigs.fasta NODE_47_length_168165_cov_21.721010:24496-25748 >> lovastatin_gene2.fasta
+samtools faidx 48/contigs.fasta NODE_90_length_78063_cov_15.404691:32533-33785 >> lovastatin_gene2.fasta
+samtools faidx 50/contigs.fasta NODE_24_length_420614_cov_18.635342:351836-353088 >> lovastatin_gene2.fasta
+samtools faidx 56/contigs.fasta NODE_53_length_168189_cov_21.134379:142442-143694 >> lovastatin_gene2.fasta
+samtools faidx 57/contigs.fasta NODE_81_length_59347_cov_22.246792:33541-34793 >> lovastatin_gene2.fasta
+samtools faidx 67/contigs.fasta NODE_51_length_173598_cov_18.052239:30036-31288 >> lovastatin_gene2.fasta
+samtools faidx 73/contigs.fasta NODE_26_length_420613_cov_18.810962:67527-68779 >> lovastatin_gene2.fasta
+
+#gene3
+samtools faidx R22/contigs.fasta NODE_56_length_178439_cov_21.531630:145530-146923 > lovastatin_gene3.fasta
+samtools faidx R23/contigs.fasta NODE_40_length_303482_cov_17.190737:34163-35556 >> lovastatin_gene3.fasta
+samtools faidx R24/contigs.fasta NODE_36_length_289677_cov_16.656733:266615-268008 >> lovastatin_gene3.fasta
+samtools faidx 11/contigs.fasta NODE_109_length_48848_cov_22.852589:21270-22663 >> lovastatin_gene3.fasta
+samtools faidx 26/contigs.fasta NODE_29_length_361874_cov_15.132974:31838-33231 >> lovastatin_gene3.fasta
+samtools faidx 29/contigs.fasta NODE_26_length_474295_cov_23.024647:62136-63529	 >> lovastatin_gene3.fasta
+samtools faidx 39/contigs.fasta NODE_26_length_420615_cov_18.774122:69183-70576 >> lovastatin_gene3.fasta
+samtools faidx 40/contigs.fasta NODE_49_length_168169_cov_14.262458:26127-27520 >> lovastatin_gene3.fasta
+samtools faidx 47/contigs.fasta NODE_47_length_168165_cov_21.721010:26127-27520 >> lovastatin_gene3.fasta
+samtools faidx 48/contigs.fasta NODE_90_length_78063_cov_15.404691:34164-35557 >> lovastatin_gene3.fasta
+samtools faidx 50/contigs.fasta NODE_24_length_420614_cov_18.635342:350040-351433 >> lovastatin_gene3.fasta
+samtools faidx 56/contigs.fasta NODE_53_length_168189_cov_21.134379:140670-142063 >> lovastatin_gene3.fasta
+samtools faidx 57/contigs.fasta NODE_81_length_59347_cov_22.246792:31769-33162 >> lovastatin_gene3.fasta
+samtools faidx 67/contigs.fasta NODE_51_length_173598_cov_18.052239:31667-33060 >> lovastatin_gene3.fasta
+samtools faidx 73/contigs.fasta NODE_26_length_420613_cov_18.810962:69182-70575 >> lovastatin_gene3.fasta
+
+#gene4
+samtools faidx R22/contigs.fasta NODE_56_length_178439_cov_21.531630:138870-140382 > lovastatin_gene4.fasta
+samtools faidx R23/contigs.fasta NODE_40_length_303482_cov_17.190737:40713-42224 >> lovastatin_gene4.fasta
+samtools faidx R24/contigs.fasta NODE_36_length_289677_cov_16.656733:259946-261457 >> lovastatin_gene4.fasta
+samtools faidx 11/contigs.fasta NODE_120_length_42590_cov_15.579846:5248-6759 >> lovastatin_gene4.fasta
+samtools faidx 26/contigs.fasta NODE_29_length_361874_cov_15.132974:38381-39892 >> lovastatin_gene4.fasta
+samtools faidx 29/contigs.fasta NODE_26_length_474295_cov_23.024647:68684-70195 >> lovastatin_gene4.fasta
+samtools faidx 39/contigs.fasta NODE_26_length_420615_cov_18.774122:75735-77246 >> lovastatin_gene4.fasta
+samtools faidx 40/contigs.fasta NODE_49_length_168169_cov_14.262458:32670-34181 >> lovastatin_gene4.fasta
+samtools faidx 47/contigs.fasta NODE_47_length_168165_cov_21.721010:32670-34181 >> lovastatin_gene4.fasta
+samtools faidx 48/contigs.fasta NODE_90_length_78063_cov_15.404691:40707-42218 >> lovastatin_gene4.fasta
+samtools faidx 50/contigs.fasta NODE_24_length_420614_cov_18.635342:343370-344881 >> lovastatin_gene4.fasta
+samtools faidx 56/contigs.fasta NODE_53_length_168189_cov_21.134379:134009-135520 >> lovastatin_gene4.fasta
+samtools faidx 57/contigs.fasta NODE_81_length_59347_cov_22.246792:25108-26619 >> lovastatin_gene4.fasta
+samtools faidx 67/contigs.fasta NODE_51_length_173598_cov_18.052239:38210-39721 >> lovastatin_gene4.fasta
+samtools faidx 73/contigs.fasta NODE_26_length_420613_cov_18.810962:75734-77245 >> lovastatin_gene4.fasta
+
+#gene5
+samtools faidx R22/contigs.fasta NODE_56_length_178439_cov_21.531630:126213-134241 > lovastatin_gene5.fasta
+samtools faidx R23/contigs.fasta NODE_40_length_303482_cov_17.190737:46783-54817 >> lovastatin_gene5.fasta
+samtools faidx R24/contigs.fasta NODE_36_length_289677_cov_16.656733:247298-255333 >> lovastatin_gene5.fasta
+samtools faidx 11/contigs.fasta NODE_120_length_42590_cov_15.579846:11069-19100 >> lovastatin_gene5.fasta
+samtools faidx 26/contigs.fasta NODE_29_length_361874_cov_15.132974:44202-52233 >> lovastatin_gene5.fasta
+samtools faidx 29/contigs.fasta NODE_26_length_474295_cov_23.024647:74828-82869 >> lovastatin_gene5.fasta
+samtools faidx 39/contigs.fasta NODE_26_length_420615_cov_18.774122:81878-89918 >> lovastatin_gene5.fasta
+samtools faidx 40/contigs.fasta NODE_49_length_168169_cov_14.262458:38491-46522 >> lovastatin_gene5.fasta
+samtools faidx 47/contigs.fasta NODE_47_length_168165_cov_21.721010:38491-46522 >> lovastatin_gene5.fasta
+samtools faidx 48/contigs.fasta NODE_90_length_78063_cov_15.404691:46528-54559 >> lovastatin_gene5.fasta
+samtools faidx 50/contigs.fasta NODE_24_length_420614_cov_18.635342:330698-338738 >> lovastatin_gene5.fasta
+samtools faidx 56/contigs.fasta NODE_53_length_168189_cov_21.134379:121668-129699 >> lovastatin_gene5.fasta
+samtools faidx 57/contigs.fasta NODE_81_length_59347_cov_22.246792:12767-20798 >> lovastatin_gene5.fasta
+samtools faidx 67/contigs.fasta NODE_51_length_173598_cov_18.052239:44031-52062 >> lovastatin_gene5.fasta
+samtools faidx 73/contigs.fasta NODE_26_length_420613_cov_18.810962:81877-89917 >> lovastatin_gene5.fasta
+
+samtools faidx ATCC_ref/reference/GCA_016808415.1_ASM1680841v1_genomic.fna JAAWWR010000002.1:2279065-2280797 >> 260416_Aterreus_SPAdes/lovastatin_gene1.fasta
+samtools faidx ATCC_ref/reference/GCA_016808415.1_ASM1680841v1_genomic.fna JAAWWR010000002.1:2266367-2267619 >> 260416_Aterreus_SPAdes/lovastatin_gene2.fasta
+samtools faidx ATCC_ref/reference/GCA_016808415.1_ASM1680841v1_genomic.fna JAAWWR010000002.1:2264574-2265967 >> 260416_Aterreus_SPAdes/lovastatin_gene3.fasta
+samtools faidx ATCC_ref/reference/GCA_016808415.1_ASM1680841v1_genomic.fna JAAWWR010000002.1:2257906-2259417 >> 260416_Aterreus_SPAdes/lovastatin_gene4.fasta
+samtools faidx ATCC_ref/reference/GCA_016808415.1_ASM1680841v1_genomic.fna JAAWWR010000002.1:2245313-2253347 >> 260416_Aterreus_SPAdes/lovastatin_gene5.fasta
+
+samtools faidx NIH_ref/reference/GCA_000149615.1_ASM14961v1_genomic.fna CH476609.1:36186-37918 >> 260416_Aterreus_SPAdes/lovastatin_gene1.fasta
+samtools faidx NIH_ref/reference/GCA_000149615.1_ASM14961v1_genomic.fna CH476609.1:49367-50619 >> 260416_Aterreus_SPAdes/lovastatin_gene2.fasta
+samtools faidx NIH_ref/reference/GCA_000149615.1_ASM14961v1_genomic.fna CH476609.1:50999-52392 >> 260416_Aterreus_SPAdes/lovastatin_gene3.fasta
+samtools faidx NIH_ref/reference/GCA_000149615.1_ASM14961v1_genomic.fna CH476609.1:57546-59057 >> 260416_Aterreus_SPAdes/lovastatin_gene4.fasta
+samtools faidx NIH_ref/reference/GCA_000149615.1_ASM14961v1_genomic.fna CH476609.1:63664-71705 >> 260416_Aterreus_SPAdes/lovastatin_gene5.fasta
+
+samtools faidx strains/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna JANHGT010000016.1:16715-18447 >> 260416_Aterreus_SPAdes/lovastatin_gene1.fasta
+samtools faidx strains/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna JANHGT010000016.1:29896-31148 >> 260416_Aterreus_SPAdes/lovastatin_gene2.fasta
+samtools faidx strains/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna JANHGT010000016.1:31517-32910 >> 260416_Aterreus_SPAdes/lovastatin_gene3.fasta
+samtools faidx strains/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna JANHGT010000016.1:38058-39570 >> 260416_Aterreus_SPAdes/lovastatin_gene4.fasta
+samtools faidx strains/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna JANHGT010000016.1:44199-52227 >> 260416_Aterreus_SPAdes/lovastatin_gene5.fasta
+
+samtools faidx ksnp/fasta/ASM-1.fasta JACYHG010000027.1:21274-23006 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene1.fasta
+samtools faidx ksnp/fasta/ASM-1.fasta JACYHG010000027.1:34453-35705 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene2.fasta
+samtools faidx ksnp/fasta/ASM-1.fasta JACYHG010000027.1:36084-37477 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene3.fasta
+samtools faidx ksnp/fasta/ASM-1.fasta JACYHG010000027.1:42627-44138 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene4.fasta
+samtools faidx ksnp/fasta/ASM-1.fasta JACYHG010000027.1:48448-56479 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene5.fasta
+
+samtools faidx ksnp/fasta/ML-44.fasta JACVMK010000053.1:378683-380415 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene1.fasta
+samtools faidx ksnp/fasta/ML-44.fasta JACVMK010000053.1:365984-367236 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene2.fasta
+samtools faidx ksnp/fasta/ML-44.fasta JACVMK010000053.1:364212-365605 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene3.fasta
+samtools faidx ksnp/fasta/ML-44.fasta JACVMK010000053.1:357551-359062 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene4.fasta
+samtools faidx ksnp/fasta/ML-44.fasta JACVMK010000053.1:345210-353241 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene5.fasta
+
+samtools faidx ksnp/fasta/TT0037.fasta BAAFRR010000001.1:59278-61010 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene1.fasta
+samtools faidx ksnp/fasta/TT0037.fasta BAAFRR010000001.1:72456-73708 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene2.fasta
+samtools faidx ksnp/fasta/TT0037.fasta BAAFRR010000001.1:74111-75504 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene3.fasta
+samtools faidx ksnp/fasta/TT0037.fasta BAAFRR010000001.1:80663-82174 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene4.fasta
+samtools faidx ksnp/fasta/TT0037.fasta BAAFRR010000001.1:86806-94846 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene5.fasta
+
+samtools faidx ksnp/fasta/T59-F.fasta CEVXIG010000011.1:721712-723444 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene1.fasta
+samtools faidx ksnp/fasta/T59-F.fasta CEVXIG010000011.1:709011-710263 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene2.fasta
+samtools faidx ksnp/fasta/T59-F.fasta CEVXIG010000011.1:707215-708608 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene3.fasta
+samtools faidx ksnp/fasta/T59-F.fasta CEVXIG010000011.1:700546-702057 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene4.fasta
+samtools faidx ksnp/fasta/T59-F.fasta CEVXIG010000011.1:687891-695926 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene5.fasta
+
+samtools faidx ksnp/fasta/MCA8_A_hortae.fasta JASVVY010000024.1:467726-468814 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene1.fasta
+samtools faidx ksnp/fasta/MCA8_A_hortae.fasta JASVVY010000024.1:467041-467695 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene1.fasta
+samtools faidx ksnp/fasta/MCA8_A_hortae.fasta JASVVY010000024.1:454348-455600 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene2.fasta
+samtools faidx ksnp/fasta/MCA8_A_hortae.fasta JASVVY010000024.1:452566-453956 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene3.fasta
+samtools faidx ksnp/fasta/MCA8_A_hortae.fasta JASVVY010000024.1:444072-445583 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene4.fasta
+samtools faidx ksnp/fasta/MCA8_A_hortae.fasta JASVVY010000024.1:431400-439431 >> 260416_Aterreus_SPAdes/phylogeny/lovastatin_gene5.fasta
+
+
+
+mafft --adjustdirectionaccurately lovastatin_gene1.fasta > lovastatin_gene1_aligned.fasta
+mafft --adjustdirectionaccurately lovastatin_gene2.fasta > lovastatin_gene2_aligned.fasta
+mafft --adjustdirectionaccurately lovastatin_gene3.fasta > lovastatin_gene3_aligned.fasta
+mafft --adjustdirectionaccurately lovastatin_gene4.fasta > lovastatin_gene4_aligned.fasta
+mafft --adjustdirectionaccurately lovastatin_gene5.fasta > lovastatin_gene5_aligned.fasta
+
+
+iqtree -s lovastatin_gene1_aligned.fasta -m MFP -B 1000 -T AUTO -pre gene1/gene1
+iqtree -s lovastatin_gene2_aligned.fasta -m MFP -B 1000 -T AUTO -pre gene2/gene2
+iqtree -s lovastatin_gene3_aligned.fasta -m MFP -B 1000 -T AUTO -pre gene3/gene3
+iqtree -s lovastatin_gene4_aligned.fasta -m MFP -B 1000 -T AUTO -pre gene4/gene4
+iqtree -s lovastatin_gene5_aligned.fasta -m MFP -B 1000 -T AUTO -pre gene5/gene5
+
+
+##INFO=<ID=known_GT,Type=String,Description="genotype is known">
+##INFO=<ID=unknown_GT,Type=String,Description="genotype is not known">
+SAMPLE (replace with sample name)
+bgzip variants_atLeast3PASS_ploidy1.vcf
+bcftools index variants_atLeast3PASS_ploidy1.vcf.gz
+bcftools merge 11_Aterreus_S4/variants_atLeast3PASS_ploidy1.vcf.gz 26_Aterreus_S5/variants_atLeast3PASS_ploidy1.vcf.gz 29_Aterreus_S6/variants_atLeast3PASS_ploidy1.vcf.gz 39_Aterreus_S7/variants_atLeast3PASS_ploidy1.vcf.gz 40_Aterreus_S8/variants_atLeast3PASS_ploidy1.vcf.gz 47_Aterreus_S9/variants_atLeast3PASS_ploidy1.vcf.gz 48_Aterreus_S10/variants_atLeast3PASS_ploidy1.vcf.gz 50_Aterreus_S11/variants_atLeast3PASS_ploidy1.vcf.gz 56_Aterreus_S12/variants_atLeast3PASS_ploidy1.vcf.gz 57_Aterreus_S13/variants_atLeast3PASS_ploidy1.vcf.gz 67_Aterreus_S14/variants_atLeast3PASS_ploidy1.vcf.gz 73_Aterreus_S15/variants_atLeast3PASS_ploidy1.vcf.gz R22_Aterreus_S1/variants_atLeast3PASS_ploidy1.vcf.gz R23_Aterreus_S2/variants_atLeast3PASS_ploidy1.vcf.gz R24_Aterreus_S3/variants_atLeast3PASS_ploidy1.vcf.gz ERR14883637/variants_atLeast3PASS_ploidy1.vcf.gz SRR10507650/variants_atLeast3PASS_ploidy1.vcf.gz -Oz -o merged.vcf.gz
+
+bcftools +setGT merged.vcf.gz -- -t . -n 0 | bgzip > merged_modified.vcf.gz
+bcftools view -m2 -M2 -v snps merged_modified.vcf.gz -Oz -o filtered.vcf.gz
+#tabix -p vcf filtered.vcf.gz
+#python vcf2phylip.py --input merged.vcf.gz.vcf.gz --fasta --min-samples-locus 1
+python vcf2phylip.py -i filtered.vcf.gz -m 0
+iqtree -s filtered.min0.phy -st DNA  -m MFP+ASC -B 1000
+
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/trimmed/R23_Aterreus_S2:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/fastq:/reads mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade trim_reads_and_QC -f1 /reads/R23_Aterreus_S2_L001_R1_001.fastq.gz -f2 /reads/R23_Aterreus_S2_L001_R2_001.fastq.gz -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/trimmed/R23_Aterreus_S2:/reads -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/comparison_ref_strains/aligned/R23_Aterreus_S2:/output_directory mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade align_reads -f1 /reads/trimmed_reads1.fastq.gz -f2 /reads/trimmed_reads2.fastq.gz --ref /reference/GCA_016808415.1_ASM1680841v1_genomic.fna -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/comparison_ref_strains/small_vars/R23_Aterreus_S2:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/reference:/reference -v /home/davideisele/Documents/Terreus_Sandoz/comparison_ref_strains/aligned/R23_Aterreus_S2:/aligned -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/repeats:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade  call_small_variants -o /output_directory --ref /reference/GCA_016808415.1_ASM1680841v1_genomic.fna -p 2 -sbam /aligned/aligned_reads.bam.sorted --repeats_file /repeats/combined_repeats.tab --callers bcftools,freebayes,HaplotypeCaller --min_AF 0.25 --min_coverage 20 --fraction_available_mem 0.7
+
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/strains/ATCC20541:/reference -v /home/davideisele/Documents/Terreus_Sandoz/repeats_ATCC20541:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade infer_repeats --ref /reference/GCA_033632065.1_ASM3363206v1_genomic.fna -o /repeats --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/trimmed/R22_Aterreus_S1:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/fastq:/reads mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade trim_reads_and_QC -f1 /reads/R22_Aterreus_S1_L001_R1_001.fastq.gz -f2 /reads/R22_Aterreus_S1_L001_R2_001.fastq.gz -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/ATCC_ref/trimmed/R22_Aterreus_S1:/reads -v /home/davideisele/Documents/Terreus_Sandoz/strains/ATCC20541:/reference -v /home/davideisele/Documents/Terreus_Sandoz/comparison_ref_strains/aligned/R22_Aterreus_S1:/output_directory mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade align_reads -f1 /reads/trimmed_reads1.fastq.gz -f2 /reads/trimmed_reads2.fastq.gz --ref /reference/GCA_033632065.1_ASM3363206v1_genomic.fna -o /output_directory --fraction_available_mem 0.7
+
+docker run -v /home/davideisele/Documents/Terreus_Sandoz/comparison_ref_strains/small_vars/R22_Aterreus_S1:/output_directory -v /home/davideisele/Documents/Terreus_Sandoz/strains/ATCC20541:/reference -v /home/davideisele/Documents/Terreus_Sandoz/comparison_ref_strains/aligned/R22_Aterreus_S1:/aligned -v /home/davideisele/Documents/Terreus_Sandoz/repeats_ATCC20541:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade  call_small_variants -o /output_directory --ref /reference/GCA_033632065.1_ASM3363206v1_genomic.fna -p 2 -sbam /aligned/aligned_reads.bam.sorted --repeats_file /repeats/combined_repeats.tab --callers bcftools,freebayes,HaplotypeCaller --min_AF 0.25 --min_coverage 20 --fraction_available_mem 0.7

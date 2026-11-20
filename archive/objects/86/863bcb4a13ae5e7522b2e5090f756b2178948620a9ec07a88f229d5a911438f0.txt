@@ -1,0 +1,13 @@
+conda activate run_dbcan_env
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/*; do
+base="$(basename "$dir")"
+run_dbcan CAZyme_annotation --input_raw_data $dir/ater/annotate_results/Aspergillus_terreus.proteins.fa --mode protein --output_dir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_8_dbscan/$base --db_dir /home/davideisele/dbcan_db
+done
+
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus_existing_annotations/*; do
+base="$(basename "$dir")"
+run_dbcan CAZyme_annotation --input_raw_data $dir/ater/annotate_results/Aspergillus_terreus.proteins.fa --mode protein --output_dir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_8_dbscan/$base --db_dir /home/davideisele/dbcan_db
+done
+

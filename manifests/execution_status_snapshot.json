@@ -1,0 +1,12 @@
+{
+  "state": "running",
+  "current_job": "BUSCO_genome_67",
+  "started": "2026-11-20T15:07:09.513241+00:00",
+  "resource_policy": {
+    "cgroup": "/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/terreus-gates-all20gb-20261118.service",
+    "memory.max": "19999997952",
+    "memory.high": "17999998976",
+    "memory.swap.max": "0",
+    "cpu.max": "100000 100000"
+  }
+}

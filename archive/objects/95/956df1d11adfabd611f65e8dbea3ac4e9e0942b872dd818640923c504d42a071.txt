@@ -1,0 +1,35 @@
+datasets download genome taxon fungi --reference --dehydrated --filename fungi.zip
+
+unzip fungi.zip
+datasets rehydrate --directory ncbi_dataset
+
+find /mnt/8EEE3D67EE3D492B/fungi -name "*.fna" -type f > genomes.txt
+#mash sketch -l genomes.txt -o refseq_fungi
+#sourmash sketch dna -p k=31,scaled=1000 --from-file genomes.txt
+sourmash sketch dna -p scaled=1000,k=31 --name-from-first some-genome.fa.gz
+sourmash lca classify --db genbank-k31.lca.json.gz --query some-genome.fa.gz.sig
+
+
+
+
+kraken2-build --download-taxonomy --db fungi_db
+kraken2-build --download-library fungi --db fungi_db
+kraken2-build --build --db fungi_db
+
+oder:
+kraken2-build --standard --db kraken_db
+
+kraken2 --db kraken_db --report report.txt reads.fastq.gz
+
+
+sourmash sketch dna -p scaled=1000,k=31 /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399223/trimmed_reads1.fastq.gz /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399223/trimmed_reads2.fastq.gz
+
+sourmash lca classify --db genbank-k31.lca.json.gz --query trimmed_reads2.fastq.gz.sig
+
+
+
+
+kraken2 --db /home/davideisele/nf-core_test/databases/pluspf_16gb --memory-mapping --report /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399219/report2.txt --output /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399219/output2_kraken2 /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399219/trimmed_reads1.fastq.gz /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399219/trimmed_reads1.fastq.gz
+
+
+kraken2 --db k2_pluspf_20250402 --memory-mapping --report /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399223/report2.txt --output /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399223/output2_kraken2 /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399223/trimmed_reads1.fastq.gz /mnt/8EEE3D67EE3D492B/Sandoz_terreus/trimmed/SRR8399223/trimmed_reads1.fastq.gz

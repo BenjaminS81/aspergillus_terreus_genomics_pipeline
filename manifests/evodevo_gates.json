@@ -1,0 +1,82 @@
+[
+  {
+    "gate": "E0 | Units and identity",
+    "inputs": "Assembly hashes; culture/run aliases; type accessions; study/host/site metadata; phenotype data dictionary.",
+    "method": "One row per independent culture/experimental unit. Separate public reads, public assemblies and study isolates; retain biological replicates as grouped observations. Preserve unknown values.",
+    "pass_rule": "Every analysed observation has an unambiguous genome join. Decode assay endpoints, units and -1/-2 before phenotype inference. R22/R23/R24 remain unknown where unsupported.",
+    "output": "Frozen cohort and eligibility matrix, with genomic-only and phenotype-eligible subsets.",
+    "benefit": "Avoid duplicate counting and false phenotype associations.",
+    "status": "PARTIAL: identity/metadata gates remain open.",
+    "existing_gates": "G0 / G1"
+  },
+  {
+    "gate": "E1 | Type-qualified taxonomy",
+    "inputs": "Complete BenA/CaM/RPB2 tree, verified types, locus-copy audit, current core tips.",
+    "method": "Use the new type-exclusive monophyly assignments as working labels; test locus concordance and alternative markers/backbones for uncertain boundaries. No genome-wide ANI cutoff is assumed for fungi.",
+    "pass_rule": "All labels trace to included type anchors. Resolve weak A. terreus/A. alabamensis boundaries and the A. montoensis/A. terreus core conflicts before making strong species-level evolutionary claims.",
+    "output": "Type-qualified species map with uncertainty and label-history table.",
+    "benefit": "Separate sister-species differences from within-species trait evolution.",
+    "status": "PARTIAL: figures complete; 24 core tips are topology-only assignments.",
+    "existing_gates": "G0 / G3"
+  },
+  {
+    "gate": "E2 | Evolutionary backbone",
+    "inputs": "Harmonised proteins; single-copy orthogroups; core alignments and per-locus trees; justified outgroups.",
+    "method": "Use a fungal orthology workflow (e.g. OrthoFinder), ML species backbone and IQ-TREE gCF/sCF; compare locus trees and supported alternatives. Evaluate recombination/introgression when indicated.",
+    "pass_rule": "Exact cohort matching, validated orthology/copy choice and adequate support. A biological root and sensitivity to plausible alternative trees are required for directional ancestral claims.",
+    "output": "Audited rooted backbone plus uncertainty trees and discordance map.",
+    "benefit": "Avoid assigning gains/losses to an uncertain or merely display-rooted tree.",
+    "status": "OPEN: current core is a comparison topology, not a validated ASR backbone.",
+    "existing_gates": "G3 / G4"
+  },
+  {
+    "gate": "E3 | Callable BGC characters",
+    "inputs": "Unmasked genomes; fungal gene models; validated Lov proteins; flanks; assembly gaps; reads where available.",
+    "method": "Use BLAST/tBLASTn or protein-to-genome alignment, domain evidence, fungal antiSMASH and synteny to curate orthologues, intact ORFs, duplications, orientation and neighbourhoods.",
+    "pass_rule": "Separate intact, disrupted, duplicated, absent and uncallable. Absence requires a callable interval and negative homology evidence; missing reads or contig breaks are not absence.",
+    "output": "Gene/cluster state matrix with evidence, flanking synteny and confidence.",
+    "benefit": "Distinguish biological architecture changes from assembly/annotation failure.",
+    "status": "PARTIAL: architecture figures exist; character validation remains a gate.",
+    "existing_gates": "G1 / G4"
+  },
+  {
+    "gate": "E4 | Lineage and trait ecology",
+    "inputs": "Species map, callability-aware orthogroup/BGC matrix, defensible habitat and measured traits.",
+    "method": "Clustered heatmaps; Jaccard for comparable binary profiles or Gower for mixed measured traits; PCoA/NMDS; dispersion-aware PERMANOVA with species/study-blocked permutations.",
+    "pass_rule": "Choose denominators and missing-data handling first; show ordination stress, dispersion and sampling sensitivity. Do not treat correlated cultures as independent.",
+    "output": "Species/lineage-stratified architecture atlas and adjusted ecological effect sizes.",
+    "benefit": "Reveal whether cluster patterns follow ancestry, environment or within-species diversity.",
+    "status": "PROPOSED: descriptive genomic pilot can follow E0-E3.",
+    "existing_gates": "G0 / G4 / downstream"
+  },
+  {
+    "gate": "E5 | Ancestral histories",
+    "inputs": "E2 rooted uncertainty trees and E3 validated discrete states; independent culture subset.",
+    "method": "phytools::fitMk with ER/SYM/ARD as data permit; make.simmap with repeated batches and tree/root/rate-prior sensitivity. Use phylosig or BM/OU only for suitable continuous measurements.",
+    "pass_rule": "Adequate independent changes, stable model fits and simulations. Unknowns stay uncertain. Show state/transition distributions; do not read a single reconstruction as an observed event.",
+    "output": "Posterior ancestral-state pies and distributions of gains, losses and duplications.",
+    "benefit": "Test retention versus repeated loss or independent architectural change.",
+    "status": "NOT RUN: root, characters and transition-information gates must pass.",
+    "existing_gates": "G3 / G4 / downstream"
+  },
+  {
+    "gate": "E6 | Phenotype and regulation",
+    "inputs": "Curated genome characters; assay units/endpoints; condition-matched metabolomics/RNA-seq if available.",
+    "method": "Phylogenetic/mixed models with species and study effects; within-species contrasts; lineage-held-out validation. Use Terrnet 211 WT/sector as a paired experimental contrast, not independent taxa.",
+    "pass_rule": "Prespecified endpoint/covariates, sufficient independent contrasts and multiplicity control. Sequence presence is not production; a BGC/phenotype association is not causation.",
+    "output": "Effect sizes and uncertainty linking cluster integrity/regulation to measured phenotypes.",
+    "benefit": "Prioritise testable mechanisms behind metabolite or developmental differences.",
+    "status": "HOLD for unresolved phenotype units/codes; no substitute values inferred.",
+    "existing_gates": "G0 / downstream"
+  },
+  {
+    "gate": "E7 | Mechanism and validation",
+    "inputs": "E3-E6 candidate changes; locus trees, flanks, repeats, coverage; independent strains or experiments.",
+    "method": "Reconcile BGC/core histories; test duplication/loss, structural variation and candidate transfer with synteny/read support. Validate leading hypotheses by independent data, expression/metabolite assays or targeted genetics.",
+    "pass_rule": "Rule out paralogy, contamination, gaps and root sensitivity. Gene-tree discordance alone is not horizontal transfer. Clinical/predictive claims require independent endpoint-linked validation.",
+    "output": "Ranked, evidence-backed hypotheses and an experimental validation shortlist.",
+    "benefit": "Turn descriptive evolution into falsifiable biological explanations.",
+    "status": "PROPOSED: claim level follows the evidence, not a composite risk score.",
+    "existing_gates": "G1 / G3 / G4 / downstream"
+  }
+]
