@@ -1,0 +1,10 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/raw/terreus/*; do
+	base="$(basename "$dir")"
+	if [[ $base =~ (.*)(_L001_R1_001.fastq.gz)$ ]]; then
+		str="${BASH_REMATCH[1]}"
+		docker run -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/1_0_perSVade_trim:/output_directory -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/raw/terreus:/reads mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade trim_reads_and_QC -f1 /reads/${str}_L001_R1_001.fastq.gz -f2 /reads/${str}_L001_R2_001.fastq.gz -o /output_directory/$str --fraction_available_mem 0.7
+	elif [[ $base =~ (.*)(_1.fastq.gz)$ ]]; then
+		str="${BASH_REMATCH[1]}"
+		docker run -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/1_0_perSVade_trim:/output_directory -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/raw/terreus:/reads mikischikora/persvade:v1.02.6 python -u ./scripts/perSVade trim_reads_and_QC -f1 /reads/${str}_1.fastq.gz -f2 /reads/${str}_2.fastq.gz -o /output_directory/$str --fraction_available_mem 0.7
+	fi
+done

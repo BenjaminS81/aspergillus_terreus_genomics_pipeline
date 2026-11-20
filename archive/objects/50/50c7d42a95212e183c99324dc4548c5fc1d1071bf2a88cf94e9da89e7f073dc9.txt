@@ -1,0 +1,4 @@
+for dir in /mnt/8EEE3D67EE3D492B/Sandoz_terreus/NIH_ref/small_vars/*/; do
+	python vcf2phylip.py -i filtered.vcf.gz -m 0
+	conda run -n iqtree iqtree -s filtered.min0.phy -st DNA  -m GTR+ASC -B 1000
+done

@@ -1,0 +1,6 @@
+#there is a weird bug where saving to the secondary drive /mnt/ fails. so I save it to the /home folder and move it after. not elegant but it works
+
+docker run -v /home/davideisele/Documents/repeat_test/ref:/reference -v /home/davideisele/Documents/1_1_persSVade_repeats:/repeats mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade infer_repeats --ref /reference/GCA_000149615.1_ASM14961v1_genomic.fna -o /repeats --fraction_available_mem 0.7
+
+mv /home/davideisele/Documents/1_1_persSVade_repeats /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/1_1_persSVade_repeats
+

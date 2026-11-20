@@ -1,0 +1,31 @@
+from pathlib import Path
+import json,hashlib,zipfile,shutil,datetime
+BASE=Path(__file__).resolve().parent;P=BASE/'taxonomy_reference_build/2026-11-10';S=P/'sources';PRO=P/'provenance';PRO.mkdir(exist_ok=True)
+gaps=[{'resource':'2024 Figshare alignment/tree deposit','identifier':'10.25403/UPresearchdata.23723277','status':'repository API record retrieval returned 404','alternative':'Reconstructed alignments from pinned ICPA reference sequences and downloaded GenBank records.'},{'resource':'2023 pseudoalabamensis supplementary zip','status':'PMC download returned an HTML challenge rather than a zip','alternative':'Article XML, curated strain records and corresponding GenBank sequences were retrieved.'}]
+bad=S/'pseudoalabamensis_2023_supp.zip'
+if bad.exists() and not zipfile.is_zipfile(bad):
+    target=S/'pseudoalabamensis_2023_supp.download_failed.html';assert target.parent.resolve()==S.resolve();bad.rename(target)
+    manifest=json.loads((P/'download_manifest.json').read_text(encoding='utf-8'))
+    for d in manifest:
+        if d['file']=='sources/'+bad.name:d['file']='sources/'+target.name;d['retrieval_status']='HTML challenge; not a valid supplementary zip'
+    (P/'download_manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
+(P/'source_retrieval_gaps.json').write_text(json.dumps(gaps,indent=2),encoding='utf-8')
+names=['terreus_reference_sources.py','extract_terreus_reference_library.py','fetch_terreus_reference_genbank.py','prepare_terreus_combined_data.py','reconcile_reference_sequences.py','validate_curated_reference_library.py','prepare_all_terreus_genomes.py','search_terreus_genomes.py','extract_terreus_genomic_markers.py','rescue_divergent_terreus_markers.py','prepare_genomic_combined_alignments.py','rescue_and_realign_capped.sh','audit_assembly_variants.py','finish_variant_rescue.py','finish_variant_rescue_capped.sh','compare_assembly_marker_versions.py','fetch_historical_terreus_sequences.py','prepare_historical_merge.py','finish_reference_package_capped.sh','finish_terreus_alignments.py','infer_terreus_trees_capped.sh','prepare_type_sensitivity.py','run_type_sensitivity_capped.sh','map_markers_to_orthogroups.py','audit_marker_orthogroup_members.py','audit_actual_old_alignment.py','export_terreus_crosscheck_tables.py','complete_reference_bibliography.py','assess_reference_placements.py','assess_supported_terreus_clades.py','inspect_phylogenetic_diagnostics.py','plot_terreus_marker_qc.py','terreus_tree_helpers.py','plot_terreus_reference_trees.py','build_terreus_reference_report.py','validate_terreus_reference_package.py','finalize_terreus_reference_package.py']
+snap=PRO/'scripts';snap.mkdir(exist_ok=True);copied=[]
+for name in names:
+    src=BASE/name
+    if not src.exists():continue
+    shutil.copy2(src,snap/name);copied.append({'file':name,'original_path':str(src),'sha256':hashlib.sha256(src.read_bytes()).hexdigest()})
+(PRO/'script_snapshot_manifest.json').write_text(json.dumps(copied,indent=2),encoding='utf-8')
+(PRO/'execution_notes.txt').write_text('Source snapshots retain original workspace-relative and absolute paths. They are exact reviewable source, not an automatically portable workflow.\nOriginal workspace: '+str(BASE)+'\nSource project: D:\\Illumina\\David_Eisele\\terreus_genotyping (read-only)\n\nFinal Linux compute was launched with:\nwsl -d Ubuntu -- systemd-run --user --unit=<unique-name> --wait --pipe -p MemoryMax=2G -p MemoryHigh=1G -p MemorySwapMax=0 -p CPUQuota=100% -p Nice=15 -p IOWeight=10 /bin/bash <stage-script>\nStage scripts also enforce ulimit -v 1572864 (1.5 GiB virtual memory per process). Sequence searches and inference run with one worker/thread.\n\nFinal tool versions: BLAST+ 2.12.0+; MAFFT 7.526; IQ-TREE 2.4.0. Existing OrthoFinder matrix: 3.0.1b1, Results_Sep28, -d -t 6.\n\nFinal stage order: source collection and GenBank reconciliation; all-assembly inventory; local reference-window search and broad-panel rescue; genomic-window alignment; assembly-version hashing and searches; historical-strain additions; filtered alignments and supported trees; type-focused sensitivity; variant rescue; orthogroup-coordinate cross-check and reports.\n\nGenome sources and their SHA256 hashes: analysis/genome_search_rescued_manifest.json and analysis/variant_search_rescued_manifest.json. All secondary BLAST hits are retained. IQ-TREE commands and outputs are in analysis/logs and analysis/trees.\n',encoding='utf-8')
+(P/'START_HERE.txt').write_text('Open terreus_reference_review.html for results, figures, exact locus identities, coverage and release gates.\n\nMain findings:\nAll 41 actual legacy BenA alignment sequences belong to OG0009417, a different tubulin group from the published BenA barcode locus. Correct genomic marker windows are now recovered for all 66 core-tree samples.\nAll 155 distinct assembly sequence sets within the inventoried assembly-output locations were screened. No multiple strong barcode candidates were detected; this does not rule out collapsed or divergent copies.\n283-tip combined reference tree, three single-locus trees, and a 108-tip type-focused sensitivity analysis are complete. Taxonomic names remain provisional where single-gene support or species boundaries are unresolved.\n\nFinal FASTAs: analysis/genomic_markers/\nFinal alignments: analysis/tree_inputs/\nSupported trees: analysis/trees/\nFigures (SVG, PDF, PNG): figures/\nGene/copy audit: analysis/marker_gene_crosscheck.tsv\nReference metadata: reference_library/tree_reference_metadata.tsv\n\nThe source project and the running Panaroo job were not modified.\n',encoding='utf-8')
+files=[]
+for f in sorted(P.rglob('*')):
+    if f.is_file() and f.name not in ['file_manifest.json']:
+        files.append({'path':f.relative_to(P).as_posix(),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()})
+(P/'file_manifest.json').write_text(json.dumps(files,indent=2),encoding='utf-8')
+archive=P.parent/'terreus_reference_package_2026-11-10.zip'
+with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=4) as z:
+    for f in sorted(P.rglob('*')):
+        if f.is_file():z.write(f,arcname='terreus_reference_2026-11-10/'+f.relative_to(P).as_posix())
+print('PACKAGE',archive,'BYTES',archive.stat().st_size,'FILES',len(files)+1)

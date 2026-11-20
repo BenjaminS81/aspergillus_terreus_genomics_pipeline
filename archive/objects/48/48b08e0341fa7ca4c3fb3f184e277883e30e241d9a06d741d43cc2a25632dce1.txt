@@ -1,0 +1,106 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_1_spades/terreus/*/; do
+	base=$(basename $dir)
+	if [[ ! -f "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate/$base/ater/annotate_results/Aspergillus_terreus.transcripts.fa" ]]; then
+		outdir=/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate
+		mkdir -p "$outdir/$base/ater"
+		conda run -n seqkit seqkit replace -p ".+" -r "contig_{nr}" $dir/contigs.fasta > $outdir/$base/contigs_renamed.fasta
+		conda run -n repeats BuildDatabase -name $outdir/$base/repeats_db $outdir/$base/contigs_renamed.fasta
+		conda run -n repeats RepeatModeler -database $outdir/$base/repeats_db -threads 16
+		conda run -n repeats RepeatMasker -pa 16 -lib $outdir/$base/repeats_db-families.fa -xsmall $outdir/$base/contigs_renamed.fasta
+		conda run -n funannotate2 funannotate2 clean -f $outdir/$base/contigs_renamed.fasta.masked -o $outdir/$base/cleaned_masked_contigs.fasta
+		conda run -n funannotate2 funannotate2 train -f $outdir/$base/cleaned_masked_contigs.fasta -s "Aspergillus terreus" -o $outdir/$base/ater
+		conda run -n funannotate2 funannotate2 predict -i $outdir/$base/ater
+		conda run -n funannotate2 funannotate2 annotate -i $outdir/$base/ater
+	fi
+done
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/assemblies/unannotated/*; do
+	outdir=/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate
+	base=$(basename $dir)
+	mkdir -p "$outdir/$base/ater"
+	conda run -n seqkit seqkit replace -p ".+" -r "contig_{nr}" $dir/*.fna > $outdir/$base/contigs_renamed.fasta
+	conda run -n repeats BuildDatabase -name $outdir/$base/repeats_db $outdir/$base/contigs_renamed.fasta
+	conda run -n repeats RepeatModeler -database $outdir/$base/repeats_db -threads 16
+	conda run -n repeats RepeatMasker -pa 16 -lib $outdir/$base/repeats_db-families.fa -xsmall $outdir/$base/contigs_renamed.fasta
+	conda run -n funannotate2 funannotate2 clean -f $outdir/$base/contigs_renamed.fasta.masked -o $outdir/$base/cleaned_masked_contigs.fasta
+	conda run -n funannotate2 funannotate2 train -f $outdir/$base/cleaned_masked_contigs.fasta -s "Aspergillus terreus" -o $outdir/$base/ater
+	conda run -n funannotate2 funannotate2 predict -i $outdir/$base/ater
+	conda run -n funannotate2 funannotate2 annotate -i $outdir/$base/ater
+done
+
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_1_spades/terreus/*/; do
+	base=$(basename $dir)
+	outdir=/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate
+	#mkdir "$outdir/$base"
+	#echo "$outdir/$base"
+	#mkdir -p "$outdir/$base/ater"
+	echo $dir
+done
+
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/assemblies/unannotated/*; do
+	base=$(basename $dir)
+	outdir=/mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/0_2_repeat_mask_funannotate
+	echo $dir/*.fna
+	echo $base
+	echo $outdir/$base
+done
+
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/assemblies/annotated/*; do
+	base=$(basename $dir)
+	if [[ ! -f "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus_existing_annotations/$base/ater/annotate_results/Aspergillus_terreus.transcripts.fa" ]]; then
+		outdir=/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus_existing_annotations
+		echo $dir/*.fna
+		#mkdir -p "$outdir/$base/ater"
+		#conda run -n seqkit seqkit replace -p ".+" -r "contig_{nr}" $dir/*.fna > $outdir/$base/contigs_renamed.fasta
+		#conda run -n repeats BuildDatabase -name $outdir/$base/repeats_db $outdir/$base/contigs_renamed.fasta
+		#conda run -n repeats RepeatModeler -database $outdir/$base/repeats_db -threads 16
+		#conda run -n repeats RepeatMasker -pa 16 -lib $outdir/$base/repeats_db-families.fa -xsmall $outdir/$base/contigs_renamed.fasta
+		conda run -n funannotate2 funannotate2 clean -f $outdir/$base/contigs_renamed.fasta.masked -o $outdir/$base/cleaned_masked_contigs.fasta
+		conda run -n funannotate2 funannotate2 train -f $outdir/$base/cleaned_masked_contigs.fasta -s "Aspergillus terreus" -o $outdir/$base/ater
+		conda run -n funannotate2 funannotate2 predict -i $outdir/$base/ater
+		conda run -n funannotate2 funannotate2 annotate -i $outdir/$base/ater
+		#echo $base
+		#echo $outdir/$base
+	fi
+done
+
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/assemblies/unannotated/*; do
+	base=$(basename $dir)
+	if [[ ! -f "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/$base/ater/annotate_results/Aspergillus_terreus.transcripts.fa" ]]; then
+		outdir=/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus
+		echo $dir/*.fna
+		mkdir -p "$outdir/$base/ater"
+		conda run -n seqkit seqkit replace -p ".+" -r "contig_{nr}" $dir/*.fna > $outdir/$base/contigs_renamed.fasta
+		conda run -n repeats BuildDatabase -name $outdir/$base/repeats_db $outdir/$base/contigs_renamed.fasta
+		conda run -n repeats RepeatModeler -database $outdir/$base/repeats_db -threads 16
+		conda run -n repeats RepeatMasker -pa 16 -lib $outdir/$base/repeats_db-families.fa -xsmall $outdir/$base/contigs_renamed.fasta
+		conda run -n funannotate2 funannotate2 clean -f $outdir/$base/contigs_renamed.fasta.masked -o $outdir/$base/cleaned_masked_contigs.fasta
+		conda run -n funannotate2 funannotate2 train -f $outdir/$base/cleaned_masked_contigs.fasta -s "Aspergillus terreus" -o $outdir/$base/ater
+		conda run -n funannotate2 funannotate2 predict -i $outdir/$base/ater
+		conda run -n funannotate2 funannotate2 annotate -i $outdir/$base/ater
+		#echo $base
+		#echo $outdir/$base
+	fi
+done
+
+
+
+###hortae
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_1_spades/hortae/*; do
+	base=$(basename $dir)
+	if [[ ! -f "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/hortae/$base/ahor/annotate_results/Aspergillus_terreus.transcripts.fa" ]]; then
+		outdir=/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/hortae
+		echo $dir/*.fna
+		mkdir -p "$outdir/$base/ahor"
+		conda run -n funannotate2 funannotate2 clean -f $outdir/$base/contigs_renamed.fasta.masked -o $outdir/$base/cleaned_masked_contigs.fasta
+		conda run -n funannotate2 funannotate2 train -f $outdir/$base/cleaned_masked_contigs.fasta -s "Aspergillus hortae" -o $outdir/$base/ahor
+		conda run -n funannotate2 funannotate2 predict -i $outdir/$base/ahor
+		conda run -n funannotate2 funannotate2 annotate -i $outdir/$base/ahor
+		#echo $base
+		#echo $outdir/$base
+	fi
+done

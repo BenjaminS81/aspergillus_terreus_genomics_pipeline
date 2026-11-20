@@ -1,0 +1,30 @@
+[
+  {
+    "version": "core66",
+    "tips": 66,
+    "source": "WORKSPACE/stakeholder_release/2026-11-17_v1/data/core_genome_original.treefile",
+    "sha256": "730905c6ea92db9109d6bd51b6ab2960d7fbfa274ad526bf862c13bf1d83a79a",
+    "payload_in_repository": false
+  },
+  {
+    "version": "complete230",
+    "tips": 230,
+    "source": "WORKSPACE/stakeholder_release/2026-11-18_v1_complete_three_gene/runs/complete230.treefile",
+    "sha256": "2c6844dea688b817b5b1e60d8e309912bfc35b61e9bc88094aecb25800724691",
+    "payload_in_repository": false
+  },
+  {
+    "version": "full283",
+    "tips": 283,
+    "source": "WORKSPACE/taxonomy_reference_build/2026-11-10/analysis/trees/combined_all_strains.treefile",
+    "sha256": "fef24ab5367bc47c2f54b99087d86adc017535378a85c978eab7843880641679",
+    "payload_in_repository": false
+  },
+  {
+    "version": "type108",
+    "tips": 108,
+    "source": "WORKSPACE/taxonomy_reference_build/2026-11-10/analysis/trees/type_focused_sensitivity.treefile",
+    "sha256": "9ae7ddbf354f96209ff06f80c9585c3bfbf1058fe97b4cd3b97b2657b18c4f62",
+    "payload_in_repository": false
+  }
+]

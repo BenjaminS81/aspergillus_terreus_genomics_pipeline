@@ -1,0 +1,8 @@
+find . -type f -name "*variants_atLeast3PASS_ploidy1.vcf" | while read vcf; do
+	folder=$(basename "$(dirname "$vcf")")
+	printf "SAMPLE\t%s\n" "$folder" > samples.txt
+	bcftools reheader -s samples.txt -o "${vcf%.vcf}.renamed.vcf" "$vcf"
+	bgzip "${vcf%.vcf}.renamed.vcf"
+	bcftools annotate -h <(echo '##INFO=<ID=known_GT,Type=String,Description="genotype is known">') -Oz -o "${vcf%.vcf}.final.vcf.gz" "${vcf%.vcf}.renamed.vcf.gz"
+	bcftools index -f -t "${vcf%.vcf}.final.vcf.gz"
+done

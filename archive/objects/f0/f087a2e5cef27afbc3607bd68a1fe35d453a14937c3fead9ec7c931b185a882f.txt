@@ -1,0 +1,25 @@
+bcftools mpileup \
+    -Ou \
+    -f /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/reference/GCA_000149615.1_ASM14961v1_genomic.fna \
+    /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_2_perSVade_align/terreus/*/aligned_reads.bam.sorted \
+| bcftools call \
+    -m -A -Oz --ploidy 1 \
+    -o all_sites.vcf.gz
+    
+    
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_2_perSVade_align/terreus/*; do
+echo $dir/aligned_reads.bam.sorted
+done
+
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/1_2_perSVade_align/terreus/*; do
+base = $(basename $dir)
+mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/3_0_vcf_with_invariant_sites/$base
+bcftools mpileup \
+    -Ou \
+    -f /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/reference/GCA_000149615.1_ASM14961v1_genomic.fna \
+    $dir/aligned_reads.bam.sorted \
+| bcftools call \
+    -m -A -Oz --ploidy 1 \
+    -o /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/3_0_vcf_with_invariant_sites/$base/$base.vcf.gz
+done

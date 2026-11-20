@@ -1,0 +1,27 @@
+{
+  "source_like_files_discovered_in_original_project": 436,
+  "genuine_extension_matched_script_files_preserved": 83,
+  "additional_extensionless_commands_not_in_that_count": "included in script manifest",
+  "excluded_generated_data_objects": {
+    "df_benchmark_all.py": 88,
+    "df_cross_benchmark.py": 88,
+    "df_benchmark_all_with_integratedInfo.py": 88,
+    "output_rename-json.py": 65,
+    "reference_genome.fasta.chr_to_len.py": 14,
+    "rearranged_genome.fasta.windows81602bp.bed_GCcontent.py": 2,
+    "rearranged_genome.fasta.tmp.fasta.chr_to_len.py": 2,
+    "rearranged_genome.fasta.chr_to_len.py": 2
+  },
+  "excluded_external_tool_copies": {
+    "vcf2phylip.py": 4
+  },
+  "evidence": "Generated dataframe .py sample begins with Python pickle protocol bytes (80 04), not Python source. PerSVade gene/chromosome/GC objects and annotation rename JSON caches are generated data, excluded under the no-data policy. External vcf2phylip copies are tool dependencies, not locally implemented code.",
+  "search_exclusions": [
+    "vendor",
+    "busco_downloads",
+    ".git",
+    ".snakemake",
+    "envs"
+  ],
+  "scope": "All discovered genuine .py/.sh/.bash/.R/.r/.ps1/.nf/.smk source files in the audited project are accounted for; large generated result directories and bundled tool caches are not published."
+}

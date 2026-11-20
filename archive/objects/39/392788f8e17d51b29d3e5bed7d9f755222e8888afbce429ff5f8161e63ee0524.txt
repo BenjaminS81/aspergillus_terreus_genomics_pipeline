@@ -1,0 +1,80 @@
+# Original notebook code cell 0
+import pandas as pd
+from Bio import SeqIO
+from collections import defaultdict
+from collections import Counter
+
+# Original notebook code cell 1
+
+og = pd.read_csv('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Results_Jun23/Orthogroups/Orthogroups.GeneCount.tsv', delimiter='\t')#, index_col="Orthogroup")
+og = og.drop('Total', axis=1)
+#c1 = og[['11.transcripts', '48.transcripts', '57.transcripts']]
+c1 = og[(og['11.transcripts'] > 0) & (og['48.transcripts'] > 0) & (og['57.transcripts'] > 0)]
+c1 = c1[(c1 == 0).sum(axis=1) == 49]
+
+c1_list = list(c1['Orthogroup'])
+#print(c1_list)
+sqn = pd.read_csv('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Results_Jun23/Orthogroups/Orthogroups.tsv', delimiter='\t')#, index_col="Orthogroup")
+sqn = sqn[['Orthogroup', '11.transcripts', '48.transcripts', '57.transcripts']]
+sqn = sqn[sqn['Orthogroup'].isin(c1_list)]
+
+
+id = '57'
+#with open('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/' + id + '/ater/annotate_results/Aspergillus_terreus.proteins.fa') as f, open('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_10_KEGG/' + id + '/unique_OG_proteins.fa', 'w') as out:
+ #   for record in SeqIO.parse(f, "fasta"):
+  #      if record.id in list(sqn[id + '.transcripts']):
+            #print(record.id)
+   #         SeqIO.write(record, out, "fasta")
+
+#list(sqn['11.transcripts'])
+sqn
+
+# Original notebook code cell 2
+c2 = og[(og['26.transcripts'] > 0) & (og['40.transcripts'] > 0) & (og['47.transcripts'] > 0) & (og['56.transcripts'] > 0) & (og['67.transcripts'] > 0)]
+c2 = c2[(c2 == 0).sum(axis=1) == 47]
+c2_list = list(c2['Orthogroup'])
+
+sqn = pd.read_csv('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Results_Jun23/Orthogroups/Orthogroups.tsv', delimiter='\t')#, index_col="Orthogroup")
+sqn = sqn[['Orthogroup', '26.transcripts', '40.transcripts', '47.transcripts', '56.transcripts', '67.transcripts']]
+sqn = sqn[sqn['Orthogroup'].isin(c2_list)]
+#sqn[['26.transcripts', '40.transcripts', '47.transcripts', '56.transcripts', '67.transcripts']] = sqn[['26.transcripts', '40.transcripts', '47.transcripts', '56.transcripts', '67.transcripts']].str.split(',')      # turn strings into lists
+#sqn = sqn.explode(['26.transcripts', '40.transcripts', '47.transcripts', '56.transcripts', '67.transcripts'], ignore_index=True)       # expand into rows
+
+sqn[['26.transcripts', '40.transcripts', '47.transcripts', '56.transcripts', '67.transcripts']] = sqn[['26.transcripts', '40.transcripts', '47.transcripts', '56.transcripts', '67.transcripts']].apply(lambda col: col.str.split(',').apply(lambda x: [item.strip() for item in x]), axis=0)
+sqn = sqn.explode(['26.transcripts', '40.transcripts', '47.transcripts', '56.transcripts', '67.transcripts'], ignore_index=True)
+id = '67'
+with open('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/' + id + '/ater/annotate_results/Aspergillus_terreus.proteins.fa') as f, open('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/2_1_KEGG_interproscan/MG3/' + id + '/unique_OG_proteins.fa', 'w') as out:
+    for record in SeqIO.parse(f, "fasta"):
+        if record.id in list(sqn[id + '.transcripts']):
+            print(record.id)
+            SeqIO.write(record, out, "fasta")
+        #if record.id in ['FUN2_010580-T1', 'FUN2_010623-T1', 'FUN2_010579-T1']:
+         #   print(record.id)
+sqn
+
+# Original notebook code cell 3
+c3 = og[(og['39.transcripts'] > 0) & (og['50.transcripts'] > 0) & (og['73.transcripts'] > 0)]
+c3 = c3[(c3 == 0).sum(axis=1) == 49]
+c3_list = list(c3['Orthogroup'])
+print(c3_list)
+sqn = pd.read_csv('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Results_Jun23/Orthogroups/Orthogroups.tsv', delimiter='\t')#, index_col="Orthogroup")
+sqn = sqn[['Orthogroup', '39.transcripts', '50.transcripts', '73.transcripts']]
+sqn = sqn[sqn['Orthogroup'].isin(c3_list)]
+sqn
+
+id = '73'
+#with open('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/' + id + '/ater/annotate_results/Aspergillus_terreus.proteins.fa') as f, open('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_10_KEGG/' + id + '/unique_OG_proteins.fa', 'w') as out:
+ #   for record in SeqIO.parse(f, "fasta"):
+  #      if record.id in list(sqn[id + '.transcripts']):
+   #         #print(record.id)
+    #        SeqIO.write(record, out, "fasta")
+sqn
+
+# Original notebook code cell 4
+mg2_11 = pd.read_csv('/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/2_1_KEGG_interproscan/MG2/57/interproscan.tsv', delimiter='\t', header=None)
+Counter(mg2_11[5])
+print(Counter(mg2_11[11]))
+mg2_11
+#mg2_11[mg2_11[11] == 'IPR004358']
+
+#MG2:11: IPR036291; 48: IPR036291; 57: IPR036291

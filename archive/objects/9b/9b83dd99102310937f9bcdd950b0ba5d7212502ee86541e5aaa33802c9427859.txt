@@ -1,0 +1,52 @@
+# Original notebook code cell 0
+import pandas as pd
+import networkx as nx
+
+# Read SNP distance matrix
+dist = pd.read_csv("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_5_mst/snp-dists_output.tsv", sep="\t", index_col=0)
+
+# Create graph
+G = nx.Graph()
+
+samples = dist.index.tolist()
+
+# Add weighted edges
+for i in range(len(samples)):
+    for j in range(i + 1, len(samples)):
+        G.add_edge(
+            samples[i],
+            samples[j],
+            weight=int(dist.iloc[i, j])
+        )
+
+# Compute MST
+mst = nx.minimum_spanning_tree(G, weight="weight")
+
+# Print edges
+for u, v, d in mst.edges(data=True):
+    print(f"{u}\t{v}\t{d['weight']}")
+
+
+nx.write_graphml(mst, "/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_5_mst/mst.graphml")
+
+
+# Original notebook code cell 1
+import matplotlib.pyplot as plt
+
+pos = nx.spring_layout(mst, seed=42)
+
+nx.draw(
+    mst,
+    pos,
+    with_labels=True,
+    node_size=10,
+    font_size=4
+)
+
+labels = nx.get_edge_attributes(mst, "weight")
+#nx.draw_networkx_edge_labels(mst, pos, edge_labels=labels)
+nx.draw(mst, pos)
+#plt.figure(figsize=(30, 30))
+plt.tight_layout()
+#plt.show()
+plt.savefig("/mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_5_mst/mst.png", dpi=300)

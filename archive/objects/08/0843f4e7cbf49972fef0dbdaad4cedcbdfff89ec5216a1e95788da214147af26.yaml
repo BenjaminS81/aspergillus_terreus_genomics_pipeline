@@ -1,0 +1,16 @@
+name: iqtree
+channels:
+  - conda-forge
+  - bioconda
+  - etetoolkit
+  - defaults
+  - r
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - _openmp_mutex=4.5=20_gnu
+  - iqtree=3.1.1=hde5307d_1
+  - libgcc=15.2.0=he0feb66_18
+  - libgomp=15.2.0=he0feb66_18
+  - libstdcxx=15.2.0=h934c35e_18
+prefix: /home/davideisele/anaconda3/envs/iqtree

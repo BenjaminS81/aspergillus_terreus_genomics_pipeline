@@ -1,0 +1,8 @@
+* text=auto
+# Archive objects and current snapshots preserve original byte hashes.
+archive/objects/** -text
+scripts/current/** -text
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.tsv text eol=lf

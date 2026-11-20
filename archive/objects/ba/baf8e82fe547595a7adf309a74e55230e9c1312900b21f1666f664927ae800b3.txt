@@ -1,0 +1,10 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/2_1_KEGG_interproscan/*/*; do
+if [[ ! -f "$dir/interproscan.gff3" ]]; then
+	echo $dir
+	interproscan.sh -cpu 10 -i $dir/unique_OG_proteins.fa -b $dir/interproscan -goterms
+fi
+done
+
+
+
+interproscan.sh -cpu 10 -i /mnt/8EEE3D67EE3D492B/finished_projects/Listeria_monocytogenes/pgap/MRL-25-00253-hybrid/og_shared_annot_translated_cds.faa -b /mnt/8EEE3D67EE3D492B/finished_projects/Listeria_monocytogenes/interpro/MRL-25-00253-hybrid -goterms

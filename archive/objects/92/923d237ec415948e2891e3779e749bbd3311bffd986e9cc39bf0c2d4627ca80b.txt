@@ -1,0 +1,5 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/1_0_perSVade_trim/*; do
+base="$(basename "$dir")"
+#echo  /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/1_0_perSVade_trim/${base}/trimmed_reads2.fastq.gz
+docker run -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/1_0_perSVade_trim:/reads -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/data/reference:/reference -v /mnt/8EEE3D67EE3D492B/terreus_genotyping/results2/1_2_perSVade_align:/output_directory mikischikora/persvade:v1.02.6 python -u  ./scripts/perSVade align_reads -f1 /reads/${base}/trimmed_reads1.fastq.gz -f2 /reads/${base}/trimmed_reads2.fastq.gz --ref /reference/GCA_000149615.1_ASM14961v1_genomic.fna -o /output_directory/${base} --fraction_available_mem 0.7
+done

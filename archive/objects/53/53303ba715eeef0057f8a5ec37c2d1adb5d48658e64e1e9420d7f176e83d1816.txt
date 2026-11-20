@@ -1,0 +1,5 @@
+find -name "variants_atLeast3PASS_ploidy1.final.vcf.gz" > vcf_list.txt
+
+bcftools merge -l vcf_list.txt -Oz -o merged.vcf.gz
+bcftools +setGT merged.vcf.gz -- -t . -n 0 | bgzip > merged_modified.vcf.gz
+bcftools view -m2 -M2 -v snps merged_modified.vcf.gz -Oz -o filtered.vcf.gz

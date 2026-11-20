@@ -1,0 +1,21 @@
+nextflow run nf-core/taxprofiler \
+  -profile docker \
+  --input /home/davideisele/nf-core_test/samplesheet.csv \
+  --outdir /home/davideisele/nf-core_test/results \
+  --run_kraken2 \
+  --kraken2_db /home/davideisele/nf-core_test/databases/pluspf_8gb
+  
+  
+nextflow run nf-core/taxprofiler --input /home/davideisele/nf-core_test/samplesheet.csv --databases /home/davideisele/nf-core_test/databases.csv --outdir /home/davideisele/nf-core_test/results -profile docker --run_kraken2
+
+
+nextflow run nf-core/taxprofiler --input /home/usr/nf-core_test/samplesheet.csv --databases /home/usr/nf-core_test/databases.csv --outdir /home/usr/nf-core_test/results -profile docker --run_kraken2
+
+
+nextflow run nf-core/taxprofiler -profile docker \
+--input samplesheet.csv --databases database.csv --outdir ./results \
+--perform_shortread_qc \
+--perform_shortread_hostremoval --hostremoval_reference GCF_000819615.1_ViralProj14015_genomic.fna.gz \
+--perform_runmerging --save_runmerged_reads \
+--run_centrifuge --run_kaiju --run_kraken2 \
+--run_profile_standardisation

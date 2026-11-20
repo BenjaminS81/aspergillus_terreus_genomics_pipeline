@@ -1,0 +1,11 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/*; do
+base="$(basename "$dir")"
+mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_7_signalp/$base/
+signalp -fasta $dir/ater/annotate_results/Aspergillus_terreus.transcripts.fa -org euk -prefix /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_7_signalp/$base/
+done
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus_existing_annotations/*; do
+base="$(basename "$dir")"
+mkdir /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_7_signalp/$base/
+signalp -fasta $dir/ater/annotate_results/Aspergillus_terreus.transcripts.fa -org euk -prefix /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_7_signalp/$base/
+done

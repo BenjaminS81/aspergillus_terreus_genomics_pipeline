@@ -1,0 +1,31 @@
+{
+  "inventory_date": "2026-11-20",
+  "script_source_records": 396,
+  "distinct_archived_source_objects": 261,
+  "current_workspace_scripts": 126,
+  "python_archive_syntax_exceptions": 0,
+  "reference_library_strains": 254,
+  "fetched_marker_accessions": 780,
+  "genome_cohort_labels": 77,
+  "canonical_assembly_sequences": 72,
+  "local_raw_read_files": 71,
+  "ena_runs_queried": 57,
+  "taxon_names_all_scopes": 60,
+  "genera": [
+    "Aspergillus"
+  ],
+  "taxon_names_with_fetched_sequences": 58,
+  "taxon_names_used_complete230_including_source_and_analysis_names": 29,
+  "new_assemblies_verified": 2,
+  "limits": {
+    "job_memory_limit_bytes": 2147483648,
+    "cpu_affinity_mask": 1,
+    "threads": 1,
+    "scope": "this worker only"
+  },
+  "scope": "Metadata and code only. Catalog-only and queried-only taxa are not represented as downloaded sequences. Available snapshots are preserved; unrecorded historical edits cannot be reconstructed.",
+  "historical_marker_accessions": 81,
+  "additional_historical_accessions": 69,
+  "lovastatin_protein_reference_accessions": 9,
+  "local_public_assembly_files": 57
+}

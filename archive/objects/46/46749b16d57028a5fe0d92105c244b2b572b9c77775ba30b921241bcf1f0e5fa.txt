@@ -1,0 +1,18 @@
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus/*; do
+	base=$(basename $dir)
+	#echo $dir/ater/annotate_results
+	#echo $base
+	mv $dir/ater/annotate_results/Aspergillus_terreus.transcripts.fa $dir/ater/annotate_results/${base}_transcripts.fa
+	ln -s $dir/ater/annotate_results/${base}_transcripts.fa /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/input/${base}_transcripts.fa
+done
+
+for dir in /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_2_repeat_mask_funannotate/terreus_existing_annotations/*; do
+	base=$(basename $dir)
+	#echo $dir/ater/annotate_results
+	#echo $base
+	mv $dir/ater/annotate_results/Aspergillus_terreus.transcripts.fa $dir/ater/annotate_results/${base}_transcripts.fa
+	ln -s $dir/ater/annotate_results/${base}_transcripts.fa /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/input/${base}_transcripts.fa
+done
+
+
+orthofinder -f /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/input/ -d -t 12 -o /mnt/8EEE3D67EE3D492B/terreus_genotyping/results/0_3_orthofinder/Orthofinder

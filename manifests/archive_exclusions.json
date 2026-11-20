@@ -1,0 +1,20 @@
+[
+  {
+    "origin": "project",
+    "path": "workflow/scripts/old/command_flow.odt",
+    "reason": "non-source document, result or metadata; inventory only",
+    "sha256": "da5ea3dcac1d237f90e706c98383d0be93a9cf74dd3c21ca942e6211367577db"
+  },
+  {
+    "origin": "project",
+    "path": "workflow/scripts/old/Pipeline.odg",
+    "reason": "non-source document, result or metadata; inventory only",
+    "sha256": "4c2ba2cba1a0a195d466a179a6dbe06a8dc062c9870f2404b05a2c3f9b89950c"
+  },
+  {
+    "origin": "project",
+    "path": "docs/lab-notebook.md",
+    "reason": "Full mixed notebook omitted because it contains results; language-tagged code fences exported",
+    "sha256": "1162ed7fb6abb90c20d031ca2adcd58bc0b2ed523d92c61a3c1ea3a3df3ac83d"
+  }
+]
