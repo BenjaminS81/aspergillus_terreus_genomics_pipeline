@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "project_root": "/path/to/external/terreus_genotyping",
+  "workspace_root": "/path/to/external/analysis_workspace",
+  "output_version": "YYYY-MM-DD_v1",
+  "lightweight_worker": {"cpus": 1, "memory_bytes": 2147483648},
+  "busco_policy_reference": {"cpus": 1, "memory_bytes": 20000000000, "swap_bytes": 0},
+  "execution": {"sequential": true, "launch_jobs": false},
+  "note": "Documentation example. Legacy scripts do not all consume this schema. Never apply these values to another running job."
+}
