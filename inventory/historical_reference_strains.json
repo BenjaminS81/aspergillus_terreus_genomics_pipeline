@@ -1,0 +1,750 @@
+[
+  {
+    "reference_id": "HIST2011_IBT14590",
+    "strain": "IBT 14590",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491703.1",
+    "CaMGB": "FJ531237.1",
+    "species": "Aspergillus_terreus",
+    "analysis_species": "Aspergillus_terreus",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS11737",
+    "strain": "CBS 117.37",
+    "deposited_organisms": [
+      "Aspergillus terreus var. subfloccosus",
+      "Aspergillus terreus var. subfloccosus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491704.1",
+    "CaMGB": "FJ531223.1",
+    "species": "Aspergillus_terreus_var._subfloccosus",
+    "analysis_species": "Aspergillus_terreus_var._subfloccosus",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT12702",
+    "strain": "IBT 12702",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491705.1",
+    "CaMGB": "FJ531240.1",
+    "species": "Aspergillus_alabamensis",
+    "analysis_species": "Aspergillus_alabamensis",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_583_Aspergillus_alabamensis_IBT12702"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_NRRL274",
+    "strain": "NRRL 274",
+    "deposited_organisms": [
+      "Aspergillus hortae",
+      "Aspergillus hortae"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491706.1",
+    "CaMGB": "FJ531242.1",
+    "species": "Aspergillus_hortae",
+    "analysis_species": "Aspergillus_hortae",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_608_Aspergillus_hortae_CBS124230"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT24859",
+    "strain": "IBT 24859",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491707.1",
+    "CaMGB": "FJ531235.1",
+    "species": "Aspergillus_terreus",
+    "analysis_species": "Aspergillus_terreus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_615_Aspergillus_terreus_IBT24859"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT6450",
+    "strain": "IBT 6450",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491708.1",
+    "CaMGB": "FJ531238.1",
+    "species": "Aspergillus_citrinoterreus",
+    "analysis_species": "Aspergillus_citrinoterreus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_599_Aspergillus_citrinoterreus_IBT6450"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT6271",
+    "strain": "IBT 6271",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491709.1",
+    "CaMGB": "FJ531239.1",
+    "species": "Aspergillus_hortae",
+    "analysis_species": "Aspergillus_hortae",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_606_Aspergillus_hortae_IBT6271"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT22563",
+    "strain": "IBT 22563",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491710.1",
+    "CaMGB": "FJ531241.1",
+    "species": "Aspergillus_terreus",
+    "analysis_species": "Aspergillus_terreus",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT26384",
+    "strain": "IBT 26384",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491711.1",
+    "CaMGB": "FJ531230.1",
+    "species": "Aspergillus_hortae",
+    "analysis_species": "Aspergillus_hortae",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT16744",
+    "strain": "IBT 16744",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491712.1",
+    "CaMGB": "FJ531231.1",
+    "species": "Aspergillus_terreus",
+    "analysis_species": "Aspergillus_terreus",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT16745",
+    "strain": "IBT 16745",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491713.1",
+    "CaMGB": "FJ531232.1",
+    "species": "Aspergillus_terreus",
+    "analysis_species": "Aspergillus_terreus",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS11637",
+    "strain": "CBS 116.37",
+    "deposited_organisms": [
+      "Aspergillus floccosus",
+      "Aspergillus floccosus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491714.1",
+    "CaMGB": "FJ531219.1",
+    "species": "Aspergillus_floccosus",
+    "analysis_species": "Aspergillus_floccosus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_602_Aspergillus_floccosus_CBS11637"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS11433",
+    "strain": "CBS 114.33",
+    "deposited_organisms": [
+      "Aspergillus niveus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491715.1",
+    "species": "Aspergillus_niveus",
+    "analysis_species": "Aspergillus_niveus",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "CaMGB": "",
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS11527",
+    "strain": "CBS 115.27",
+    "deposited_organisms": [
+      "Aspergillus niveus",
+      "Aspergillus niveus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491716.1",
+    "CaMGB": "FJ531225.1",
+    "species": "Aspergillus_niveus",
+    "analysis_species": "Aspergillus_niveus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_573_Aspergillus_niveus_CBS11527"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS11556",
+    "strain": "CBS 115.56",
+    "deposited_organisms": [
+      "Aspergillus flavipes"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491717.1",
+    "species": "Aspergillus_flavipes",
+    "analysis_species": "Aspergillus_flavipes",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "CaMGB": "",
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS44475",
+    "strain": "CBS 444.75",
+    "deposited_organisms": [
+      "Aspergillus neoindicus",
+      "Aspergillus neoindicus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491718.1",
+    "CaMGB": "FJ531222.1",
+    "species": "Aspergillus_neoindicus",
+    "analysis_species": "Aspergillus_neoindicus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_569_Aspergillus_neoindicus_CBS44475"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS47191",
+    "strain": "CBS 471.91",
+    "deposited_organisms": [
+      "Aspergillus niveus",
+      "Aspergillus niveus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491719.1",
+    "CaMGB": "FJ531224.1",
+    "species": "Aspergillus_niveus",
+    "analysis_species": "Aspergillus_niveus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_574_Aspergillus_niveus_CBS47191"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS26273",
+    "strain": "CBS 262.73",
+    "deposited_organisms": [
+      "Aspergillus neoniveus",
+      "Aspergillus neoniveus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491720.1",
+    "CaMGB": "FJ531227.1",
+    "species": "Aspergillus_neoniveus",
+    "analysis_species": "Aspergillus_neoniveus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_455_Aspergillus_neoniveus_CBS26273"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS11149",
+    "strain": "CBS 111.49",
+    "deposited_organisms": [
+      "Aspergillus carneus",
+      "Aspergillus carneus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491721.1",
+    "CaMGB": "FJ531228.1",
+    "species": "Aspergillus_carneus",
+    "analysis_species": "Aspergillus_carneus",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS26173",
+    "strain": "CBS 261.73",
+    "deposited_organisms": [
+      "Aspergillus neoniveus",
+      "Aspergillus neoniveus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491722.1",
+    "CaMGB": "FJ531226.1",
+    "species": "Aspergillus_neoniveus",
+    "analysis_species": "Aspergillus_neoniveus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_453_Aspergillus_neoniveus_CBS26173"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS49465",
+    "strain": "CBS 494.65",
+    "deposited_organisms": [
+      "Aspergillus carneus",
+      "Aspergillus carneus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491723.1",
+    "CaMGB": "FJ531220.1",
+    "species": "Aspergillus_carneus",
+    "analysis_species": "Aspergillus_carneus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_561_Aspergillus_carneus_CBS49465"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_CBS26581",
+    "strain": "CBS 265.81",
+    "deposited_organisms": [
+      "Aspergillus sp. CBS 265.81",
+      "Aspergillus sp. CBS 265.81"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491724.1",
+    "CaMGB": "FJ531221.1",
+    "species": "Aspergillus_recifensis",
+    "analysis_species": "Aspergillus_recifensis",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_589_Aspergillus_recifensis_CBS26581"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT13121",
+    "strain": "IBT 13121",
+    "deposited_organisms": [
+      "Aspergillus terreus",
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491725.1",
+    "CaMGB": "FJ531243.1",
+    "species": "Aspergillus_neoafricanus",
+    "analysis_species": "Aspergillus_neoafricanus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_612_Aspergillus_neoafricanus_IBT13121"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_DTO015F9",
+    "strain": "DTO 15F9",
+    "deposited_organisms": [
+      "Aspergillus alabamensis",
+      "Aspergillus alabamensis"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491726.1",
+    "CaMGB": "FJ531233.1",
+    "species": "Aspergillus_alabamensis",
+    "analysis_species": "Aspergillus_alabamensis",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_5244_Aspergillus_alabamensis_DTO015-F9"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_DTO015F8",
+    "strain": "DTO 15F8",
+    "deposited_organisms": [
+      "Aspergillus alabamensis",
+      "Aspergillus alabamensis"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491727.1",
+    "CaMGB": "FJ531229.1",
+    "species": "Aspergillus_alabamensis",
+    "analysis_species": "Aspergillus_alabamensis",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_5243_Aspergillus_alabamensis_DTO015-F8"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT22556",
+    "strain": "IBT 22556",
+    "deposited_organisms": [
+      "Aspergillus sp. IBT 22556",
+      "Aspergillus sp. IBT 22556"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491728.1",
+    "CaMGB": "FJ531236.1",
+    "species": "Aspergillus_floccosus",
+    "analysis_species": "Aspergillus_floccosus",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [
+      "REF_603_Aspergillus_floccosus_IBT22556"
+    ],
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_UAB15",
+    "strain": "UAB 15",
+    "deposited_organisms": [
+      "Aspergillus alabamensis"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491729.1",
+    "species": "Aspergillus_alabamensis",
+    "analysis_species": "Aspergillus_alabamensis",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "CaMGB": "",
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_UAB18",
+    "strain": "UAB 18",
+    "deposited_organisms": [
+      "Aspergillus alabamensis"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491730.1",
+    "species": "Aspergillus_alabamensis",
+    "analysis_species": "Aspergillus_alabamensis",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "CaMGB": "",
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_UAB20",
+    "strain": "UAB 20",
+    "deposited_organisms": [
+      "Aspergillus alabamensis"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "BenAGB": "FJ491731.1",
+    "species": "Aspergillus_alabamensis",
+    "analysis_species": "Aspergillus_alabamensis",
+    "taxonomy_status": "mapped_to_current_reference_strain",
+    "culture_alias_reference_ids": [],
+    "CaMGB": "",
+    "RPB2GB": ""
+  },
+  {
+    "reference_id": "HIST2011_IBT26915",
+    "strain": "IBT 26915",
+    "deposited_organisms": [
+      "Aspergillus terreus"
+    ],
+    "role": "historical_reference",
+    "type_flag": false,
+    "accepted_type_name": "",
+    "historical_type_name": "",
+    "source_paper": "10.3114/sim.2011.69.04",
+    "section": "historical_Terrei_or_outgroup",
+    "series": "",
+    "subgenus": "",
+    "source_row": null,
+    "CaMGB": "FJ531234.1",
+    "species": "Aspergillus_terreus",
+    "analysis_species": "Aspergillus_terreus",
+    "taxonomy_status": "historical_name_requires_placement_review",
+    "culture_alias_reference_ids": [],
+    "BenAGB": "",
+    "RPB2GB": ""
+  }
+]

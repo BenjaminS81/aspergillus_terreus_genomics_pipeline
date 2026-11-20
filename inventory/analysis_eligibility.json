@@ -1,0 +1,1957 @@
+[
+  {
+    "sample": "11",
+    "representative": "11",
+    "sequence_sha256": "36e8199a3e0c84bcf12af78238b413df9034a83c0379a388c30482d815f6fd20",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/11/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/11_Aterreus_S4_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/11_Aterreus_S4_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/11/funannotate/annotate_results/11_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/11/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/11/ater/annotate_results/11_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/11/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/11/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__11/short_summary.specific.eurotiales_odb12.2.terreus__11.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "a322429b2268ae0e555d30cede75cc267104194cbf6bd5d43eca3b6962afb422"
+  },
+  {
+    "sample": "26",
+    "representative": "26",
+    "sequence_sha256": "ac3bcfc36c6f2ebd7125c73559c7d6ad9c8f96361a92ff604dc136ef570032ed",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/26/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/26_Aterreus_S5_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/26_Aterreus_S5_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/26/funannotate/annotate_results/26_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/26/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/26/ater/annotate_results/26_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/26/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/26/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__26/short_summary.specific.eurotiales_odb12.2.terreus__26.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "9c21fb67da6fd35ec29993c1648d42e825f9fbb894e83a47411f29db35aba349"
+  },
+  {
+    "sample": "29",
+    "representative": "29",
+    "sequence_sha256": "a3e42486d0a1af3a6a8ff6df2a27ec4f8cbc9cfd7e6e9e03aac28fd4fc25a1c5",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/29/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/29_Aterreus_S6_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/29_Aterreus_S6_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/29/funannotate/annotate_results/29_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/29/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/29/ater/annotate_results/29_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/29/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/29/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__29/short_summary.specific.eurotiales_odb12.2.terreus__29.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "1e5c4437f932ec28143d344258a0c63c3c154175406486fb9bb573e3c493d676"
+  },
+  {
+    "sample": "39",
+    "representative": "39",
+    "sequence_sha256": "b5037e3e70976baa11265d000fb85a4b3b04321db7917f7c98f88504e3edab74",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/39/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/39_Aterreus_S7_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/39_Aterreus_S7_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/39/funannotate/annotate_results/39_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/39/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/39/ater/annotate_results/39_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/39/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/39/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__39/short_summary.specific.eurotiales_odb12.2.terreus__39.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "1ed6e9cc1825977e02e1a8303ecddbeb9e88dcac790b72dd326cb19f82af79f5"
+  },
+  {
+    "sample": "40",
+    "representative": "40",
+    "sequence_sha256": "d69a7897e1ae863f8fcfe4e06f9ee8859d2165e4360b9a9c82c3d331539b7181",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/40/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/40_Aterreus_S8_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/40_Aterreus_S8_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/40/funannotate/annotate_results/40_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/40/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/40/ater/annotate_results/40_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/40/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/40/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__40/short_summary.specific.eurotiales_odb12.2.terreus__40.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "d41f931a6aa1e252088860554d3e7d3cc0b758e4e0b9951fe832440c9d95586b"
+  },
+  {
+    "sample": "45A",
+    "representative": "45A",
+    "sequence_sha256": "6cba1c3d5fc705769f2834d083e6de7818954275f0d090c6cae7c2d5d5aa33f3",
+    "assembly": "PROJECT/data/assemblies/unannotated/45A/GCA_001630395.1_ASM163039v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/45A/funannotate/annotate_results/45A_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/45A/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/45A/ater/annotate_results/45A_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/45A/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/45A/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__45A/short_summary.specific.eurotiales_odb12.2.terreus__45A.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "7b4a9acce53fe17a783aabad242fdf28407b8e1a1c5d6d0c526cfb8692db59fc"
+  },
+  {
+    "sample": "47",
+    "representative": "47",
+    "sequence_sha256": "025af2577afa71e9762dc32d08ae99b3960f52413e1d6608fe70f27b51d5fc94",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/47/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/47_Aterreus_S9_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/47_Aterreus_S9_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/47/funannotate/annotate_results/47_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/47/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/47/ater/annotate_results/47_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/47/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/47/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__47/short_summary.specific.eurotiales_odb12.2.terreus__47.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "1a94ae334ec3b4473cf113f57115c013c556380c4f40ed2011cefa98d3b7cee5"
+  },
+  {
+    "sample": "48",
+    "representative": "48",
+    "sequence_sha256": "ab2946d2efa3b8021151c6c25b4f3d2fb537969d7112dc2830c132dca106d07e",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/48/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/48_Aterreus_S10_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/48_Aterreus_S10_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/48/funannotate/annotate_results/48_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/48/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/48/ater/annotate_results/48_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/48/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/48/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__48/short_summary.specific.eurotiales_odb12.2.terreus__48.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "8bd55895b437fff228b2eec3c93b278ccbd6b41b18e32d7645ed49ba0578b6e4"
+  },
+  {
+    "sample": "50",
+    "representative": "50",
+    "sequence_sha256": "fa67116f44142a7dd43e187d3394b250c1318d6ebe58bb916ba22063153273c6",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/50/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/50_Aterreus_S11_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/50_Aterreus_S11_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/50/funannotate/annotate_results/50_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/50/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/50/ater/annotate_results/50_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/50/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/50/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__50/short_summary.specific.eurotiales_odb12.2.terreus__50.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "792efc86f973aa94128e671bbafe1554e8e41abe2af08a765b843c812750f1d2"
+  },
+  {
+    "sample": "56",
+    "representative": "56",
+    "sequence_sha256": "baef775e2424a5fdc2601fc182fcac81d23897033eac15578879fdeeb87b5bd8",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/56/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/56_Aterreus_S12_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/56_Aterreus_S12_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/56/funannotate/annotate_results/56_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/56/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/56/ater/annotate_results/56_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/56/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/56/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__56/short_summary.specific.eurotiales_odb12.2.terreus__56.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "374f56a3f04f54c54ee0c1afb20002b8956e7ac82bd41a9dc0127bffd19c015d"
+  },
+  {
+    "sample": "57",
+    "representative": "57",
+    "sequence_sha256": "c2ce7cb2f2cc2022a1abe8919ebff7df7c9e048fdd9e95e0bfedb510e891ae00",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/57/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/57_Aterreus_S13_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/57_Aterreus_S13_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/57/funannotate/annotate_results/57_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/57/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/57/ater/annotate_results/57_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/57/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/57/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__57/short_summary.specific.eurotiales_odb12.2.terreus__57.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "83901ef784ba1f5dd7d17aed2e96d3d77fa51e95a56f494e0002443fcd38a265"
+  },
+  {
+    "sample": "67",
+    "representative": "67",
+    "sequence_sha256": "f931356b64190980c7b265919dd6ce50d1011644d0b93e4bfc74cab0a8048e59",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/67/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/67_Aterreus_S14_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/67_Aterreus_S14_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/67/funannotate/annotate_results/67_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/67/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/67/ater/annotate_results/67_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/67/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/67/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__67/short_summary.specific.eurotiales_odb12.2.terreus__67.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "4973bf5edfcd2784e71ef78d8fd46b941fccbd7cc8f8a42f2ef5802d70e1d180"
+  },
+  {
+    "sample": "73",
+    "representative": "73",
+    "sequence_sha256": "4150b057a3c04ee2b1c74531977e10bef002ce8713db97dad751b9bdfd9a63ff",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/73/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/73_Aterreus_S15_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/73_Aterreus_S15_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/73/funannotate/annotate_results/73_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/73/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/73/ater/annotate_results/73_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/73/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/73/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__73/short_summary.specific.eurotiales_odb12.2.terreus__73.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "0633f8f9457906edf8b55756e032cb22accda6e895079f03db95b27e51c722e8"
+  },
+  {
+    "sample": "ASM-1",
+    "representative": "ASM-1",
+    "sequence_sha256": "8368c5076ae82be8d30006d8bb19526af867c291d8617740e42f6d9ed06964a0",
+    "assembly": "PROJECT/data/assemblies/unannotated/ASM-1/GCA_015266375.1_ASM1526637v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ASM-1/funannotate/annotate_results/ASM-1_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ASM-1/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ASM-1/ater/annotate_results/ASM-1_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ASM-1/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ASM-1/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__ASM-1/short_summary.specific.eurotiales_odb12.2.terreus__ASM-1.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "5f9c47e88d561ec0b6cc6a30da0f594cc49f78bc414ca0c366d10530eca9f2aa"
+  },
+  {
+    "sample": "AT-1",
+    "representative": "AT-1",
+    "sequence_sha256": "9784a9dd1655fe7715238e22a17e09c9efe4a46016cb6dae6ddcbfec11768f4b",
+    "assembly": "PROJECT/data/assemblies/unannotated/AT-1/GCA_058225725.1_ASM5822572v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/AT-1/funannotate/annotate_results/AT-1_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/AT-1/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT-1/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT-1/ater/annotate_results/AT-1_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT-1/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/AT-1/ater/annotate_results/AT-1_transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/AT-1/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__AT-1/short_summary.specific.eurotiales_odb12.2.terreus__AT-1.json",
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__AT.1/short_summary.specific.eurotiales_odb12.2.terreus__AT.1.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "4e29b329ed31250e771bd71166762030cffd005d4759947ae6763b52c6b9bce7"
+  },
+  {
+    "sample": "AT.1",
+    "representative": "AT-1",
+    "sequence_sha256": "9784a9dd1655fe7715238e22a17e09c9efe4a46016cb6dae6ddcbfec11768f4b",
+    "assembly": "PROJECT/data/assemblies/unannotated/AT.1/GCA_057814615.1_ASM5781461v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/AT.1/funannotate/annotate_results/AT.1_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/AT.1/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT.1/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT.1/ater/annotate_results/At.1_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT.1/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__AT-1/short_summary.specific.eurotiales_odb12.2.terreus__AT-1.json",
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__AT.1/short_summary.specific.eurotiales_odb12.2.terreus__AT.1.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "ee103da53c3950597c47135fa8cf537bc72af61d73b4d7d7d141cc140ca377f0"
+  },
+  {
+    "sample": "AT2022",
+    "representative": "AT2022",
+    "sequence_sha256": "fe26dd2cdd3ab9b867170a2f333a9cd8fa1b533e479a72bd7dad5ba2af92c929",
+    "assembly": "PROJECT/data/assemblies/unannotated/AT2022/GCA_034642025.1_ASM3464202v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/AT2022/funannotate/annotate_results/AT2022_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/AT2022/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT2022/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT2022/ater/annotate_results/AT2022_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/AT2022/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__AT2022/short_summary.specific.eurotiales_odb12.2.terreus__AT2022.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "a39d8438f938aeb96cebb9e38de1f6c7dd140c4fe41de7a56c58b180d329185e"
+  },
+  {
+    "sample": "ATCC20541",
+    "representative": "ATCC20541",
+    "sequence_sha256": "0e741266616b5f4aeb4073f60bc0e38aca6bccfde44173bcdd9a717542c7a83d",
+    "assembly": "PROJECT/data/assemblies/unannotated/ATCC20541/GCA_033632065.1_ASM3363206v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ATCC20541/funannotate/annotate_results/ATCC20541_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ATCC20541/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ATCC20541/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ATCC20541/ater/annotate_results/ATCC20541_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ATCC20541/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__ATCC20541/short_summary.specific.eurotiales_odb12.2.terreus__ATCC20541.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "7f85c517516a746a1d29236ff3276fb3da7033319ce29d32c297c5886de67699"
+  },
+  {
+    "sample": "ATCC20542",
+    "representative": "ATCC20542",
+    "sequence_sha256": "8777f9da6af3f3c845a3e5514c69ba67831b558441cee575243f84dee4a6b610",
+    "assembly": "PROJECT/data/assemblies/annotated/ATCC20542/GCA_016808415.1_ASM1680841v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ATCC20542/funannotate/annotate_results/ATCC20542_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ATCC20542/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/ATCC20542/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/ATCC20542/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__ATCC20542/short_summary.specific.eurotiales_odb12.2.terreus__ATCC20542.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "7deb25b03dd7ec0c02312f7af07cf1358669d220c3450cfd22a1251ea4f523d8"
+  },
+  {
+    "sample": "CBS116.37_SRR10507650",
+    "representative": "CBS116.37_SRR10507650",
+    "sequence_sha256": "8e4601777cf10feb28eda62d04ea4842798c4c4abb612b2b674170610ff67c2e",
+    "assembly": "PROJECT/results/0_1_spades/floccosus/CBS116.37_SRR10507650/scaffolds.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/floccosus/SRR10507650_1.fastq.gz",
+      "PROJECT/data/raw/floccosus/SRR10507650_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 3,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/CBS116.37/funannotate/predict_results/Aspergillus_floccosus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/floccosus/SRR10507650/funannotate/annotate_results/Aspergillus_floccosus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/floccosus/SRR10507650/funannotate/predict_results/Aspergillus_floccosus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "9f4e5cb8103dbdc8c393439f9820c4a24712c30c8e1a02f549446deb267b8116"
+  },
+  {
+    "sample": "ERR14883637",
+    "representative": "ERR14883637",
+    "sequence_sha256": "4afc18b828afc8db0509833da2e14a4e572519ffcce25dd6c166b87ec8907643",
+    "assembly": "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/contigs_renamed.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/ERR14883637_1.fastq.gz",
+      "PROJECT/data/raw/terreus/ERR14883637_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 8,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F/funannotate/annotate_results/T59-F_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F_ERR14883637/funannotate/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F_ERR14883637/funannotate/annotate_results/T59-F_ERR14883637_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/annotate_results/T59-F_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/ERR14883637/ater/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/ERR14883637/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "f21909f5c379574e1bbfb798535f3af6e65fa6b2ed1aa96d6e3a39afbff780e1"
+  },
+  {
+    "sample": "ERR17672364",
+    "representative": "ERR14883637",
+    "sequence_sha256": "4afc18b828afc8db0509833da2e14a4e572519ffcce25dd6c166b87ec8907643",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ERR17672364/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ERR17672364/funannotate/annotate_results/ERR17672364_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ERR17672364/funannotate/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "f21909f5c379574e1bbfb798535f3af6e65fa6b2ed1aa96d6e3a39afbff780e1"
+  },
+  {
+    "sample": "HNGD-TM15",
+    "representative": "HNGD-TM15",
+    "sequence_sha256": "5b9d05bfc373a0b2b1dec7e5d8e25740710ec0aed216188bf4f1f3d4b8e418d7",
+    "assembly": "PROJECT/data/assemblies/unannotated/HNGD-TM15/GCA_056506665.1_ASM5650666v1_genomic.fna",
+    "in_core_tree": false,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/HNGD-TM15/funannotate/annotate_results/HNGD-TM15_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/HNGD-TM15/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/HNGD-TM15/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/HNGD-TM15/ater/annotate_results/HNGD-TM15_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/HNGD-TM15/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__HNGD-TM15/short_summary.specific.eurotiales_odb12.2.terreus__HNGD-TM15.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "4aeec6eaf78b33bb3042284fc63ef1499a705024f3d3b74500a0c79999749595"
+  },
+  {
+    "sample": "IFO6365",
+    "representative": "IFO6365",
+    "sequence_sha256": "3bece026ecd1d63a7731722872deee78e6aaa58a0a5da3c585d0d72af3bc1f19",
+    "assembly": "PROJECT/data/assemblies/annotated/IFO6365/GCA_009932835.1_Ater_IFO6365_01_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/IFO6365/funannotate/annotate_results/IFO6365_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/IFO6365/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/IFO6365_DRR204676/funannotate/annotate_results/IFO6365_DRR204676_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/IFO6365/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/IFO6365/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__IFO6365/short_summary.specific.eurotiales_odb12.2.terreus__IFO6365.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "e9df268b7fb71550b2a6e4e125327c88c8e3425d1e928325a7f74ee1f4ba5fa2"
+  },
+  {
+    "sample": "IFO6365_DRR204676",
+    "representative": "IFO6365_DRR204676",
+    "sequence_sha256": "018b3274752445c095382249e310c6d8435eb6b454d0242f6ceb4a38c484e67c",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/IFO6365_DRR204676/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/IFO6365/funannotate/annotate_results/IFO6365_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/IFO6365/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/IFO6365_DRR204676/funannotate/annotate_results/IFO6365_DRR204676_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/IFO6365_DRR204676/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/IFO6365/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/IFO6365/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "f797c13ae4f85c65f23b9f2ce0b9ee8c150191631c12da9e0e3ace4d5498ff50"
+  },
+  {
+    "sample": "M6925",
+    "representative": "M6925",
+    "sequence_sha256": "a90fa925c71bd4ec3730d72ab21066d792c9bd06186358c7986341cd2bc6991f",
+    "assembly": "PROJECT/data/assemblies/unannotated/M6925/GCA_009834425.1_ASM983442v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/M6925/funannotate/annotate_results/M6925_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/M6925/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/M6925/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/M6925/ater/annotate_results/M6925_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/M6925/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__M6925/short_summary.specific.eurotiales_odb12.2.terreus__M6925.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "a0a49c32535f8791d3f3b7273bfeed138c0eda152fcdcacc528b3aa3ba97ff89"
+  },
+  {
+    "sample": "MCA10_SRR24718917",
+    "representative": "MCA10_SRR24718917",
+    "sequence_sha256": "59e48672b2d90ea88989cc7897f1b1e2175223204dce77e992b72f6a888ec291",
+    "assembly": "PROJECT/results/0_1_spades/hortae/MCA10_SRR24718917/scaffolds.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR24718917_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR24718917_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 7,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718917/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718917/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/MCA10/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718917/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718917/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718917/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718917/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "496b5ca3fd2bebce0cd2694268afed49be226d43f4d54ce8fb551947d8087e36"
+  },
+  {
+    "sample": "MCA7_SRR24718919",
+    "representative": "MCA7_SRR24718919",
+    "sequence_sha256": "ba615b5e2c2dafcc9022d3e004999f9b1be485b36d43f6a9d793deab4d3613c6",
+    "assembly": "PROJECT/results/0_1_spades/hortae/MCA7_SRR24718919/scaffolds.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR24718919_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR24718919_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718919/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718919/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718919/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718919/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718919/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718919/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "a582481e2112ff0e2e861aac658c56e62e95f82d2b78c97549b3675f6dfe16aa"
+  },
+  {
+    "sample": "MCA8_SRR24718918",
+    "representative": "MCA8_SRR24718918",
+    "sequence_sha256": "05fd17d841869146e7168139c9f1e75b78ab3f421a8524e87b6a775615d30083",
+    "assembly": "PROJECT/results/0_1_spades/hortae/MCA8_SRR24718918/scaffolds.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR24718918_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR24718918_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718918/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718918/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718918/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718918/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718918/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718918/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "0303f01b9781f606e28bca803758b66607305110e685ed49571ba9d040fe5fe8"
+  },
+  {
+    "sample": "ML-44",
+    "representative": "ML-44",
+    "sequence_sha256": "bac08d320a87f7c877153b09e5cc61ea7e7373659c4ef1a32264d2cc2800d7ba",
+    "assembly": "PROJECT/data/assemblies/unannotated/ML-44/GCA_015333565.1_ASM1533356v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ML-44/funannotate/annotate_results/ML-44_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/ML-44/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ML-44/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ML-44/ater/annotate_results/ML-44_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ML-44/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__ML-44/short_summary.specific.eurotiales_odb12.2.terreus__ML-44.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "4f79bc8ca424e0eb669e98c232dd3e8b83bb4b096ff20bb75fc09ede6adf70fe"
+  },
+  {
+    "sample": "NIH2624",
+    "representative": "NIH2624",
+    "sequence_sha256": "d01b44fda3bc283c7a1739953e00ac43b79830433eb448df4b2d2eb9d3788a38",
+    "assembly": "PROJECT/data/assemblies/annotated/NIH2624/GCA_000149615.1_ASM14961v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/NIH2624/funannotate/annotate_results/NIH2624_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/NIH2624/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/NIH2624/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/NIH2624/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__NIH2624/short_summary.specific.eurotiales_odb12.2.terreus__NIH2624.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "517eff9c2cf96216a7f532c17d9ab3e05ce67b49efe69ece42f8f7278c6c4230"
+  },
+  {
+    "sample": "P3406A",
+    "representative": "P3406A",
+    "sequence_sha256": "7a10be3d83897ba39a6ce0e6b333f0d107137d3d5c9d15e1a83525d046158606",
+    "assembly": "PROJECT/data/assemblies/unannotated/P3406A/GCA_023625495.1_ASM2362549v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/P3406A/funannotate/annotate_results/P3406A_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/P3406A/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/P3406A/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/P3406A/ater/annotate_results/P3406A_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/P3406A/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__P3406A/short_summary.specific.eurotiales_odb12.2.terreus__P3406A.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "6a0a06b205d52941b2a897bb940432189ef6b722e5388641c7fe49a2e7b02877"
+  },
+  {
+    "sample": "PA2902",
+    "representative": "PA2902",
+    "sequence_sha256": "907b34230b9d5fcd50842adf8a6a1fd3adfccd796694cb9fe2966892ad63a232",
+    "assembly": "PROJECT/data/assemblies/unannotated/PA2902/GCA_023625575.1_ASM2362557v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/PA2902/funannotate/annotate_results/PA2902_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/PA2902/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PA2902/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PA2902/ater/annotate_results/PA2902_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PA2902/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__PA2902/short_summary.specific.eurotiales_odb12.2.terreus__PA2902.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "14b58ecb2eb1e9181383c475770627028c1de034992fa20849f9176bad9c5678"
+  },
+  {
+    "sample": "PB4404",
+    "representative": "PB4404",
+    "sequence_sha256": "908e0ef343409a3a8c2298dc2ce724ea942c5c0925cf7824db208232dce58ab5",
+    "assembly": "PROJECT/data/assemblies/unannotated/PB4404/GCA_023625535.1_ASM2362553v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/PB4404/funannotate/annotate_results/PB4404_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/PB4404/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PB4404/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PB4404/ater/annotate_results/PB4404_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PB4404/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__PB4404/short_summary.specific.eurotiales_odb12.2.terreus__PB4404.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "25e6e4fb0bfeefa7fc45dac9848affc278a6c73e872e905463f9e2dbb8a4d0c8"
+  },
+  {
+    "sample": "PG6503",
+    "representative": "PG6503",
+    "sequence_sha256": "18c7d979b7f988a59bfdd4ab68abc66577e7c11a2395428f9c5f91954cffdff2",
+    "assembly": "PROJECT/data/assemblies/unannotated/PG6503/GCA_037041615.1_ASM3704161v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/PG6503/funannotate/annotate_results/PG6503_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/PG6503/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PG6503/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PG6503/ater/annotate_results/PG6503_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/PG6503/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__PG6503/short_summary.specific.eurotiales_odb12.2.terreus__PG6503.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "91470edfccc3a61e16d894b511c34e17a02aa75690dbc48e26b949df464e5b46"
+  },
+  {
+    "sample": "R22",
+    "representative": "R22",
+    "sequence_sha256": "58ab3afae152319e153d233fc0810c4932218b6683af221502c6c39de0c0aa85",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R22/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/R22_Aterreus_S1_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/R22_Aterreus_S1_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R22/funannotate/annotate_results/R22_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R22/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R22/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R22/ater/annotate_results/R22_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R22/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__R22/short_summary.specific.eurotiales_odb12.2.terreus__R22.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "9072ff0ff4dbf6abbac778fc95119cc21a4b2c06a56c2a21106ae6975506ac17"
+  },
+  {
+    "sample": "R23",
+    "representative": "R23",
+    "sequence_sha256": "c843041fe0e29202f6dc018944c93a4d6018be98e8a758a6a1484aeaef8fb961",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R23/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/R23_Aterreus_S2_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/R23_Aterreus_S2_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R23/funannotate/annotate_results/R23_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R23/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R23/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R23/ater/annotate_results/R23_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R23/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__R23/short_summary.specific.eurotiales_odb12.2.terreus__R23.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "8e3746f3c0dee4a28a2d2b867be1b4925dd2e2e8ff532606147c54e79e07b578"
+  },
+  {
+    "sample": "R24",
+    "representative": "R24",
+    "sequence_sha256": "402ee15f472f70cbbf23dc41346be3d0c481014cbdf7abedea1b4973b38c1cc4",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R24/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/R24_Aterreus_S3_L001_R1_001.fastq.gz",
+      "PROJECT/data/raw/terreus/R24_Aterreus_S3_L001_R2_001.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R24/funannotate/annotate_results/R24_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R24/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R24/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R24/ater/annotate_results/R24_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R24/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__R24/short_summary.specific.eurotiales_odb12.2.terreus__R24.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "10a22239ea900e0979573ec2bd8f5dc3c4ab9ef4c3e7aaa0a7f7358d9026198e"
+  },
+  {
+    "sample": "R6201Q",
+    "representative": "R6201Q",
+    "sequence_sha256": "1fddddb11d7588755df3660de1b83b3ca45a3ca704adf7670a15ddedf816aa9d",
+    "assembly": "PROJECT/data/assemblies/unannotated/R6201Q/GCA_037041815.1_ASM3704181v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R6201Q/funannotate/annotate_results/R6201Q_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/R6201Q/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R6201Q/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R6201Q/ater/annotate_results/R6201Q_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/R6201Q/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__R6201Q/short_summary.specific.eurotiales_odb12.2.terreus__R6201Q.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "a20f70ae1390e6879224dca322f3273d061a2f981f758c1e1f029e8a073542d7"
+  },
+  {
+    "sample": "S1101B",
+    "representative": "S1101B",
+    "sequence_sha256": "1c7e12275053a8354b748f7fbf1aeef6a633cf04841565115ddcda424a5b31dc",
+    "assembly": "PROJECT/data/assemblies/unannotated/S1101B/GCA_023625515.1_ASM2362551v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/S1101B/funannotate/annotate_results/S1101B_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/S1101B/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/S1101B/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/S1101B/ater/annotate_results/S1101B_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/S1101B/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__S1101B/short_summary.specific.eurotiales_odb12.2.terreus__S1101B.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "6b79de515624b39a88d4c27313fe297c6134a846cabc638c662f1263c1b61a6e"
+  },
+  {
+    "sample": "SRR10507650",
+    "representative": "SRR10507650",
+    "sequence_sha256": "d0b50185c945d25231d46213be8332608956902412220351a32f1cb87a3e8d59",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/floccosus/SRR10507650/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/floccosus/SRR10507650_1.fastq.gz",
+      "PROJECT/data/raw/floccosus/SRR10507650_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 3,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/CBS116.37/funannotate/predict_results/Aspergillus_floccosus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/floccosus/SRR10507650/funannotate/annotate_results/Aspergillus_floccosus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/floccosus/SRR10507650/funannotate/predict_results/Aspergillus_floccosus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "4b00e8286494e0bf182e4fad44e76dfe6ee7ca672d1011d3504be96d6bc332c2"
+  },
+  {
+    "sample": "SRR10511973",
+    "representative": "SRR10511973",
+    "sequence_sha256": "2be7374b889afbd26d897f52c2bbc0f9ca1f6f739a8399503e9f2d595b653b06",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR10511973/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/pseudoterreus/SRR10511973_1.fastq.gz",
+      "PROJECT/data/raw/pseudoterreus/SRR10511973_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR10511973/funannotate/annotate_results/Aspergillus_pseudoterreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR10511973/funannotate/predict_results/Aspergillus_pseudoterreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "4f614f6ed486eed1f8cf0e8185e5fc74f3e8737309186078b9018c27d56cda15"
+  },
+  {
+    "sample": "SRR13958306",
+    "representative": "SRR13958306",
+    "sequence_sha256": "05f4de132bb9ce29dce8f0be2403de055b542e88d94f21e1fea107930031d8f7",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR13958306/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR13958306_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR13958306_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR13958306/funannotate/annotate_results/SRR13958306_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR13958306/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR13958306/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR13958306/ater/annotate_results/SRR13958306_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR13958306/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/SRR13958306/ater/annotate_results/SRR13958306_transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/SRR13958306/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "5daaa051e2bcb1b7c58ea41cdcc3839e5cbec2295e46888ba1a43cece255f4a6"
+  },
+  {
+    "sample": "SRR19634133",
+    "representative": "SRR19634133",
+    "sequence_sha256": "f2c497f2248e3a2bbda8ea3ed4617660daff4f9bb717eaf4d7c1ee3f585e3339",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR19634133/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR19634133_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR19634133_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR19634133/funannotate/annotate_results/SRR19634133_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR19634133/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR19634133/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR19634133/ater/annotate_results/SRR19634133_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR19634133/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/SRR19634133/ater/annotate_results/SRR19634133_transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/SRR19634133/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "2bbbc478b90022014fc276e5000e8b7cc51e10eabdf4d791d74575d2ba3ae5e6"
+  },
+  {
+    "sample": "SRR24010557",
+    "representative": "SRR24010557",
+    "sequence_sha256": "8c2392fda9b50952a96ba014ed1d349a5e87550368b52c2b7b9a5cc92c30a19a",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR24010557/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR24010557_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR24010557_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR24010557/funannotate/annotate_results/SRR24010557_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR24010557/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR24010557/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR24010557/ater/annotate_results/SRR24010557_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR24010557/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "1cff314179e8efd30ddac7166f782421c80d9474b8649fdf3a2f7b068a0ef9df"
+  },
+  {
+    "sample": "SRR24718917",
+    "representative": "MCA10_SRR24718917",
+    "sequence_sha256": "59e48672b2d90ea88989cc7897f1b1e2175223204dce77e992b72f6a888ec291",
+    "assembly": "PROJECT/results1/0_1_spades/hortae/SRR24718917/scaffolds.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR24718917_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR24718917_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 7,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718917/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718917/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/MCA10/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718917/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718917/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718917/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718917/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "496b5ca3fd2bebce0cd2694268afed49be226d43f4d54ce8fb551947d8087e36"
+  },
+  {
+    "sample": "SRR24718918",
+    "representative": "SRR24718918",
+    "sequence_sha256": "d19a256848a2002d0fa384a4969c595e20c9369b96d432d50083258580bd46f6",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718918/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR24718918_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR24718918_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718918/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718918/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718918/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718918/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718918/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718918/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "d52a8c0851f4b9c4bf72ac834fe6819a6731d61f58ce97cc419d2f27079453c6"
+  },
+  {
+    "sample": "SRR24718919",
+    "representative": "SRR24718919",
+    "sequence_sha256": "d9b18169135b3c0bc00e72028c631cf54dcded7eb89083ec6efb11257332da0f",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718919/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR24718919_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR24718919_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718919/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR24718919/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718919/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718919/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718919/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR24718919/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "2a8aa3bf6936ba181ec0b8d8154318b49b84c72299ef69cc590d7ef023d056fa"
+  },
+  {
+    "sample": "SRR25621424",
+    "representative": "SRR25621424",
+    "sequence_sha256": "3608a9e0c8866de6eb8c6d4780a299efa0e986ceaf82193c24b269f060aa7ea8",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25621424/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR25621424_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR25621424_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25621424/funannotate/annotate_results/SRR25621424_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25621424/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25621424/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25621424/ater/annotate_results/SRR25621424_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25621424/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "835544c31e28ba1e9de3ad6901d2a7aa3ffd3fb9db8a797c8e90492c4141abfd"
+  },
+  {
+    "sample": "SRR25621436",
+    "representative": "SRR25621436",
+    "sequence_sha256": "6a2d47b32b99777be5948f2cd15765696ac796079756192e3ec78c270ad053f5",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25621436/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR25621436_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR25621436_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25621436/funannotate/annotate_results/SRR25621436_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25621436/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25621436/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25621436/ater/annotate_results/SRR25621436_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25621436/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "f2cfa9b922c4778bd987f18f9f941629282113d43aa6f47c9af0452b34570ae4"
+  },
+  {
+    "sample": "SRR25636132",
+    "representative": "SRR25636132",
+    "sequence_sha256": "e7a9ffe81119cef1926e9fbbbae39d2ab1a177ca7dda74543ac90b9203934332",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25636132/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR25636132_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR25636132_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25636132/funannotate/annotate_results/SRR25636132_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25636132/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25636132/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25636132/ater/annotate_results/SRR25636132_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25636132/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "8577f6ec64dad37daddc66fd4d4a50ed3b33716881b71cfa3301ad9abf1b22f4"
+  },
+  {
+    "sample": "SRR25636141",
+    "representative": "SRR25636141",
+    "sequence_sha256": "2ef04e35cf945b4260e107a7f56466ec1c22566d0676d8acec803a52b9079136",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR25636141/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/pseudoterreus/SRR25636141_1.fastq.gz",
+      "PROJECT/data/raw/pseudoterreus/SRR25636141_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR25636141/funannotate/annotate_results/Aspergillus_pseudoterreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR25636141/funannotate/predict_results/Aspergillus_pseudoterreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "41ff6cf4328775b03591095bf66b5f043d3497c0b6625afbcaf8a2490bcb0640"
+  },
+  {
+    "sample": "SRR25636143",
+    "representative": "SRR25636143",
+    "sequence_sha256": "67daa674e56c1895c43ce52f7f7b4bf153e6ef8f5092f6957e459e380609da47",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR25636143/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/pseudoterreus/SRR25636143_1.fastq.gz",
+      "PROJECT/data/raw/pseudoterreus/SRR25636143_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR25636143/funannotate/annotate_results/Aspergillus_pseudoterreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/pseudoterreus/SRR25636143/funannotate/predict_results/Aspergillus_pseudoterreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "1d8fbcc3a367a2d9391ddfcf3f7b29ed5398e122cc29e977922fe8c0d04aa4e7"
+  },
+  {
+    "sample": "SRR25636149",
+    "representative": "SRR25636149",
+    "sequence_sha256": "904509456b11dc9ea78e4ca1a96645a69efda4199c6fd86f8c7445b27701f34f",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25636149/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR25636149_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR25636149_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25636149/funannotate/annotate_results/SRR25636149_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR25636149/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25636149/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25636149/ater/annotate_results/SRR25636149_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR25636149/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "7d7a49d8041278a33b5ee83c76dd3a530d0dfe76a19a615b51d3d328a7dda02f"
+  },
+  {
+    "sample": "SRR33476766",
+    "representative": "SRR33476766",
+    "sequence_sha256": "f900b52db1f20ba5d41fd21ec9b07274d27a38ccec687474c167d961fc4796d8",
+    "assembly": "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/contigs_renamed.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR33476766_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR33476766_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B/funannotate/annotate_results/UA-600B_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B_SRR33476766/funannotate/annotate_results/SRR33476766_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B_SRR33476766/funannotate/annotate_results/UA-600B_SRR33476766_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/annotate_results/SRR33476766_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/annotate_results/UA-600B_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "b295f63adc0b83cfd2d47774e52bf38a8964c164224ec9945bfbe8493b9283a4"
+  },
+  {
+    "sample": "SRR33623979",
+    "representative": "SRR33623979",
+    "sequence_sha256": "b53e271c2131332564ce9d4b82b37e9ebcdb28464840a118e31be01d907faa12",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623979/contigs_renamed.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR33623979_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR33623979_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623979/funannotate/annotate_results/SRR33623979_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623979/funannotate/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "d0eeac25d3ae39fbd32c6da8f356bae7d02262f75aa722a3c895ebe0fed62499"
+  },
+  {
+    "sample": "SRR33623984",
+    "representative": "SRR33623984",
+    "sequence_sha256": "2fea948baadfff6f205a935e782a5b4e44ceed0021a29548380c7301e3db418f",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623984/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR33623984_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR33623984_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623984/funannotate/annotate_results/SRR33623984_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623984/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33623984/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33623984/ater/annotate_results/SRR33623984_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33623984/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "9bb52afb9b14d233f3aab7e0c3a1d4f9bae535fc767ab3112416fc2da22954ae"
+  },
+  {
+    "sample": "SRR33623985",
+    "representative": "SRR33623985",
+    "sequence_sha256": "8332bef6e1e3e5069e9e83d1e035bdd4c9d3081a01878402c4ef11965378cede",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623985/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR33623985_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR33623985_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623985/funannotate/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR33623985/funannotate/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "0addf704d505574960de6ffa65ebd1a517a4806756a03e054bf8f75386b8a52a"
+  },
+  {
+    "sample": "SRR35107300",
+    "representative": "SRR35107300",
+    "sequence_sha256": "51b3d64c13dff3a2e51b0fc7a2708d091e540e7463975072aeebeee98b297ab4",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR35107300/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR35107300_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR35107300_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR35107300/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/hortae/SRR35107300/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR35107300/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR35107300/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR35107300/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR35107300/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "cba21826de7b1b01746aeb2530e4f3aa46c932ee6ed6cd25314f570f1c522956"
+  },
+  {
+    "sample": "SRR8399219",
+    "representative": "SRR8399219",
+    "sequence_sha256": "404c589a41a84e3c9fa166b18e202010d8b4fa486c2c90167a3bc18733e146d8",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/alabamensis/SRR8399219/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/alabamensis/SRR8399219_1.fastq.gz",
+      "PROJECT/data/raw/alabamensis/SRR8399219_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/alabamensis/SRR8399219/funannotate/annotate_results/Aspergillus_alabamensis.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/alabamensis/SRR8399219/funannotate/predict_results/Aspergillus_alabamensis.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "4b5000755615ff8de86a7e45933593036bf0702808c9d294b1a2b30fb9d67988"
+  },
+  {
+    "sample": "SRR8399223",
+    "representative": "SRR8399223",
+    "sequence_sha256": "df4029d54fe32f7a0fb10eda07e57c49a10f9da868bd8bdbf682d72c821e4bfc",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/aureoterreus/SRR8399223/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/aureoterreus/SRR8399223_1.fastq.gz",
+      "PROJECT/data/raw/aureoterreus/SRR8399223_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/aureoterreus/SRR8399223/funannotate/annotate_results/Aspergillus_aureoterreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/aureoterreus/SRR8399223/funannotate/predict_results/Aspergillus_aureoterreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "a808f3b5168336239e6daf1a21ac7f9f0c9e0ff83986825213b532b4f5fcca45"
+  },
+  {
+    "sample": "SRR9691929",
+    "representative": "SRR9691929",
+    "sequence_sha256": "c30da513ec1608c19d621b2aa04baefe8dac1657e76ad069205834ef7db9af22",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691929/contigs_renamed.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR9691929_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR9691929_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691929/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691929/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR9691929/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR9691929/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR9691929/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR9691929/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "198ec157aa4b678cd999d6ee8e7d41d4ff498c3037e508194fc4b5e861176a56"
+  },
+  {
+    "sample": "SRR9691930",
+    "representative": "SRR9691930",
+    "sequence_sha256": "3113b3aec76d3c0e4d76e0442740852df4eac29b5db5a1ff48af41036df7a6eb",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691930/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR9691930_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR9691930_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691930/funannotate/annotate_results/SRR9691930_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691930/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691930/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691930/ater/annotate_results/SRR9691930_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691930/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "2b0d38c551169c47087ac0715e77db701efbda23b5d9849d982e8f1d482f70b1"
+  },
+  {
+    "sample": "SRR9691931",
+    "representative": "SRR9691931",
+    "sequence_sha256": "3230e094f4182616e88db3136cd6152df28c7b6432c5707f97698aba48488390",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691931/contigs_renamed.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/hortae/SRR9691931_1.fastq.gz",
+      "PROJECT/data/raw/hortae/SRR9691931_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691931/funannotate/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691931/funannotate/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR9691931/ahor/annotate_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR9691931/ahor/predict_results/Aspergillus_hortae.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR9691931/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/hortae/SRR9691931/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "6941e60ba6f729254bc7814567e50811bcaa6581636f9e34b0e036776c82d5d4"
+  },
+  {
+    "sample": "SRR9691932",
+    "representative": "SRR9691932",
+    "sequence_sha256": "850ed1dc094f4cdc7955b3c655c28b1248ab7b727c8d025a230454e0a2eed07c",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691932/contigs_renamed.fasta",
+    "in_core_tree": false,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR9691932_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR9691932_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691932/funannotate/annotate_results/SRR9691932_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/poor_quality/SRR9691932/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691932/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691932/ater/annotate_results/SRR9691932_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691932/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "ea7986fc029e8d53f30c60e967af118e294585e08cc55e0c5d7113ff69cb8338"
+  },
+  {
+    "sample": "SRR9691933",
+    "representative": "SRR9691933",
+    "sequence_sha256": "5505c0734dfb221fbffd968b6668981d79a14fd18d43af5b399fd9eb6c40079f",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/alabamensis/SRR9691933/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/alabamensis/SRR9691933.fastq.gz",
+      "PROJECT/data/raw/alabamensis/SRR9691933_1.fastq.gz",
+      "PROJECT/data/raw/alabamensis/SRR9691933_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 2,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/alabamensis/SRR9691933/funannotate/annotate_results/Aspergillus_alabamensis.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/alabamensis/SRR9691933/funannotate/predict_results/Aspergillus_alabamensis.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "5fb438b2ef9d9cf1e478787f072ba29e80978c0bc84ff0afec2ad73178b4dc63"
+  },
+  {
+    "sample": "SRR9691934",
+    "representative": "SRR9691934",
+    "sequence_sha256": "1829849f1988c3a039ba394d94d83801d5e5fd1ae9bce2b7ef1c6b2b258e7ffd",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691934/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR9691934_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR9691934_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691934/funannotate/annotate_results/SRR9691934_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691934/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691934/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691934/ater/annotate_results/SRR9691934_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691934/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "27f370aaaef04174f3e9315ef36c65b4f46f556741c4225335d9ea7ad6312f85"
+  },
+  {
+    "sample": "SRR9691935",
+    "representative": "SRR9691935",
+    "sequence_sha256": "c860748801a171aad532ebbfdf2ac5aa59324f2aa9044c7e9d7934baefa0598e",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691935/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR9691935_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR9691935_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691935/funannotate/annotate_results/SRR9691935_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691935/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691935/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691935/ater/annotate_results/SRR9691935_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691935/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "18beb96556f8c8547fd4db0a7b5886ea34da046aa3a31fdf7dfe55628679940f"
+  },
+  {
+    "sample": "SRR9691936",
+    "representative": "SRR9691936",
+    "sequence_sha256": "0a5315bd0bd5585edce5512391dedbb37d41df3a58441e950b211f74f47d1225",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691936/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR9691936_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR9691936_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691936/funannotate/annotate_results/SRR9691936_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/SRR9691936/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691936/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691936/ater/annotate_results/SRR9691936_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR9691936/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "aa2edccc15416d704798ebcc4e177d0aed1ee473979be9578ef09541fc566522"
+  },
+  {
+    "sample": "T59-F",
+    "representative": "T59-F",
+    "sequence_sha256": "2169599882a78ea6dd016eaf9df41becfc5ccd8b716e60a4ea1ab2d14d45a118",
+    "assembly": "PROJECT/data/assemblies/unannotated/T59-F/GCA_982397235.1_T59-F_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/ERR14883637_1.fastq.gz",
+      "PROJECT/data/raw/terreus/ERR14883637_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 8,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F/funannotate/annotate_results/T59-F_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F_ERR14883637/funannotate/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F_ERR14883637/funannotate/annotate_results/T59-F_ERR14883637_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/annotate_results/T59-F_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/ERR14883637/ater/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/ERR14883637/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__T59-F/short_summary.specific.eurotiales_odb12.2.terreus__T59-F.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "35b4c5de072f329fccc65a9ffffc81c7ea404be1bdba52d293ac481635d18640"
+  },
+  {
+    "sample": "T59-F_ERR14883637",
+    "representative": "ERR14883637",
+    "sequence_sha256": "4afc18b828afc8db0509833da2e14a4e572519ffcce25dd6c166b87ec8907643",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F_ERR14883637/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/ERR14883637_1.fastq.gz",
+      "PROJECT/data/raw/terreus/ERR14883637_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 10,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F/funannotate/annotate_results/T59-F_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F_ERR14883637/funannotate/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F_ERR14883637/funannotate/annotate_results/T59-F_ERR14883637_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/T59-F_ERR14883637/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/ERR14883637/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/annotate_results/T59-F_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/T59-F/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/ERR14883637/ater/annotate_results/ERR14883637_transcripts.fa",
+      "PROJECT/results2/0_2_repeat_mask_funannotate/ERR14883637/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "f21909f5c379574e1bbfb798535f3af6e65fa6b2ed1aa96d6e3a39afbff780e1"
+  },
+  {
+    "sample": "TN-484",
+    "representative": "TN-484",
+    "sequence_sha256": "b4b99ae53cb004ae037b4f7479b65edffe3ae2b09f2aaf823890f40bc317e0e2",
+    "assembly": "PROJECT/data/assemblies/annotated/TN-484/GCA_009014675.2_Ater_TN-484_02_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TN-484/funannotate/annotate_results/TN-484_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TN-484/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TN-484_DRR191518/funannotate/annotate_results/TN-484_DRR191518_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/TN-484/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/TN-484/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__TN-484/short_summary.specific.eurotiales_odb12.2.terreus__TN-484.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "c34b4a0d7445b4dba03375241bf3c30f4b9462e105ade3a9660c373ccb14a89e"
+  },
+  {
+    "sample": "TN-484_DRR191518",
+    "representative": "TN-484_DRR191518",
+    "sequence_sha256": "d2c5f8856896001a54f6fd9300b6393658211287be72d5ca34b6cc484bac64c8",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TN-484_DRR191518/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TN-484/funannotate/annotate_results/TN-484_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TN-484/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TN-484_DRR191518/funannotate/annotate_results/TN-484_DRR191518_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TN-484_DRR191518/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/TN-484/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/TN-484/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "ef62baf7b3cda8abf7007c6f2df7e3aef4ad7b832f431745bd83fb68a9339ecb"
+  },
+  {
+    "sample": "TT0037",
+    "representative": "TT0037",
+    "sequence_sha256": "02e7663aa8d383e34c3455ee6d97d34f0a723a276eaec6a7fdb84d9f405dfead",
+    "assembly": "PROJECT/data/assemblies/annotated/TT0037/GCA_054661595.1_ATERTT00037_1.0_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TT0037/funannotate/annotate_results/TT0037_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/TT0037/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/TT0037/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus_existing_annotations2/TT0037/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 4,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__TT0037/short_summary.specific.eurotiales_odb12.2.terreus__TT0037.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "4525cf0adaa1da014598cade00dd150be3919b8d4e27bead006e49e98c94724d"
+  },
+  {
+    "sample": "UA-600B",
+    "representative": "UA-600B",
+    "sequence_sha256": "fd9b814f5f72ccdb2859e41b2f8b4b43fbec57a1a6a6e0eefb28765b7e799dac",
+    "assembly": "PROJECT/data/assemblies/unannotated/UA-600B/GCA_049862995.1_ASM4986299v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR33476766_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR33476766_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 6,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B/funannotate/annotate_results/UA-600B_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B_SRR33476766/funannotate/annotate_results/SRR33476766_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B_SRR33476766/funannotate/annotate_results/UA-600B_SRR33476766_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/annotate_results/SRR33476766_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/annotate_results/UA-600B_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__UA-600B/short_summary.specific.eurotiales_odb12.2.terreus__UA-600B.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "e710014ff7d3feb05b16b4f9bdab70597a946d54357e76aa28c6fd59806f916b"
+  },
+  {
+    "sample": "UA-600B_SRR33476766",
+    "representative": "SRR33476766",
+    "sequence_sha256": "f900b52db1f20ba5d41fd21ec9b07274d27a38ccec687474c167d961fc4796d8",
+    "assembly": "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B_SRR33476766/contigs_renamed.fasta",
+    "in_core_tree": true,
+    "raw_read_candidates": [
+      "PROJECT/data/raw/terreus/SRR33476766_1.fastq.gz",
+      "PROJECT/data/raw/terreus/SRR33476766_2.fastq.gz"
+    ],
+    "read_eligibility": "candidate reads; pair/lane/assembly provenance not yet validated",
+    "protein_candidates": 8,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B/funannotate/annotate_results/UA-600B_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B_SRR33476766/funannotate/annotate_results/SRR33476766_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B_SRR33476766/funannotate/annotate_results/UA-600B_SRR33476766_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/UA-600B_SRR33476766/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/annotate_results/SRR33476766_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/SRR33476766/ater/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/annotate_results/UA-600B_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/UA-600B/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [],
+    "busco_status": "missing harmonised same-sequence genome result",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "b295f63adc0b83cfd2d47774e52bf38a8964c164224ec9945bfbe8493b9283a4"
+  },
+  {
+    "sample": "w25",
+    "representative": "w25",
+    "sequence_sha256": "fb6b152c6460d970676211da8d0d9bfe01d5a046a46654a36f40356803df2be1",
+    "assembly": "PROJECT/data/assemblies/unannotated/w25/GCA_002749855.1_ASM274985v1_genomic.fna",
+    "in_core_tree": true,
+    "raw_read_candidates": [],
+    "read_eligibility": "no reads found in project raw directories; read-only analyses N/A pending alias review",
+    "protein_candidates": 4,
+    "transcript_candidates": [
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/w25/funannotate/annotate_results/w25_transcripts.fa",
+      "PROJECT/results/0_2_repeat_mask_funannotate/terreus/w25/funannotate/predict_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/w25/ater/annotate_results/Aspergillus_terreus.transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/w25/ater/annotate_results/w25_transcripts.fa",
+      "PROJECT/results1/0_2_repeat_mask_funannotate/terreus/w25/ater/predict_results/Aspergillus_terreus.transcripts.fa"
+    ],
+    "exact_assembly_annotation_candidates": 0,
+    "busco_genome_matching_current_input": [
+      "PROJECT/terreus_qc_check/complete_data/busco_genomes/terreus__w25/short_summary.specific.eurotiales_odb12.2.terreus__w25.json"
+    ],
+    "busco_status": "provisional existing same-sequence/same-lineage result; historical hash unresolved",
+    "metadata_status": "join and biological-culture validation pending",
+    "assembly_file_sha256": "60fb12ab2d980437d86c9b8eb639b6ea4b6570cdfdc7a1fd1c25538da857179f"
+  }
+]

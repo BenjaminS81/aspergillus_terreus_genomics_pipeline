@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Cite the repository URL and exact commit used, together with the original methods and data publications in the inventory."
+title: "Aspergillus section Terrei genomics: source and provenance archive"
+type: software
+version: "2026.11.20-source-import"
+date-released: 2026-11-20
+url: "https://github.com/BenjaminS81/aspergillus_terreus_genomics_pipeline"
+repository-code: "https://github.com/BenjaminS81/aspergillus_terreus_genomics_pipeline"

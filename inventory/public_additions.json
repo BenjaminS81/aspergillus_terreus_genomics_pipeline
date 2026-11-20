@@ -1,0 +1,113 @@
+{
+  "started_utc": "2026-11-20T11:01:43.819862+00:00",
+  "destination": "PROJECT/data/external/public_additions/2026-11-20_v1",
+  "policy": "Sequential single-thread streaming, 1 MiB buffers; below-normal priority and one CPU affinity on Windows. No changes to existing analyses or queues.",
+  "assemblies": [
+    {
+      "accession": "GCA_061584345.1",
+      "source_directory": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/061/584/345/GCA_061584345.1_ASM61584345v1",
+      "biosample": "SAMN62800636",
+      "role": "new genome candidate",
+      "files": [
+        {
+          "path": "PROJECT/data/external/public_additions/2026-11-20_v1/assemblies/GCA_061584345.1/GCA_061584345.1_ASM61584345v1_genomic.fna.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/061/584/345/GCA_061584345.1_ASM61584345v1/GCA_061584345.1_ASM61584345v1_genomic.fna.gz",
+          "published_md5": "448d4d7385179cb2d8b301dd2ac6cc45",
+          "verified_utc": "2026-11-20T11:01:45.974825+00:00",
+          "md5": "448d4d7385179cb2d8b301dd2ac6cc45",
+          "sha256": "d736f5305aa23e26379eace2b1789341397ec2665f65c952f9dfcd7aa1b54031",
+          "bytes": 9374566
+        },
+        {
+          "path": "PROJECT/data/external/public_additions/2026-11-20_v1/assemblies/GCA_061584345.1/GCA_061584345.1_ASM61584345v1_assembly_report.txt",
+          "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/061/584/345/GCA_061584345.1_ASM61584345v1/GCA_061584345.1_ASM61584345v1_assembly_report.txt",
+          "published_md5": "109d6e14ebe9e438cf87f77c6579906f",
+          "verified_utc": "2026-11-20T11:01:46.374464+00:00",
+          "md5": "109d6e14ebe9e438cf87f77c6579906f",
+          "sha256": "e7037a7e0aa62f77195670ce5e807614f0fe3bdaf22fe9cd2080a14292398133",
+          "bytes": 14235
+        },
+        {
+          "path": "PROJECT/data/external/public_additions/2026-11-20_v1/assemblies/GCA_061584345.1/GCA_061584345.1_ASM61584345v1_assembly_stats.txt",
+          "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/061/584/345/GCA_061584345.1_ASM61584345v1/GCA_061584345.1_ASM61584345v1_assembly_stats.txt",
+          "published_md5": "2696a9c80a4cac875a7b2ba3e0fdb8df",
+          "verified_utc": "2026-11-20T11:01:46.764843+00:00",
+          "md5": "2696a9c80a4cac875a7b2ba3e0fdb8df",
+          "sha256": "229d0f417f51377c6bf8729262ba5f965429ce842936db9fd534b83b4174fd30",
+          "bytes": 4753
+        }
+      ],
+      "status": "downloaded_and_verified"
+    },
+    {
+      "accession": "GCA_988135485.1",
+      "source_directory": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/988/135/485/GCA_988135485.1_TATVAM_FUN59",
+      "biosample": "SAMEA123268433",
+      "role": "provenance reconciliation with existing ERR17672364/T59-F representations",
+      "files": [
+        {
+          "path": "PROJECT/data/external/public_additions/2026-11-20_v1/assemblies/GCA_988135485.1/GCA_988135485.1_TATVAM_FUN59_genomic.fna.gz",
+          "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/988/135/485/GCA_988135485.1_TATVAM_FUN59/GCA_988135485.1_TATVAM_FUN59_genomic.fna.gz",
+          "published_md5": "d160e9dfb1cbee21f6e9351df629e033",
+          "verified_utc": "2026-11-20T11:01:48.839894+00:00",
+          "md5": "d160e9dfb1cbee21f6e9351df629e033",
+          "sha256": "e22ab4dca44f496958def7494c1c582be36a7b804662a6c31da8af5896234bcc",
+          "bytes": 9426466
+        },
+        {
+          "path": "PROJECT/data/external/public_additions/2026-11-20_v1/assemblies/GCA_988135485.1/GCA_988135485.1_TATVAM_FUN59_assembly_report.txt",
+          "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/988/135/485/GCA_988135485.1_TATVAM_FUN59/GCA_988135485.1_TATVAM_FUN59_assembly_report.txt",
+          "published_md5": "c56640a643cbdde2049cceb72f9633d3",
+          "verified_utc": "2026-11-20T11:01:49.239320+00:00",
+          "md5": "c56640a643cbdde2049cceb72f9633d3",
+          "sha256": "16479e31ebd5e1bd507d65d96cfde8496e933c2e47c21791b06a75d51edb8f0e",
+          "bytes": 16604
+        },
+        {
+          "path": "PROJECT/data/external/public_additions/2026-11-20_v1/assemblies/GCA_988135485.1/GCA_988135485.1_TATVAM_FUN59_assembly_stats.txt",
+          "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/988/135/485/GCA_988135485.1_TATVAM_FUN59/GCA_988135485.1_TATVAM_FUN59_assembly_stats.txt",
+          "published_md5": "6b072defb7451424e6285d458b64a615",
+          "verified_utc": "2026-11-20T11:01:49.630918+00:00",
+          "md5": "6b072defb7451424e6285d458b64a615",
+          "sha256": "c2dc81c4fb3a4785454d2ac31c4f73caf8228f0aaa6eb5c6c4b4e76377ab7eed",
+          "bytes": 3557
+        }
+      ],
+      "status": "downloaded_and_verified"
+    }
+  ],
+  "existing_read_aliases": [
+    {
+      "public_run": "SRR30681804",
+      "existing_path": "PROJECT/inbox/ATSec/fastq/ATsec/ATsec.fastq.gz",
+      "sample_title": "sector",
+      "public_read_count": 498921,
+      "public_base_count": 3719743292,
+      "status": "existing_data_validated",
+      "exact_public_sequence_identity": "not established by counts alone",
+      "local_read_count": 498921,
+      "local_base_count": 3719743292,
+      "compressed_bytes": 3873550425,
+      "gzip_and_fastq_structure_valid": true,
+      "counts_match_public": true,
+      "download_decision": "Existing WT/sector data retained; no duplicate public read download. Accession alias remains provisional unless exact sequence identity is established."
+    },
+    {
+      "public_run": "SRR30681805",
+      "existing_path": "PROJECT/inbox/ATSec/fastq/wt/wt.fastq.gz",
+      "sample_title": "wildtype",
+      "public_read_count": 445966,
+      "public_base_count": 3080843620,
+      "status": "existing_data_validated",
+      "exact_public_sequence_identity": "not established by counts alone",
+      "local_read_count": 445966,
+      "local_base_count": 3080843620,
+      "compressed_bytes": 3209145719,
+      "gzip_and_fastq_structure_valid": true,
+      "counts_match_public": true,
+      "download_decision": "Existing WT/sector data retained; no duplicate public read download. Accession alias remains provisional unless exact sequence identity is established."
+    }
+  ],
+  "status": "complete",
+  "finished_utc": "2026-11-20T11:04:49.177697+00:00"
+}

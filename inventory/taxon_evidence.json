@@ -1,0 +1,3578 @@
+[
+  {
+    "taxon_name": "Aspergillus alabamensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_3372_Aspergillus_alabamensis_CNUFCAM-44",
+        "REF_4010_Aspergillus_alabamensis_CMW60622",
+        "REF_5243_Aspergillus_alabamensis_DTO015-F8",
+        "REF_5244_Aspergillus_alabamensis_DTO015-F9",
+        "REF_5246_Aspergillus_alabamensis_DTO025-D8",
+        "REF_5247_Aspergillus_alabamensis_DTO032-H6",
+        "REF_5248_Aspergillus_alabamensis_DTO045-C4",
+        "REF_5249_Aspergillus_alabamensis_DTO045-C9",
+        "REF_5250_Aspergillus_alabamensis_DTO045-D2",
+        "REF_5251_Aspergillus_alabamensis_DTO047-E7",
+        "REF_5259_Aspergillus_alabamensis_DTO353-F7",
+        "REF_5260_Aspergillus_alabamensis_DTO359-F1",
+        "REF_5261_Aspergillus_alabamensis_DTO359-F3",
+        "REF_5262_Aspergillus_alabamensis_DTO359-F5",
+        "REF_5266_Aspergillus_alabamensis_DTO361-I8",
+        "REF_5267_Aspergillus_alabamensis_DTO362-A5",
+        "REF_5268_Aspergillus_alabamensis_DTO362-B9",
+        "REF_5269_Aspergillus_alabamensis_DTO362-E6",
+        "REF_5270_Aspergillus_alabamensis_DTO362-G8",
+        "REF_5271_Aspergillus_alabamensis_DTO362-H3",
+        "REF_5274_Aspergillus_alabamensis_DTO419-A7",
+        "REF_5278_Aspergillus_alabamensis_DTO438-I7",
+        "REF_5389_Aspergillus_alabamensis_MST-F28567",
+        "REF_582_Aspergillus_alabamensis_CBS125693",
+        "REF_585_Aspergillus_alabamensis_FMR15383",
+        "REF_586_Aspergillus_alabamensis_PPRI25994",
+        "REF_587_Aspergillus_alabamensis_PPRI25996",
+        "REF_594_Aspergillus_alabamensis_PPRI9184",
+        "REF_595_Aspergillus_alabamensis_PPRI8747"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_DTO015F8",
+        "HIST2011_DTO015F9",
+        "HIST2011_IBT12702",
+        "HIST2011_UAB15",
+        "HIST2011_UAB18",
+        "HIST2011_UAB20",
+        "REF_3372_Aspergillus_alabamensis_CNUFCAM-44",
+        "REF_3494_Aspergillus_alabamensis_BRIP71536a",
+        "REF_4010_Aspergillus_alabamensis_CMW60622",
+        "REF_5243_Aspergillus_alabamensis_DTO015-F8",
+        "REF_5244_Aspergillus_alabamensis_DTO015-F9",
+        "REF_5246_Aspergillus_alabamensis_DTO025-D8",
+        "REF_5247_Aspergillus_alabamensis_DTO032-H6",
+        "REF_5248_Aspergillus_alabamensis_DTO045-C4",
+        "REF_5249_Aspergillus_alabamensis_DTO045-C9",
+        "REF_5250_Aspergillus_alabamensis_DTO045-D2",
+        "REF_5251_Aspergillus_alabamensis_DTO047-E7",
+        "REF_5259_Aspergillus_alabamensis_DTO353-F7",
+        "REF_5260_Aspergillus_alabamensis_DTO359-F1",
+        "REF_5261_Aspergillus_alabamensis_DTO359-F3",
+        "REF_5262_Aspergillus_alabamensis_DTO359-F5",
+        "REF_5266_Aspergillus_alabamensis_DTO361-I8",
+        "REF_5267_Aspergillus_alabamensis_DTO362-A5",
+        "REF_5268_Aspergillus_alabamensis_DTO362-B9",
+        "REF_5269_Aspergillus_alabamensis_DTO362-E6",
+        "REF_5270_Aspergillus_alabamensis_DTO362-G8",
+        "REF_5271_Aspergillus_alabamensis_DTO362-H3",
+        "REF_5274_Aspergillus_alabamensis_DTO419-A7",
+        "REF_5278_Aspergillus_alabamensis_DTO438-I7",
+        "REF_5389_Aspergillus_alabamensis_MST-F28567",
+        "REF_582_Aspergillus_alabamensis_CBS125693",
+        "REF_583_Aspergillus_alabamensis_IBT12702",
+        "REF_584_Aspergillus_alabamensis_URM5061",
+        "REF_585_Aspergillus_alabamensis_FMR15383",
+        "REF_586_Aspergillus_alabamensis_PPRI25994",
+        "REF_587_Aspergillus_alabamensis_PPRI25996",
+        "REF_594_Aspergillus_alabamensis_PPRI9184",
+        "REF_595_Aspergillus_alabamensis_PPRI8747"
+      ],
+      "analysis_name_type108": [
+        "REF_3494_Aspergillus_alabamensis_BRIP71536a",
+        "REF_5389_Aspergillus_alabamensis_MST-F28567",
+        "REF_582_Aspergillus_alabamensis_CBS125693"
+      ],
+      "genome_source_name": [
+        "SRR8399219",
+        "SRR9691933"
+      ],
+      "marker_sequence_fetched": [
+        "KP987018",
+        "KP987049",
+        "LT899500",
+        "LT899547",
+        "LT899602",
+        "MK450758",
+        "MK450759",
+        "MK450947",
+        "MK450948",
+        "MK451300",
+        "MK451301",
+        "OK105085",
+        "OK105086",
+        "OK431605",
+        "PV179566",
+        "PV179568",
+        "PV179569",
+        "PV179586",
+        "PV179600",
+        "PV179626",
+        "PV179627",
+        "PV179628",
+        "PV179629",
+        "PV179630",
+        "PV179631",
+        "PV179632",
+        "PV179633",
+        "PV179634",
+        "PV179635",
+        "PV179636",
+        "PV179637",
+        "PV179638",
+        "PV179639",
+        "PV179640",
+        "PV179680",
+        "PV180743",
+        "PV181276",
+        "PV181277",
+        "PV181280",
+        "PV181281",
+        "PV181282",
+        "PV181283",
+        "PV181284",
+        "PV181285",
+        "PV181305",
+        "PV181306",
+        "PV181307",
+        "PV181308",
+        "PV181312",
+        "PV181313",
+        "PV181314",
+        "PV181316",
+        "PV181317",
+        "PV181318",
+        "PV181323",
+        "PV181328",
+        "PV181791",
+        "PV182317",
+        "PV182318",
+        "PV182321",
+        "PV182322",
+        "PV182323",
+        "PV182324",
+        "PV182325",
+        "PV182326",
+        "PV182346",
+        "PV182347",
+        "PV182348",
+        "PV182349",
+        "PV182353",
+        "PV182354",
+        "PV182355",
+        "PV182357",
+        "PV182358",
+        "PV182359",
+        "PV182364",
+        "PV182369"
+      ],
+      "nomenclature_catalog_only": [
+        "543648"
+      ],
+      "provisional_core_assignment": [
+        "SRR8399219",
+        "SRR9691930"
+      ],
+      "reference_library": [
+        "REF_3372_Aspergillus_alabamensis_CNUFCAM-44",
+        "REF_3494_Aspergillus_alabamensis_BRIP71536a",
+        "REF_4010_Aspergillus_alabamensis_CMW60622",
+        "REF_5243_Aspergillus_alabamensis_DTO015-F8",
+        "REF_5244_Aspergillus_alabamensis_DTO015-F9",
+        "REF_5246_Aspergillus_alabamensis_DTO025-D8",
+        "REF_5247_Aspergillus_alabamensis_DTO032-H6",
+        "REF_5248_Aspergillus_alabamensis_DTO045-C4",
+        "REF_5249_Aspergillus_alabamensis_DTO045-C9",
+        "REF_5250_Aspergillus_alabamensis_DTO045-D2",
+        "REF_5251_Aspergillus_alabamensis_DTO047-E7",
+        "REF_5259_Aspergillus_alabamensis_DTO353-F7",
+        "REF_5260_Aspergillus_alabamensis_DTO359-F1",
+        "REF_5261_Aspergillus_alabamensis_DTO359-F3",
+        "REF_5262_Aspergillus_alabamensis_DTO359-F5",
+        "REF_5266_Aspergillus_alabamensis_DTO361-I8",
+        "REF_5267_Aspergillus_alabamensis_DTO362-A5",
+        "REF_5268_Aspergillus_alabamensis_DTO362-B9",
+        "REF_5269_Aspergillus_alabamensis_DTO362-E6",
+        "REF_5270_Aspergillus_alabamensis_DTO362-G8",
+        "REF_5271_Aspergillus_alabamensis_DTO362-H3",
+        "REF_5274_Aspergillus_alabamensis_DTO419-A7",
+        "REF_5278_Aspergillus_alabamensis_DTO438-I7",
+        "REF_5389_Aspergillus_alabamensis_MST-F28567",
+        "REF_582_Aspergillus_alabamensis_CBS125693",
+        "REF_583_Aspergillus_alabamensis_IBT12702",
+        "REF_584_Aspergillus_alabamensis_URM5061",
+        "REF_585_Aspergillus_alabamensis_FMR15383",
+        "REF_586_Aspergillus_alabamensis_PPRI25994",
+        "REF_587_Aspergillus_alabamensis_PPRI25996",
+        "REF_594_Aspergillus_alabamensis_PPRI9184",
+        "REF_595_Aspergillus_alabamensis_PPRI8747"
+      ],
+      "used_complete230": [
+        "REF_3372_Aspergillus_alabamensis_CNUFCAM-44",
+        "REF_4010_Aspergillus_alabamensis_CMW60622",
+        "REF_5243_Aspergillus_alabamensis_DTO015-F8",
+        "REF_5244_Aspergillus_alabamensis_DTO015-F9",
+        "REF_5246_Aspergillus_alabamensis_DTO025-D8",
+        "REF_5247_Aspergillus_alabamensis_DTO032-H6",
+        "REF_5248_Aspergillus_alabamensis_DTO045-C4",
+        "REF_5249_Aspergillus_alabamensis_DTO045-C9",
+        "REF_5250_Aspergillus_alabamensis_DTO045-D2",
+        "REF_5251_Aspergillus_alabamensis_DTO047-E7",
+        "REF_5259_Aspergillus_alabamensis_DTO353-F7",
+        "REF_5260_Aspergillus_alabamensis_DTO359-F1",
+        "REF_5261_Aspergillus_alabamensis_DTO359-F3",
+        "REF_5262_Aspergillus_alabamensis_DTO359-F5",
+        "REF_5266_Aspergillus_alabamensis_DTO361-I8",
+        "REF_5267_Aspergillus_alabamensis_DTO362-A5",
+        "REF_5268_Aspergillus_alabamensis_DTO362-B9",
+        "REF_5269_Aspergillus_alabamensis_DTO362-E6",
+        "REF_5270_Aspergillus_alabamensis_DTO362-G8",
+        "REF_5271_Aspergillus_alabamensis_DTO362-H3",
+        "REF_5274_Aspergillus_alabamensis_DTO419-A7",
+        "REF_5278_Aspergillus_alabamensis_DTO438-I7",
+        "REF_5389_Aspergillus_alabamensis_MST-F28567",
+        "REF_582_Aspergillus_alabamensis_CBS125693",
+        "REF_585_Aspergillus_alabamensis_FMR15383",
+        "REF_586_Aspergillus_alabamensis_PPRI25994",
+        "REF_587_Aspergillus_alabamensis_PPRI25996",
+        "REF_594_Aspergillus_alabamensis_PPRI9184",
+        "REF_595_Aspergillus_alabamensis_PPRI8747"
+      ],
+      "used_core_source_name": [
+        "SRR8399219",
+        "SRR9691933"
+      ],
+      "used_full283": [
+        "REF_3372_Aspergillus_alabamensis_CNUFCAM-44",
+        "REF_3494_Aspergillus_alabamensis_BRIP71536a",
+        "REF_4010_Aspergillus_alabamensis_CMW60622",
+        "REF_5243_Aspergillus_alabamensis_DTO015-F8",
+        "REF_5244_Aspergillus_alabamensis_DTO015-F9",
+        "REF_5246_Aspergillus_alabamensis_DTO025-D8",
+        "REF_5247_Aspergillus_alabamensis_DTO032-H6",
+        "REF_5248_Aspergillus_alabamensis_DTO045-C4",
+        "REF_5249_Aspergillus_alabamensis_DTO045-C9",
+        "REF_5250_Aspergillus_alabamensis_DTO045-D2",
+        "REF_5251_Aspergillus_alabamensis_DTO047-E7",
+        "REF_5259_Aspergillus_alabamensis_DTO353-F7",
+        "REF_5260_Aspergillus_alabamensis_DTO359-F1",
+        "REF_5261_Aspergillus_alabamensis_DTO359-F3",
+        "REF_5262_Aspergillus_alabamensis_DTO359-F5",
+        "REF_5266_Aspergillus_alabamensis_DTO361-I8",
+        "REF_5267_Aspergillus_alabamensis_DTO362-A5",
+        "REF_5268_Aspergillus_alabamensis_DTO362-B9",
+        "REF_5269_Aspergillus_alabamensis_DTO362-E6",
+        "REF_5270_Aspergillus_alabamensis_DTO362-G8",
+        "REF_5271_Aspergillus_alabamensis_DTO362-H3",
+        "REF_5274_Aspergillus_alabamensis_DTO419-A7",
+        "REF_5278_Aspergillus_alabamensis_DTO438-I7",
+        "REF_5389_Aspergillus_alabamensis_MST-F28567",
+        "REF_582_Aspergillus_alabamensis_CBS125693",
+        "REF_583_Aspergillus_alabamensis_IBT12702",
+        "REF_584_Aspergillus_alabamensis_URM5061",
+        "REF_585_Aspergillus_alabamensis_FMR15383",
+        "REF_586_Aspergillus_alabamensis_PPRI25994",
+        "REF_587_Aspergillus_alabamensis_PPRI25996",
+        "REF_594_Aspergillus_alabamensis_PPRI9184",
+        "REF_595_Aspergillus_alabamensis_PPRI8747"
+      ],
+      "used_type108": [
+        "REF_3494_Aspergillus_alabamensis_BRIP71536a",
+        "REF_5389_Aspergillus_alabamensis_MST-F28567",
+        "REF_582_Aspergillus_alabamensis_CBS125693"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491726",
+        "FJ491727",
+        "FJ491729",
+        "FJ491730",
+        "FJ491731",
+        "FJ531193",
+        "FJ531194",
+        "FJ531195",
+        "FJ531196",
+        "FJ531229",
+        "FJ531233"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus alboluteus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "MW478497",
+        "MW478498",
+        "MW478499",
+        "MW478500",
+        "MW478511",
+        "MW478512",
+        "MW478513",
+        "MW478514",
+        "MW478532",
+        "MW478533",
+        "MW478534",
+        "MW478535",
+        "MW480707",
+        "MW480789",
+        "MW480791"
+      ],
+      "nomenclature_catalog_only": [
+        "839382"
+      ],
+      "reference_library": [
+        "REF_3190_Aspergillus_alboluteus_CBS145854",
+        "REF_3191_Aspergillus_alboluteus_CBS145855",
+        "REF_3192_Aspergillus_alboluteus_CBS147065",
+        "REF_3193_Aspergillus_alboluteus_CCF5849",
+        "REF_3286_Aspergillus_alboluteus_CMW56637"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus alboviridis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "LT798936",
+        "LT798937",
+        "LT798938"
+      ],
+      "nomenclature_catalog_only": [
+        "821808"
+      ],
+      "reference_library": [
+        "REF_468_Aspergillus_alboviridis_CBS142665"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus allahabadii",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5220_Aspergillus_allahabadii_CCF5854",
+        "REF_5222_Aspergillus_allahabadii_DTO020-I4",
+        "REF_5226_Aspergillus_allahabadii_DTO093-H8",
+        "REF_5227_Aspergillus_allahabadii_DTO179-G7",
+        "REF_5234_Aspergillus_allahabadii_DTO411-A2",
+        "REF_5235_Aspergillus_allahabadii_DTO411-A3",
+        "REF_5238_Aspergillus_allahabadii_DTO465-B9",
+        "REF_5462_Aspergillus_allahabadii_IRAN4983C",
+        "REF_5467_Aspergillus_allahabadii_DTO519-H3",
+        "REF_5468_Aspergillus_allahabadii_DTO519-H5",
+        "REF_556_Aspergillus_allahabadii_NRRL4101",
+        "REF_557_Aspergillus_allahabadii_CBS16463",
+        "REF_563_Aspergillus_allahabadii_PPRI5574",
+        "REF_564_Aspergillus_allahabadii_PPRI8987",
+        "REF_565_Aspergillus_allahabadii_PPRI9194",
+        "REF_566_Aspergillus_allahabadii_PPRI7534",
+        "REF_620_Aspergillus_allahabadii_CBS142986",
+        "REF_621_Aspergillus_allahabadii_CBS142987"
+      ],
+      "analysis_name_full283": [
+        "REF_5220_Aspergillus_allahabadii_CCF5854",
+        "REF_5222_Aspergillus_allahabadii_DTO020-I4",
+        "REF_5226_Aspergillus_allahabadii_DTO093-H8",
+        "REF_5227_Aspergillus_allahabadii_DTO179-G7",
+        "REF_5234_Aspergillus_allahabadii_DTO411-A2",
+        "REF_5235_Aspergillus_allahabadii_DTO411-A3",
+        "REF_5238_Aspergillus_allahabadii_DTO465-B9",
+        "REF_5462_Aspergillus_allahabadii_IRAN4983C",
+        "REF_5467_Aspergillus_allahabadii_DTO519-H3",
+        "REF_5468_Aspergillus_allahabadii_DTO519-H5",
+        "REF_556_Aspergillus_allahabadii_NRRL4101",
+        "REF_557_Aspergillus_allahabadii_CBS16463",
+        "REF_563_Aspergillus_allahabadii_PPRI5574",
+        "REF_564_Aspergillus_allahabadii_PPRI8987",
+        "REF_565_Aspergillus_allahabadii_PPRI9194",
+        "REF_566_Aspergillus_allahabadii_PPRI7534",
+        "REF_620_Aspergillus_allahabadii_CBS142986",
+        "REF_621_Aspergillus_allahabadii_CBS142987"
+      ],
+      "analysis_name_type108": [
+        "REF_5462_Aspergillus_allahabadii_IRAN4983C",
+        "REF_557_Aspergillus_allahabadii_CBS16463"
+      ],
+      "marker_sequence_fetched": [
+        "EF669531",
+        "EF669533",
+        "EF669557",
+        "EF669559",
+        "EF669641",
+        "EF669643",
+        "MK450760",
+        "MK450761",
+        "MK450763",
+        "MK450764",
+        "MK450987",
+        "MK450996",
+        "MK450998",
+        "MK450999",
+        "MK451302",
+        "MK451303",
+        "MK451305",
+        "MK451306",
+        "PV179641",
+        "PV179642",
+        "PV179643",
+        "PV179646",
+        "PV179647",
+        "PV179648",
+        "PV179649",
+        "PV180567",
+        "PV181279",
+        "PV181290",
+        "PV181293",
+        "PV181320",
+        "PV181321",
+        "PV181333",
+        "PV181615",
+        "PV182320",
+        "PV182331",
+        "PV182333",
+        "PV182361",
+        "PV182362",
+        "PV182374"
+      ],
+      "nomenclature_catalog_only": [
+        "326609"
+      ],
+      "reference_library": [
+        "REF_5220_Aspergillus_allahabadii_CCF5854",
+        "REF_5222_Aspergillus_allahabadii_DTO020-I4",
+        "REF_5226_Aspergillus_allahabadii_DTO093-H8",
+        "REF_5227_Aspergillus_allahabadii_DTO179-G7",
+        "REF_5234_Aspergillus_allahabadii_DTO411-A2",
+        "REF_5235_Aspergillus_allahabadii_DTO411-A3",
+        "REF_5238_Aspergillus_allahabadii_DTO465-B9",
+        "REF_5462_Aspergillus_allahabadii_IRAN4983C",
+        "REF_5467_Aspergillus_allahabadii_DTO519-H3",
+        "REF_5468_Aspergillus_allahabadii_DTO519-H5",
+        "REF_556_Aspergillus_allahabadii_NRRL4101",
+        "REF_557_Aspergillus_allahabadii_CBS16463",
+        "REF_563_Aspergillus_allahabadii_PPRI5574",
+        "REF_564_Aspergillus_allahabadii_PPRI8987",
+        "REF_565_Aspergillus_allahabadii_PPRI9194",
+        "REF_566_Aspergillus_allahabadii_PPRI7534",
+        "REF_620_Aspergillus_allahabadii_CBS142986",
+        "REF_621_Aspergillus_allahabadii_CBS142987"
+      ],
+      "used_complete230": [
+        "REF_5220_Aspergillus_allahabadii_CCF5854",
+        "REF_5222_Aspergillus_allahabadii_DTO020-I4",
+        "REF_5226_Aspergillus_allahabadii_DTO093-H8",
+        "REF_5227_Aspergillus_allahabadii_DTO179-G7",
+        "REF_5234_Aspergillus_allahabadii_DTO411-A2",
+        "REF_5235_Aspergillus_allahabadii_DTO411-A3",
+        "REF_5238_Aspergillus_allahabadii_DTO465-B9",
+        "REF_5462_Aspergillus_allahabadii_IRAN4983C",
+        "REF_5467_Aspergillus_allahabadii_DTO519-H3",
+        "REF_5468_Aspergillus_allahabadii_DTO519-H5",
+        "REF_556_Aspergillus_allahabadii_NRRL4101",
+        "REF_557_Aspergillus_allahabadii_CBS16463",
+        "REF_563_Aspergillus_allahabadii_PPRI5574",
+        "REF_564_Aspergillus_allahabadii_PPRI8987",
+        "REF_565_Aspergillus_allahabadii_PPRI9194",
+        "REF_566_Aspergillus_allahabadii_PPRI7534",
+        "REF_620_Aspergillus_allahabadii_CBS142986",
+        "REF_621_Aspergillus_allahabadii_CBS142987"
+      ],
+      "used_full283": [
+        "REF_5220_Aspergillus_allahabadii_CCF5854",
+        "REF_5222_Aspergillus_allahabadii_DTO020-I4",
+        "REF_5226_Aspergillus_allahabadii_DTO093-H8",
+        "REF_5227_Aspergillus_allahabadii_DTO179-G7",
+        "REF_5234_Aspergillus_allahabadii_DTO411-A2",
+        "REF_5235_Aspergillus_allahabadii_DTO411-A3",
+        "REF_5238_Aspergillus_allahabadii_DTO465-B9",
+        "REF_5462_Aspergillus_allahabadii_IRAN4983C",
+        "REF_5467_Aspergillus_allahabadii_DTO519-H3",
+        "REF_5468_Aspergillus_allahabadii_DTO519-H5",
+        "REF_556_Aspergillus_allahabadii_NRRL4101",
+        "REF_557_Aspergillus_allahabadii_CBS16463",
+        "REF_563_Aspergillus_allahabadii_PPRI5574",
+        "REF_564_Aspergillus_allahabadii_PPRI8987",
+        "REF_565_Aspergillus_allahabadii_PPRI9194",
+        "REF_566_Aspergillus_allahabadii_PPRI7534",
+        "REF_620_Aspergillus_allahabadii_CBS142986",
+        "REF_621_Aspergillus_allahabadii_CBS142987"
+      ],
+      "used_type108": [
+        "REF_5462_Aspergillus_allahabadii_IRAN4983C",
+        "REF_557_Aspergillus_allahabadii_CBS16463"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus allportiae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_4411_Aspergillus_allportiae_MST-F22286"
+      ],
+      "analysis_name_full283": [
+        "REF_4411_Aspergillus_allportiae_MST-F22286"
+      ],
+      "analysis_name_type108": [
+        "REF_4411_Aspergillus_allportiae_MST-F22286"
+      ],
+      "marker_sequence_fetched": [
+        "OR737764",
+        "OR737769",
+        "OR737774"
+      ],
+      "nomenclature_catalog_only": [
+        "901440"
+      ],
+      "reference_library": [
+        "REF_4411_Aspergillus_allportiae_MST-F22286"
+      ],
+      "used_complete230": [
+        "REF_4411_Aspergillus_allportiae_MST-F22286"
+      ],
+      "used_full283": [
+        "REF_4411_Aspergillus_allportiae_MST-F22286"
+      ],
+      "used_type108": [
+        "REF_4411_Aspergillus_allportiae_MST-F22286"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus alvaroi",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_4463_Aspergillus_alvaroi_URM8661",
+        "REF_4464_Aspergillus_alvaroi_URM8660"
+      ],
+      "analysis_name_full283": [
+        "REF_4463_Aspergillus_alvaroi_URM8661",
+        "REF_4464_Aspergillus_alvaroi_URM8660"
+      ],
+      "analysis_name_type108": [
+        "REF_4464_Aspergillus_alvaroi_URM8660"
+      ],
+      "marker_sequence_fetched": [
+        "PP150741",
+        "PP150742",
+        "PP150749",
+        "PP150750",
+        "PP187788",
+        "PP187789"
+      ],
+      "nomenclature_catalog_only": [
+        "851901"
+      ],
+      "reference_library": [
+        "REF_4463_Aspergillus_alvaroi_URM8661",
+        "REF_4464_Aspergillus_alvaroi_URM8660"
+      ],
+      "used_complete230": [
+        "REF_4463_Aspergillus_alvaroi_URM8661",
+        "REF_4464_Aspergillus_alvaroi_URM8660"
+      ],
+      "used_full283": [
+        "REF_4463_Aspergillus_alvaroi_URM8661",
+        "REF_4464_Aspergillus_alvaroi_URM8660"
+      ],
+      "used_type108": [
+        "REF_4464_Aspergillus_alvaroi_URM8660"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus ambiguus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_554_Aspergillus_ambiguus_CBS11758"
+      ],
+      "analysis_name_full283": [
+        "REF_554_Aspergillus_ambiguus_CBS11758"
+      ],
+      "analysis_name_type108": [
+        "REF_554_Aspergillus_ambiguus_CBS11758"
+      ],
+      "marker_sequence_fetched": [
+        "EF669534",
+        "EF669564",
+        "EF669648"
+      ],
+      "nomenclature_catalog_only": [
+        "292834"
+      ],
+      "reference_library": [
+        "REF_554_Aspergillus_ambiguus_CBS11758"
+      ],
+      "used_complete230": [
+        "REF_554_Aspergillus_ambiguus_CBS11758"
+      ],
+      "used_full283": [
+        "REF_554_Aspergillus_ambiguus_CBS11758"
+      ],
+      "used_type108": [
+        "REF_554_Aspergillus_ambiguus_CBS11758"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus anomalus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "EF669849"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus ardalensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "HG916683",
+        "HG916704",
+        "HG916725",
+        "LN909026",
+        "MW478515",
+        "MW478536"
+      ],
+      "nomenclature_catalog_only": [
+        "808140"
+      ],
+      "reference_library": [
+        "REF_3189_Aspergillus_ardalensis_IHEM17781",
+        "REF_434_Aspergillus_ardalensis_CCF4031"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus aureoterreus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_3778_Aspergillus_aureoterreus_CMW59701",
+        "REF_3779_Aspergillus_aureoterreus_CMW59702",
+        "REF_3780_Aspergillus_aureoterreus_CMW59703",
+        "REF_588_Aspergillus_aureoterreus_CBS50365",
+        "REF_590_Aspergillus_aureoterreus_PPRI13096"
+      ],
+      "analysis_name_full283": [
+        "REF_3778_Aspergillus_aureoterreus_CMW59701",
+        "REF_3779_Aspergillus_aureoterreus_CMW59702",
+        "REF_3780_Aspergillus_aureoterreus_CMW59703",
+        "REF_588_Aspergillus_aureoterreus_CBS50365",
+        "REF_590_Aspergillus_aureoterreus_PPRI13096"
+      ],
+      "analysis_name_type108": [
+        "REF_588_Aspergillus_aureoterreus_CBS50365"
+      ],
+      "genome_source_name": [
+        "SRR8399223"
+      ],
+      "marker_sequence_fetched": [
+        "EF669524",
+        "EF669538",
+        "EF669622",
+        "MK450772",
+        "MK451161",
+        "MK451323",
+        "PV179676",
+        "PV179677",
+        "PV179678",
+        "PV180634",
+        "PV180635",
+        "PV180636",
+        "PV181682",
+        "PV181683",
+        "PV181684"
+      ],
+      "nomenclature_catalog_only": [
+        "560392"
+      ],
+      "provisional_core_assignment": [
+        "SRR8399223"
+      ],
+      "reference_library": [
+        "REF_3778_Aspergillus_aureoterreus_CMW59701",
+        "REF_3779_Aspergillus_aureoterreus_CMW59702",
+        "REF_3780_Aspergillus_aureoterreus_CMW59703",
+        "REF_588_Aspergillus_aureoterreus_CBS50365",
+        "REF_590_Aspergillus_aureoterreus_PPRI13096"
+      ],
+      "used_complete230": [
+        "REF_3778_Aspergillus_aureoterreus_CMW59701",
+        "REF_3779_Aspergillus_aureoterreus_CMW59702",
+        "REF_3780_Aspergillus_aureoterreus_CMW59703",
+        "REF_588_Aspergillus_aureoterreus_CBS50365",
+        "REF_590_Aspergillus_aureoterreus_PPRI13096"
+      ],
+      "used_core_source_name": [
+        "SRR8399223"
+      ],
+      "used_full283": [
+        "REF_3778_Aspergillus_aureoterreus_CMW59701",
+        "REF_3779_Aspergillus_aureoterreus_CMW59702",
+        "REF_3780_Aspergillus_aureoterreus_CMW59703",
+        "REF_588_Aspergillus_aureoterreus_CBS50365",
+        "REF_590_Aspergillus_aureoterreus_PPRI13096"
+      ],
+      "used_type108": [
+        "REF_588_Aspergillus_aureoterreus_CBS50365"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus barbosae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_591_Aspergillus_barbosae_URM7011",
+        "REF_592_Aspergillus_barbosae_CBS145863",
+        "REF_593_Aspergillus_barbosae_URM5870"
+      ],
+      "analysis_name_full283": [
+        "REF_591_Aspergillus_barbosae_URM7011",
+        "REF_592_Aspergillus_barbosae_CBS145863",
+        "REF_593_Aspergillus_barbosae_URM5870"
+      ],
+      "analysis_name_type108": [
+        "REF_592_Aspergillus_barbosae_CBS145863"
+      ],
+      "marker_sequence_fetched": [
+        "LR031377",
+        "LR031392",
+        "LR031407"
+      ],
+      "nomenclature_catalog_only": [
+        "830077"
+      ],
+      "reference_library": [
+        "REF_591_Aspergillus_barbosae_URM7011",
+        "REF_592_Aspergillus_barbosae_CBS145863",
+        "REF_593_Aspergillus_barbosae_URM5870"
+      ],
+      "used_complete230": [
+        "REF_591_Aspergillus_barbosae_URM7011",
+        "REF_592_Aspergillus_barbosae_CBS145863",
+        "REF_593_Aspergillus_barbosae_URM5870"
+      ],
+      "used_full283": [
+        "REF_591_Aspergillus_barbosae_URM7011",
+        "REF_592_Aspergillus_barbosae_CBS145863",
+        "REF_593_Aspergillus_barbosae_URM5870"
+      ],
+      "used_type108": [
+        "REF_592_Aspergillus_barbosae_CBS145863"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus bicephalus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5237_Aspergillus_bicephalus_DTO442-B4",
+        "REF_558_Aspergillus_bicephalus_FMR14918"
+      ],
+      "analysis_name_full283": [
+        "REF_5237_Aspergillus_bicephalus_DTO442-B4",
+        "REF_558_Aspergillus_bicephalus_FMR14918"
+      ],
+      "analysis_name_type108": [
+        "REF_558_Aspergillus_bicephalus_FMR14918"
+      ],
+      "marker_sequence_fetched": [
+        "LT601381",
+        "LT601382",
+        "LT601383",
+        "PV179601",
+        "PV181331",
+        "PV182372"
+      ],
+      "nomenclature_catalog_only": [
+        "818290"
+      ],
+      "reference_library": [
+        "REF_5237_Aspergillus_bicephalus_DTO442-B4",
+        "REF_558_Aspergillus_bicephalus_FMR14918"
+      ],
+      "used_complete230": [
+        "REF_5237_Aspergillus_bicephalus_DTO442-B4",
+        "REF_558_Aspergillus_bicephalus_FMR14918"
+      ],
+      "used_full283": [
+        "REF_5237_Aspergillus_bicephalus_DTO442-B4",
+        "REF_558_Aspergillus_bicephalus_FMR14918"
+      ],
+      "used_type108": [
+        "REF_558_Aspergillus_bicephalus_FMR14918"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus candidus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "EF669550",
+        "EF669563",
+        "EF669634",
+        "EF669647",
+        "EU014089",
+        "EU014090",
+        "FR751424",
+        "LT626977",
+        "LT626978",
+        "LT626979",
+        "LT626980",
+        "LT626981",
+        "LT626983",
+        "LT626984",
+        "LT626985",
+        "LT626986",
+        "LT626987",
+        "LT626988",
+        "LT626989",
+        "LT626990",
+        "LT626991",
+        "LT627011",
+        "LT627012",
+        "LT627013",
+        "ON164493",
+        "ON164494",
+        "ON164496",
+        "ON164546",
+        "ON164547",
+        "ON164549",
+        "ON164595",
+        "ON164596",
+        "ON164598"
+      ],
+      "nomenclature_catalog_only": [
+        "204868"
+      ],
+      "reference_library": [
+        "REF_3313_Aspergillus_candidus_CBS56665",
+        "REF_3314_Aspergillus_candidus_CCF4029",
+        "REF_3315_Aspergillus_candidus_CCF488",
+        "REF_3316_Aspergillus_candidus_CCF5577",
+        "REF_3317_Aspergillus_candidus_CCF6198",
+        "REF_3318_Aspergillus_candidus_CCF6200",
+        "REF_3319_Aspergillus_candidus_CMW-IA000009",
+        "REF_3320_Aspergillus_candidus_DTO223-E5",
+        "REF_3321_Aspergillus_candidus_NRRL4646",
+        "REF_3322_Aspergillus_candidus_NRRL58579",
+        "REF_3323_Aspergillus_candidus_NRRL58959",
+        "REF_3852_Aspergillus_candidus_CBS10213"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus capensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "KJ775072",
+        "KJ775279",
+        "KP987020"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus carneus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5217_Aspergillus_carneus_CCF5851",
+        "REF_5219_Aspergillus_carneus_CCF5853",
+        "REF_5223_Aspergillus_carneus_DTO067-A6",
+        "REF_5228_Aspergillus_carneus_DTO196-A8",
+        "REF_5232_Aspergillus_carneus_DTO213-D1",
+        "REF_5239_Aspergillus_carneus_EMSL4878",
+        "REF_559_Aspergillus_carneus_NRRL1928",
+        "REF_560_Aspergillus_carneus_NRRL298",
+        "REF_561_Aspergillus_carneus_CBS49465",
+        "REF_562_Aspergillus_carneus_UTHSCSADI14-213"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_CBS11149",
+        "HIST2011_CBS49465",
+        "REF_5217_Aspergillus_carneus_CCF5851",
+        "REF_5219_Aspergillus_carneus_CCF5853",
+        "REF_5223_Aspergillus_carneus_DTO067-A6",
+        "REF_5228_Aspergillus_carneus_DTO196-A8",
+        "REF_5232_Aspergillus_carneus_DTO213-D1",
+        "REF_5239_Aspergillus_carneus_EMSL4878",
+        "REF_559_Aspergillus_carneus_NRRL1928",
+        "REF_560_Aspergillus_carneus_NRRL298",
+        "REF_561_Aspergillus_carneus_CBS49465",
+        "REF_562_Aspergillus_carneus_UTHSCSADI14-213"
+      ],
+      "analysis_name_type108": [
+        "REF_561_Aspergillus_carneus_CBS49465"
+      ],
+      "marker_sequence_fetched": [
+        "EF669529",
+        "EF669530",
+        "EF669539",
+        "EF669548",
+        "EF669569",
+        "EF669623",
+        "EF669632",
+        "EF669653",
+        "EU014100",
+        "LT899520",
+        "LT899568",
+        "LT899623",
+        "PV179498",
+        "PV179602",
+        "PV179606",
+        "PV179609",
+        "PV179611",
+        "PV179613",
+        "PV180564",
+        "PV180566",
+        "PV181286",
+        "PV181294",
+        "PV181299",
+        "PV181335",
+        "PV181612",
+        "PV181614",
+        "PV182327",
+        "PV182334",
+        "PV182339",
+        "PV182377"
+      ],
+      "nomenclature_catalog_only": [
+        "259903"
+      ],
+      "reference_library": [
+        "REF_5217_Aspergillus_carneus_CCF5851",
+        "REF_5219_Aspergillus_carneus_CCF5853",
+        "REF_5223_Aspergillus_carneus_DTO067-A6",
+        "REF_5228_Aspergillus_carneus_DTO196-A8",
+        "REF_5232_Aspergillus_carneus_DTO213-D1",
+        "REF_5239_Aspergillus_carneus_EMSL4878",
+        "REF_559_Aspergillus_carneus_NRRL1928",
+        "REF_560_Aspergillus_carneus_NRRL298",
+        "REF_561_Aspergillus_carneus_CBS49465",
+        "REF_562_Aspergillus_carneus_UTHSCSADI14-213"
+      ],
+      "used_complete230": [
+        "REF_5217_Aspergillus_carneus_CCF5851",
+        "REF_5219_Aspergillus_carneus_CCF5853",
+        "REF_5223_Aspergillus_carneus_DTO067-A6",
+        "REF_5228_Aspergillus_carneus_DTO196-A8",
+        "REF_5232_Aspergillus_carneus_DTO213-D1",
+        "REF_5239_Aspergillus_carneus_EMSL4878",
+        "REF_559_Aspergillus_carneus_NRRL1928",
+        "REF_560_Aspergillus_carneus_NRRL298",
+        "REF_561_Aspergillus_carneus_CBS49465",
+        "REF_562_Aspergillus_carneus_UTHSCSADI14-213"
+      ],
+      "used_full283": [
+        "REF_5217_Aspergillus_carneus_CCF5851",
+        "REF_5219_Aspergillus_carneus_CCF5853",
+        "REF_5223_Aspergillus_carneus_DTO067-A6",
+        "REF_5228_Aspergillus_carneus_DTO196-A8",
+        "REF_5232_Aspergillus_carneus_DTO213-D1",
+        "REF_5239_Aspergillus_carneus_EMSL4878",
+        "REF_559_Aspergillus_carneus_NRRL1928",
+        "REF_560_Aspergillus_carneus_NRRL298",
+        "REF_561_Aspergillus_carneus_CBS49465",
+        "REF_562_Aspergillus_carneus_UTHSCSADI14-213"
+      ],
+      "used_type108": [
+        "REF_561_Aspergillus_carneus_CBS49465"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491721",
+        "FJ491723",
+        "FJ531202",
+        "FJ531203",
+        "FJ531220",
+        "FJ531228"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus citrinoterreus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5242_Aspergillus_citrinoterreus_DTO002-B7",
+        "REF_5252_Aspergillus_citrinoterreus_DTO072-H1",
+        "REF_5254_Aspergillus_citrinoterreus_DTO224-H6",
+        "REF_5257_Aspergillus_citrinoterreus_DTO261-G2",
+        "REF_5264_Aspergillus_citrinoterreus_DTO359-H1",
+        "REF_5265_Aspergillus_citrinoterreus_DTO359-H5",
+        "REF_5275_Aspergillus_citrinoterreus_DTO426-C7",
+        "REF_596_Aspergillus_citrinoterreus_NRRL1913",
+        "REF_597_Aspergillus_citrinoterreus_NRRL260",
+        "REF_600_Aspergillus_citrinoterreus_CBS138921",
+        "REF_619_Aspergillus_citrinoterreus_UTHSCSADI17-95"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_IBT6450",
+        "REF_5242_Aspergillus_citrinoterreus_DTO002-B7",
+        "REF_5252_Aspergillus_citrinoterreus_DTO072-H1",
+        "REF_5254_Aspergillus_citrinoterreus_DTO224-H6",
+        "REF_5257_Aspergillus_citrinoterreus_DTO261-G2",
+        "REF_5264_Aspergillus_citrinoterreus_DTO359-H1",
+        "REF_5265_Aspergillus_citrinoterreus_DTO359-H5",
+        "REF_5275_Aspergillus_citrinoterreus_DTO426-C7",
+        "REF_596_Aspergillus_citrinoterreus_NRRL1913",
+        "REF_597_Aspergillus_citrinoterreus_NRRL260",
+        "REF_598_Aspergillus_citrinoterreus_IBT26385",
+        "REF_599_Aspergillus_citrinoterreus_IBT6450",
+        "REF_600_Aspergillus_citrinoterreus_CBS138921",
+        "REF_601_Aspergillus_citrinoterreus_GM2006",
+        "REF_619_Aspergillus_citrinoterreus_UTHSCSADI17-95"
+      ],
+      "analysis_name_type108": [
+        "REF_600_Aspergillus_citrinoterreus_CBS138921"
+      ],
+      "marker_sequence_fetched": [
+        "LN680657",
+        "LN680667",
+        "LN680685",
+        "LN680695",
+        "MN969155",
+        "PV179617",
+        "PV179618",
+        "PV179619",
+        "PV179620",
+        "PV179621",
+        "PV179622",
+        "PV179624",
+        "PV181275",
+        "PV181289",
+        "PV181300",
+        "PV181303",
+        "PV181310",
+        "PV181311",
+        "PV181325",
+        "PV182316",
+        "PV182330",
+        "PV182340",
+        "PV182343",
+        "PV182351",
+        "PV182352",
+        "PV182366"
+      ],
+      "nomenclature_catalog_only": [
+        "810584"
+      ],
+      "provisional_core_assignment": [
+        "ATCC20542",
+        "R23",
+        "R6201Q",
+        "SRR25636132",
+        "SRR9691935",
+        "SRR9691936",
+        "UA-600B",
+        "UA-600B_SRR33476766"
+      ],
+      "reference_library": [
+        "REF_5242_Aspergillus_citrinoterreus_DTO002-B7",
+        "REF_5252_Aspergillus_citrinoterreus_DTO072-H1",
+        "REF_5254_Aspergillus_citrinoterreus_DTO224-H6",
+        "REF_5257_Aspergillus_citrinoterreus_DTO261-G2",
+        "REF_5264_Aspergillus_citrinoterreus_DTO359-H1",
+        "REF_5265_Aspergillus_citrinoterreus_DTO359-H5",
+        "REF_5275_Aspergillus_citrinoterreus_DTO426-C7",
+        "REF_596_Aspergillus_citrinoterreus_NRRL1913",
+        "REF_597_Aspergillus_citrinoterreus_NRRL260",
+        "REF_598_Aspergillus_citrinoterreus_IBT26385",
+        "REF_599_Aspergillus_citrinoterreus_IBT6450",
+        "REF_600_Aspergillus_citrinoterreus_CBS138921",
+        "REF_601_Aspergillus_citrinoterreus_GM2006",
+        "REF_619_Aspergillus_citrinoterreus_UTHSCSADI17-95"
+      ],
+      "used_complete230": [
+        "REF_5242_Aspergillus_citrinoterreus_DTO002-B7",
+        "REF_5252_Aspergillus_citrinoterreus_DTO072-H1",
+        "REF_5254_Aspergillus_citrinoterreus_DTO224-H6",
+        "REF_5257_Aspergillus_citrinoterreus_DTO261-G2",
+        "REF_5264_Aspergillus_citrinoterreus_DTO359-H1",
+        "REF_5265_Aspergillus_citrinoterreus_DTO359-H5",
+        "REF_5275_Aspergillus_citrinoterreus_DTO426-C7",
+        "REF_596_Aspergillus_citrinoterreus_NRRL1913",
+        "REF_597_Aspergillus_citrinoterreus_NRRL260",
+        "REF_600_Aspergillus_citrinoterreus_CBS138921",
+        "REF_619_Aspergillus_citrinoterreus_UTHSCSADI17-95"
+      ],
+      "used_full283": [
+        "REF_5242_Aspergillus_citrinoterreus_DTO002-B7",
+        "REF_5252_Aspergillus_citrinoterreus_DTO072-H1",
+        "REF_5254_Aspergillus_citrinoterreus_DTO224-H6",
+        "REF_5257_Aspergillus_citrinoterreus_DTO261-G2",
+        "REF_5264_Aspergillus_citrinoterreus_DTO359-H1",
+        "REF_5265_Aspergillus_citrinoterreus_DTO359-H5",
+        "REF_5275_Aspergillus_citrinoterreus_DTO426-C7",
+        "REF_596_Aspergillus_citrinoterreus_NRRL1913",
+        "REF_597_Aspergillus_citrinoterreus_NRRL260",
+        "REF_598_Aspergillus_citrinoterreus_IBT26385",
+        "REF_599_Aspergillus_citrinoterreus_IBT6450",
+        "REF_600_Aspergillus_citrinoterreus_CBS138921",
+        "REF_601_Aspergillus_citrinoterreus_GM2006",
+        "REF_619_Aspergillus_citrinoterreus_UTHSCSADI17-95"
+      ],
+      "used_type108": [
+        "REF_600_Aspergillus_citrinoterreus_CBS138921"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus ellipticus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "EF669776"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus flavipes",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_436_Aspergillus_flavipes_NRRL302"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_CBS11556",
+        "REF_436_Aspergillus_flavipes_NRRL302"
+      ],
+      "analysis_name_type108": [
+        "REF_436_Aspergillus_flavipes_NRRL302"
+      ],
+      "marker_sequence_fetched": [
+        "EF669549",
+        "EF669558",
+        "EF669633",
+        "EF669642",
+        "EU014083",
+        "EU014085",
+        "LM644241",
+        "LM644260",
+        "LM644261"
+      ],
+      "nomenclature_catalog_only": [
+        "265045"
+      ],
+      "reference_library": [
+        "REF_436_Aspergillus_flavipes_NRRL302",
+        "REF_437_Aspergillus_flavipes_NRRL4852"
+      ],
+      "used_complete230": [
+        "REF_436_Aspergillus_flavipes_NRRL302"
+      ],
+      "used_full283": [
+        "REF_436_Aspergillus_flavipes_NRRL302"
+      ],
+      "used_type108": [
+        "REF_436_Aspergillus_flavipes_NRRL302"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491717"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus floccosus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_3900_Aspergillus_floccosus_IMV01167",
+        "REF_602_Aspergillus_floccosus_CBS11637"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_CBS11637",
+        "HIST2011_IBT22556",
+        "REF_3373_Aspergillus_floccosus_CNUFCWD27",
+        "REF_3900_Aspergillus_floccosus_IMV01167",
+        "REF_602_Aspergillus_floccosus_CBS11637",
+        "REF_603_Aspergillus_floccosus_IBT22556"
+      ],
+      "analysis_name_type108": [
+        "REF_602_Aspergillus_floccosus_CBS11637"
+      ],
+      "genome_source_name": [
+        "CBS116.37_SRR10507650",
+        "SRR10507650"
+      ],
+      "marker_sequence_fetched": [
+        "FJ491714",
+        "FJ531219",
+        "KP987021",
+        "KP987066",
+        "OP168871",
+        "OP168878"
+      ],
+      "nomenclature_catalog_only": [
+        "560393"
+      ],
+      "provisional_core_assignment": [
+        "SRR10507650"
+      ],
+      "reference_library": [
+        "REF_3373_Aspergillus_floccosus_CNUFCWD27",
+        "REF_3900_Aspergillus_floccosus_IMV01167",
+        "REF_602_Aspergillus_floccosus_CBS11637",
+        "REF_603_Aspergillus_floccosus_IBT22556"
+      ],
+      "used_complete230": [
+        "REF_3900_Aspergillus_floccosus_IMV01167",
+        "REF_602_Aspergillus_floccosus_CBS11637"
+      ],
+      "used_core_source_name": [
+        "SRR10507650"
+      ],
+      "used_full283": [
+        "REF_3373_Aspergillus_floccosus_CNUFCWD27",
+        "REF_3900_Aspergillus_floccosus_IMV01167",
+        "REF_602_Aspergillus_floccosus_CBS11637",
+        "REF_603_Aspergillus_floccosus_IBT22556"
+      ],
+      "used_type108": [
+        "REF_602_Aspergillus_floccosus_CBS11637"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491714",
+        "FJ531205",
+        "FJ531219"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus fumigatus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "EF669719",
+        "EF669720",
+        "EF669780",
+        "EF669791",
+        "EF669792",
+        "EF669845",
+        "EF669860",
+        "EF669861",
+        "EF669915",
+        "EF669919",
+        "PV179670",
+        "PV180641",
+        "PV181689"
+      ],
+      "nomenclature_catalog_only": [
+        "211776"
+      ],
+      "reference_library": [
+        "REF_3785_Aspergillus_fumigatus_CMW59708",
+        "REF_3828_Aspergillus_fumigatus_CNM-CM8689",
+        "REF_736_Aspergillus_fumigatus_CBS13361",
+        "REF_737_Aspergillus_fumigatus_NRRL164",
+        "REF_738_Aspergillus_fumigatus_NRRL5109",
+        "REF_739_Aspergillus_fumigatus_NRRL5517"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus heldtiae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_604_Aspergillus_heldtiae_PPRI4229"
+      ],
+      "analysis_name_full283": [
+        "REF_604_Aspergillus_heldtiae_PPRI4229"
+      ],
+      "analysis_name_type108": [
+        "REF_604_Aspergillus_heldtiae_PPRI4229"
+      ],
+      "marker_sequence_fetched": [
+        "MK450809",
+        "MK450981",
+        "MK451518"
+      ],
+      "nomenclature_catalog_only": [
+        "834200"
+      ],
+      "reference_library": [
+        "REF_604_Aspergillus_heldtiae_PPRI4229"
+      ],
+      "used_complete230": [
+        "REF_604_Aspergillus_heldtiae_PPRI4229"
+      ],
+      "used_full283": [
+        "REF_604_Aspergillus_heldtiae_PPRI4229"
+      ],
+      "used_type108": [
+        "REF_604_Aspergillus_heldtiae_PPRI4229"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus hortae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_4013_Aspergillus_hortae_CMW59739",
+        "REF_4133_Aspergillus_hortae_MCA10",
+        "REF_5240_Aspergillus_hortae_CCF3389",
+        "REF_5253_Aspergillus_hortae_DTO198-G6",
+        "REF_5256_Aspergillus_hortae_DTO225-D5",
+        "REF_5263_Aspergillus_hortae_DTO359-F9",
+        "REF_5272_Aspergillus_hortae_DTO409-C3",
+        "REF_5279_Aspergillus_hortae_DTO440-H1",
+        "REF_608_Aspergillus_hortae_CBS124230",
+        "REF_609_Aspergillus_hortae_UTHSCSADI14-218"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_IBT26384",
+        "HIST2011_IBT6271",
+        "HIST2011_NRRL274",
+        "REF_4013_Aspergillus_hortae_CMW59739",
+        "REF_4133_Aspergillus_hortae_MCA10",
+        "REF_5240_Aspergillus_hortae_CCF3389",
+        "REF_5253_Aspergillus_hortae_DTO198-G6",
+        "REF_5256_Aspergillus_hortae_DTO225-D5",
+        "REF_5263_Aspergillus_hortae_DTO359-F9",
+        "REF_5272_Aspergillus_hortae_DTO409-C3",
+        "REF_5279_Aspergillus_hortae_DTO440-H1",
+        "REF_605_Aspergillus_hortae_URM5264",
+        "REF_606_Aspergillus_hortae_IBT6271",
+        "REF_607_Aspergillus_hortae_CBS13460",
+        "REF_608_Aspergillus_hortae_CBS124230",
+        "REF_609_Aspergillus_hortae_UTHSCSADI14-218"
+      ],
+      "analysis_name_type108": [
+        "REF_608_Aspergillus_hortae_CBS124230"
+      ],
+      "genome_source_name": [
+        "SRR24718917",
+        "SRR24718918",
+        "SRR24718919",
+        "SRR35107300"
+      ],
+      "marker_sequence_fetched": [
+        "FJ491706",
+        "KP987022",
+        "KP987054",
+        "LR216674",
+        "LR217766",
+        "LT899527",
+        "LT899576",
+        "LT899631",
+        "PV179593",
+        "PV179594",
+        "PV179595",
+        "PV179596",
+        "PV179597",
+        "PV179598",
+        "PV179679",
+        "PV180561",
+        "PV180657",
+        "PV181295",
+        "PV181302",
+        "PV181309",
+        "PV181319",
+        "PV181329",
+        "PV181608",
+        "PV181705",
+        "PV182335",
+        "PV182342",
+        "PV182350",
+        "PV182360",
+        "PV182370"
+      ],
+      "nomenclature_catalog_only": [
+        "252620"
+      ],
+      "provisional_core_assignment": [
+        "SRR19634133",
+        "SRR24718917",
+        "SRR24718918",
+        "SRR24718919",
+        "SRR35107300",
+        "SRR9691933"
+      ],
+      "reference_library": [
+        "REF_4013_Aspergillus_hortae_CMW59739",
+        "REF_4133_Aspergillus_hortae_MCA10",
+        "REF_5240_Aspergillus_hortae_CCF3389",
+        "REF_5253_Aspergillus_hortae_DTO198-G6",
+        "REF_5256_Aspergillus_hortae_DTO225-D5",
+        "REF_5263_Aspergillus_hortae_DTO359-F9",
+        "REF_5272_Aspergillus_hortae_DTO409-C3",
+        "REF_5279_Aspergillus_hortae_DTO440-H1",
+        "REF_605_Aspergillus_hortae_URM5264",
+        "REF_606_Aspergillus_hortae_IBT6271",
+        "REF_607_Aspergillus_hortae_CBS13460",
+        "REF_608_Aspergillus_hortae_CBS124230",
+        "REF_609_Aspergillus_hortae_UTHSCSADI14-218"
+      ],
+      "used_complete230": [
+        "REF_4013_Aspergillus_hortae_CMW59739",
+        "REF_4133_Aspergillus_hortae_MCA10",
+        "REF_5240_Aspergillus_hortae_CCF3389",
+        "REF_5253_Aspergillus_hortae_DTO198-G6",
+        "REF_5256_Aspergillus_hortae_DTO225-D5",
+        "REF_5263_Aspergillus_hortae_DTO359-F9",
+        "REF_5272_Aspergillus_hortae_DTO409-C3",
+        "REF_5279_Aspergillus_hortae_DTO440-H1",
+        "REF_608_Aspergillus_hortae_CBS124230",
+        "REF_609_Aspergillus_hortae_UTHSCSADI14-218"
+      ],
+      "used_core_source_name": [
+        "SRR24718917",
+        "SRR24718918",
+        "SRR24718919",
+        "SRR35107300"
+      ],
+      "used_full283": [
+        "REF_4013_Aspergillus_hortae_CMW59739",
+        "REF_4133_Aspergillus_hortae_MCA10",
+        "REF_5240_Aspergillus_hortae_CCF3389",
+        "REF_5253_Aspergillus_hortae_DTO198-G6",
+        "REF_5256_Aspergillus_hortae_DTO225-D5",
+        "REF_5263_Aspergillus_hortae_DTO359-F9",
+        "REF_5272_Aspergillus_hortae_DTO409-C3",
+        "REF_5279_Aspergillus_hortae_DTO440-H1",
+        "REF_605_Aspergillus_hortae_URM5264",
+        "REF_606_Aspergillus_hortae_IBT6271",
+        "REF_607_Aspergillus_hortae_CBS13460",
+        "REF_608_Aspergillus_hortae_CBS124230",
+        "REF_609_Aspergillus_hortae_UTHSCSADI14-218"
+      ],
+      "used_type108": [
+        "REF_608_Aspergillus_hortae_CBS124230"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491706",
+        "FJ531192",
+        "FJ531242"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus iizukae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "EF669555",
+        "EF669639",
+        "EU014086",
+        "FR775336",
+        "HG916686",
+        "HG916707",
+        "HG916728",
+        "HG916729",
+        "LM644243",
+        "LM644244",
+        "LM644269",
+        "LM644270",
+        "MW478537",
+        "MW478539",
+        "MW478540",
+        "PV179681",
+        "PV180410",
+        "PV180411",
+        "PV180584",
+        "PV180905",
+        "PV181535",
+        "PV181632",
+        "PV181953",
+        "PV182573"
+      ],
+      "nomenclature_catalog_only": [
+        "326636"
+      ],
+      "reference_library": [
+        "REF_3199_Aspergillus_iizukae_CCF1895",
+        "REF_3200_Aspergillus_iizukae_CCF4033",
+        "REF_4261_Aspergillus_iizukae_CMW62005",
+        "REF_435_Aspergillus_iizukae_CBS138188",
+        "REF_438_Aspergillus_iizukae_CBS54169",
+        "REF_439_Aspergillus_iizukae_CCF4845",
+        "REF_440_Aspergillus_iizukae_CCF4844",
+        "REF_5299_Aspergillus_iizukae_KAS3876",
+        "REF_5307_Aspergillus_iizukae_CHEM4347"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus inusitatus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "MW478502",
+        "MW478517",
+        "MW478542"
+      ],
+      "nomenclature_catalog_only": [
+        "839383"
+      ],
+      "reference_library": [
+        "REF_3194_Aspergillus_inusitatus_CBS147044"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus iranicus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5230_Aspergillus_iranicus_DTO202-A3",
+        "REF_5231_Aspergillus_iranicus_DTO202-B3",
+        "REF_5236_Aspergillus_iranicus_DTO422-D4",
+        "REF_567_Aspergillus_iranicus_CBS139560",
+        "REF_568_Aspergillus_iranicus_CBS139561"
+      ],
+      "analysis_name_full283": [
+        "REF_5230_Aspergillus_iranicus_DTO202-A3",
+        "REF_5231_Aspergillus_iranicus_DTO202-B3",
+        "REF_5236_Aspergillus_iranicus_DTO422-D4",
+        "REF_567_Aspergillus_iranicus_CBS139560",
+        "REF_568_Aspergillus_iranicus_CBS139561"
+      ],
+      "analysis_name_type108": [
+        "REF_568_Aspergillus_iranicus_CBS139561"
+      ],
+      "marker_sequence_fetched": [
+        "KP987033",
+        "KP987034",
+        "KP987044",
+        "KP987045",
+        "KP987059",
+        "KP987060",
+        "PV179495",
+        "PV179546",
+        "PV179603",
+        "PV181297",
+        "PV181298",
+        "PV181324",
+        "PV182337",
+        "PV182338",
+        "PV182365"
+      ],
+      "nomenclature_catalog_only": [
+        "817473"
+      ],
+      "reference_library": [
+        "REF_5230_Aspergillus_iranicus_DTO202-A3",
+        "REF_5231_Aspergillus_iranicus_DTO202-B3",
+        "REF_5236_Aspergillus_iranicus_DTO422-D4",
+        "REF_567_Aspergillus_iranicus_CBS139560",
+        "REF_568_Aspergillus_iranicus_CBS139561"
+      ],
+      "used_complete230": [
+        "REF_5230_Aspergillus_iranicus_DTO202-A3",
+        "REF_5231_Aspergillus_iranicus_DTO202-B3",
+        "REF_5236_Aspergillus_iranicus_DTO422-D4",
+        "REF_567_Aspergillus_iranicus_CBS139560",
+        "REF_568_Aspergillus_iranicus_CBS139561"
+      ],
+      "used_full283": [
+        "REF_5230_Aspergillus_iranicus_DTO202-A3",
+        "REF_5231_Aspergillus_iranicus_DTO202-B3",
+        "REF_5236_Aspergillus_iranicus_DTO422-D4",
+        "REF_567_Aspergillus_iranicus_CBS139560",
+        "REF_568_Aspergillus_iranicus_CBS139561"
+      ],
+      "used_type108": [
+        "REF_568_Aspergillus_iranicus_CBS139561"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus jilinensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": true,
+    "roles": "analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_full283": [
+        "REF_1210_Aspergillus_jilinensis_CGMCC318132",
+        "REF_1211_Aspergillus_jilinensis_CGMCC318134"
+      ],
+      "analysis_name_type108": [
+        "REF_1211_Aspergillus_jilinensis_CGMCC318134"
+      ],
+      "marker_sequence_fetched": [
+        "KX443161",
+        "KX443162",
+        "KX443192",
+        "KX443193"
+      ],
+      "nomenclature_catalog_only": [
+        "819490"
+      ],
+      "reference_library": [
+        "REF_1210_Aspergillus_jilinensis_CGMCC318132",
+        "REF_1211_Aspergillus_jilinensis_CGMCC318134"
+      ],
+      "used_full283": [
+        "REF_1210_Aspergillus_jilinensis_CGMCC318132",
+        "REF_1211_Aspergillus_jilinensis_CGMCC318134"
+      ],
+      "used_type108": [
+        "REF_1211_Aspergillus_jilinensis_CGMCC318134"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus lanuginosus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "EF669562",
+        "EF669646",
+        "EU014080"
+      ],
+      "nomenclature_catalog_only": [
+        "839384"
+      ],
+      "reference_library": [
+        "REF_458_Aspergillus_lanuginosus_NRRL4610"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus luppiae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "EF669575",
+        "EF669637",
+        "EF669659",
+        "EU014079"
+      ],
+      "nomenclature_catalog_only": [
+        "825372"
+      ],
+      "reference_library": [
+        "REF_457_Aspergillus_luppiae_NRRL6326"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus mahabadensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": false,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "nomenclature_catalog_only",
+    "evidence": {
+      "nomenclature_catalog_only": [
+        "859792"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus marneyi",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "OL741656",
+        "OL741659"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus microcysticus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_555_Aspergillus_microcysticus_CBS12058"
+      ],
+      "analysis_name_full283": [
+        "REF_555_Aspergillus_microcysticus_CBS12058"
+      ],
+      "analysis_name_type108": [
+        "REF_555_Aspergillus_microcysticus_CBS12058"
+      ],
+      "marker_sequence_fetched": [
+        "EF669515",
+        "EF669565",
+        "EF669649"
+      ],
+      "nomenclature_catalog_only": [
+        "292848"
+      ],
+      "reference_library": [
+        "REF_555_Aspergillus_microcysticus_CBS12058"
+      ],
+      "used_complete230": [
+        "REF_555_Aspergillus_microcysticus_CBS12058"
+      ],
+      "used_full283": [
+        "REF_555_Aspergillus_microcysticus_CBS12058"
+      ],
+      "used_type108": [
+        "REF_555_Aspergillus_microcysticus_CBS12058"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus micronesiensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "HG916684",
+        "HG916685",
+        "HG916705",
+        "HG916706",
+        "HG916726",
+        "HG916727",
+        "KJ775085",
+        "KJ775355",
+        "KP987023",
+        "KP987036",
+        "KP987047",
+        "KP987062"
+      ],
+      "nomenclature_catalog_only": [
+        "809192"
+      ],
+      "reference_library": [
+        "REF_3201_Aspergillus_micronesiensis_NRRL4263",
+        "REF_3202_Aspergillus_micronesiensis_CBS147045",
+        "REF_3203_Aspergillus_micronesiensis_IMI357699",
+        "REF_441_Aspergillus_micronesiensis_CCF2026",
+        "REF_442_Aspergillus_micronesiensis_CCF4005",
+        "REF_443_Aspergillus_micronesiensis_CBS138183"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus montoensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_3276_Aspergillus_montoensis_BRIP64553a"
+      ],
+      "analysis_name_full283": [
+        "REF_3276_Aspergillus_montoensis_BRIP64553a"
+      ],
+      "analysis_name_type108": [
+        "REF_3276_Aspergillus_montoensis_BRIP64553a"
+      ],
+      "marker_sequence_fetched": [
+        "OK509073",
+        "OK533535",
+        "PV180529",
+        "PV232222",
+        "PV232223",
+        "PV232224",
+        "PV232225",
+        "PV232226",
+        "PV232227"
+      ],
+      "nomenclature_catalog_only": [
+        "558828"
+      ],
+      "provisional_core_assignment": [
+        "39",
+        "50",
+        "73",
+        "ASM-1",
+        "ATCC20541",
+        "ERR17672364",
+        "M6925",
+        "ML-44",
+        "NIH2624",
+        "R22",
+        "S1101B",
+        "SRR25636149",
+        "SRR33623984",
+        "SRR9691934",
+        "T59-F",
+        "T59-F_ERR14883637",
+        "TT0037",
+        "w25"
+      ],
+      "reference_library": [
+        "REF_3276_Aspergillus_montoensis_BRIP64553a"
+      ],
+      "used_complete230": [
+        "REF_3276_Aspergillus_montoensis_BRIP64553a"
+      ],
+      "used_full283": [
+        "REF_3276_Aspergillus_montoensis_BRIP64553a"
+      ],
+      "used_type108": [
+        "REF_3276_Aspergillus_montoensis_BRIP64553a"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus movilensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "HG916697",
+        "HG916718",
+        "HG916740",
+        "KP987032",
+        "KP987035",
+        "KP987043",
+        "KP987046",
+        "KP987058",
+        "KP987061",
+        "MW478503",
+        "MW478522",
+        "MW478551"
+      ],
+      "nomenclature_catalog_only": [
+        "808144"
+      ],
+      "reference_library": [
+        "REF_3195_Aspergillus_movilensis_S1040",
+        "REF_459_Aspergillus_movilensis_CCF4410",
+        "REF_460_Aspergillus_movilensis_DTO203-C9",
+        "REF_461_Aspergillus_movilensis_DTO203-H3"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus neoafricanus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5245_Aspergillus_neoafricanus_DTO019-E7",
+        "REF_5255_Aspergillus_neoafricanus_DTO225-C6",
+        "REF_5281_Aspergillus_neoafricanus_DTO443-F2",
+        "REF_610_Aspergillus_neoafricanus_CBS13055",
+        "REF_611_Aspergillus_neoafricanus_NRRL4609"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_IBT13121",
+        "REF_5245_Aspergillus_neoafricanus_DTO019-E7",
+        "REF_5255_Aspergillus_neoafricanus_DTO225-C6",
+        "REF_5281_Aspergillus_neoafricanus_DTO443-F2",
+        "REF_610_Aspergillus_neoafricanus_CBS13055",
+        "REF_611_Aspergillus_neoafricanus_NRRL4609",
+        "REF_612_Aspergillus_neoafricanus_IBT13121"
+      ],
+      "analysis_name_type108": [
+        "REF_610_Aspergillus_neoafricanus_CBS13055"
+      ],
+      "marker_sequence_fetched": [
+        "PV179614",
+        "PV179615",
+        "PV179616",
+        "PV181278",
+        "PV181301",
+        "PV181332",
+        "PV182319",
+        "PV182341",
+        "PV182373"
+      ],
+      "nomenclature_catalog_only": [
+        "560391"
+      ],
+      "reference_library": [
+        "REF_5245_Aspergillus_neoafricanus_DTO019-E7",
+        "REF_5255_Aspergillus_neoafricanus_DTO225-C6",
+        "REF_5281_Aspergillus_neoafricanus_DTO443-F2",
+        "REF_610_Aspergillus_neoafricanus_CBS13055",
+        "REF_611_Aspergillus_neoafricanus_NRRL4609",
+        "REF_612_Aspergillus_neoafricanus_IBT13121"
+      ],
+      "used_complete230": [
+        "REF_5245_Aspergillus_neoafricanus_DTO019-E7",
+        "REF_5255_Aspergillus_neoafricanus_DTO225-C6",
+        "REF_5281_Aspergillus_neoafricanus_DTO443-F2",
+        "REF_610_Aspergillus_neoafricanus_CBS13055",
+        "REF_611_Aspergillus_neoafricanus_NRRL4609"
+      ],
+      "used_full283": [
+        "REF_5245_Aspergillus_neoafricanus_DTO019-E7",
+        "REF_5255_Aspergillus_neoafricanus_DTO225-C6",
+        "REF_5281_Aspergillus_neoafricanus_DTO443-F2",
+        "REF_610_Aspergillus_neoafricanus_CBS13055",
+        "REF_611_Aspergillus_neoafricanus_NRRL4609",
+        "REF_612_Aspergillus_neoafricanus_IBT13121"
+      ],
+      "used_type108": [
+        "REF_610_Aspergillus_neoafricanus_CBS13055"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus neoflavipes",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_444_Aspergillus_neoflavipes_CBS26073"
+      ],
+      "analysis_name_full283": [
+        "REF_444_Aspergillus_neoflavipes_CBS26073"
+      ],
+      "analysis_name_type108": [
+        "REF_444_Aspergillus_neoflavipes_CBS26073"
+      ],
+      "marker_sequence_fetched": [
+        "EF669572",
+        "EF669656",
+        "EU014084"
+      ],
+      "nomenclature_catalog_only": [
+        "808147"
+      ],
+      "reference_library": [
+        "REF_444_Aspergillus_neoflavipes_CBS26073"
+      ],
+      "used_complete230": [
+        "REF_444_Aspergillus_neoflavipes_CBS26073"
+      ],
+      "used_full283": [
+        "REF_444_Aspergillus_neoflavipes_CBS26073"
+      ],
+      "used_type108": [
+        "REF_444_Aspergillus_neoflavipes_CBS26073"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus neoindicus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5224_Aspergillus_neoindicus_DTO067-B1",
+        "REF_569_Aspergillus_neoindicus_CBS44475"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_CBS44475",
+        "REF_5224_Aspergillus_neoindicus_DTO067-B1",
+        "REF_569_Aspergillus_neoindicus_CBS44475"
+      ],
+      "analysis_name_type108": [
+        "REF_569_Aspergillus_neoindicus_CBS44475"
+      ],
+      "marker_sequence_fetched": [
+        "EF669532",
+        "EF669574",
+        "EF669658",
+        "PV179567",
+        "PV181287",
+        "PV182328"
+      ],
+      "nomenclature_catalog_only": [
+        "560394"
+      ],
+      "provisional_core_assignment": [
+        "SRR25636141",
+        "SRR25636143"
+      ],
+      "reference_library": [
+        "REF_5224_Aspergillus_neoindicus_DTO067-B1",
+        "REF_569_Aspergillus_neoindicus_CBS44475"
+      ],
+      "used_complete230": [
+        "REF_5224_Aspergillus_neoindicus_DTO067-B1",
+        "REF_569_Aspergillus_neoindicus_CBS44475"
+      ],
+      "used_full283": [
+        "REF_5224_Aspergillus_neoindicus_DTO067-B1",
+        "REF_569_Aspergillus_neoindicus_CBS44475"
+      ],
+      "used_type108": [
+        "REF_569_Aspergillus_neoindicus_CBS44475"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491718",
+        "FJ531201",
+        "FJ531222"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus neoniveus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_453_Aspergillus_neoniveus_CBS26173"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_CBS26173",
+        "HIST2011_CBS26273",
+        "REF_453_Aspergillus_neoniveus_CBS26173"
+      ],
+      "marker_sequence_fetched": [
+        "EF669570",
+        "EF669655",
+        "EU014098",
+        "FJ491720",
+        "FJ531227",
+        "KP987024"
+      ],
+      "nomenclature_catalog_only": [
+        "560395"
+      ],
+      "reference_library": [
+        "REF_453_Aspergillus_neoniveus_CBS26173",
+        "REF_454_Aspergillus_neoniveus_NRRL5502",
+        "REF_455_Aspergillus_neoniveus_CBS26273"
+      ],
+      "used_complete230": [
+        "REF_453_Aspergillus_neoniveus_CBS26173"
+      ],
+      "used_full283": [
+        "REF_453_Aspergillus_neoniveus_CBS26173"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491720",
+        "FJ491722",
+        "FJ531198",
+        "FJ531199",
+        "FJ531226",
+        "FJ531227"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus neoterreus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_3290_Aspergillus_neoterreus_CGMCC320891",
+        "REF_5273_Aspergillus_neoterreus_DTO419-A6",
+        "REF_5276_Aspergillus_neoterreus_DTO428-E9",
+        "REF_5282_Aspergillus_neoterreus_DTO465-H2",
+        "REF_5283_Aspergillus_neoterreus_ZC111"
+      ],
+      "analysis_name_full283": [
+        "REF_3290_Aspergillus_neoterreus_CGMCC320891",
+        "REF_5273_Aspergillus_neoterreus_DTO419-A6",
+        "REF_5276_Aspergillus_neoterreus_DTO428-E9",
+        "REF_5282_Aspergillus_neoterreus_DTO465-H2",
+        "REF_5283_Aspergillus_neoterreus_ZC111"
+      ],
+      "analysis_name_type108": [
+        "REF_3290_Aspergillus_neoterreus_CGMCC320891"
+      ],
+      "marker_sequence_fetched": [
+        "OM475629",
+        "OM475633",
+        "OM475637",
+        "PV179623",
+        "PV179625",
+        "PV179644",
+        "PV179645",
+        "PV181322",
+        "PV181326",
+        "PV181334",
+        "PV181575",
+        "PV182363",
+        "PV182367",
+        "PV182375",
+        "PV182618"
+      ],
+      "nomenclature_catalog_only": [
+        "570968"
+      ],
+      "reference_library": [
+        "REF_3290_Aspergillus_neoterreus_CGMCC320891",
+        "REF_5273_Aspergillus_neoterreus_DTO419-A6",
+        "REF_5276_Aspergillus_neoterreus_DTO428-E9",
+        "REF_5282_Aspergillus_neoterreus_DTO465-H2",
+        "REF_5283_Aspergillus_neoterreus_ZC111"
+      ],
+      "used_complete230": [
+        "REF_3290_Aspergillus_neoterreus_CGMCC320891",
+        "REF_5273_Aspergillus_neoterreus_DTO419-A6",
+        "REF_5276_Aspergillus_neoterreus_DTO428-E9",
+        "REF_5282_Aspergillus_neoterreus_DTO465-H2",
+        "REF_5283_Aspergillus_neoterreus_ZC111"
+      ],
+      "used_full283": [
+        "REF_3290_Aspergillus_neoterreus_CGMCC320891",
+        "REF_5273_Aspergillus_neoterreus_DTO419-A6",
+        "REF_5276_Aspergillus_neoterreus_DTO428-E9",
+        "REF_5282_Aspergillus_neoterreus_DTO465-H2",
+        "REF_5283_Aspergillus_neoterreus_ZC111"
+      ],
+      "used_type108": [
+        "REF_3290_Aspergillus_neoterreus_CGMCC320891"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus niveus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5215_Aspergillus_niveus_CCF4725",
+        "REF_5216_Aspergillus_niveus_CCF5694",
+        "REF_5218_Aspergillus_niveus_CCF5852",
+        "REF_5221_Aspergillus_niveus_CCF6196",
+        "REF_5225_Aspergillus_niveus_DTO067-C2",
+        "REF_5229_Aspergillus_niveus_DTO198-G8",
+        "REF_5233_Aspergillus_niveus_DTO362-E5",
+        "REF_570_Aspergillus_niveus_NRRL1955",
+        "REF_571_Aspergillus_niveus_NRRL4751",
+        "REF_572_Aspergillus_niveus_NRRL515",
+        "REF_573_Aspergillus_niveus_CBS11527"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_CBS11433",
+        "HIST2011_CBS11527",
+        "HIST2011_CBS47191",
+        "REF_5215_Aspergillus_niveus_CCF4725",
+        "REF_5216_Aspergillus_niveus_CCF5694",
+        "REF_5218_Aspergillus_niveus_CCF5852",
+        "REF_5221_Aspergillus_niveus_CCF6196",
+        "REF_5225_Aspergillus_niveus_DTO067-C2",
+        "REF_5229_Aspergillus_niveus_DTO198-G8",
+        "REF_5233_Aspergillus_niveus_DTO362-E5",
+        "REF_570_Aspergillus_niveus_NRRL1955",
+        "REF_571_Aspergillus_niveus_NRRL4751",
+        "REF_572_Aspergillus_niveus_NRRL515",
+        "REF_573_Aspergillus_niveus_CBS11527",
+        "REF_574_Aspergillus_niveus_CBS47191",
+        "REF_575_Aspergillus_niveus_URM5851"
+      ],
+      "analysis_name_type108": [
+        "REF_573_Aspergillus_niveus_CBS11527"
+      ],
+      "marker_sequence_fetched": [
+        "EF669525",
+        "EF669526",
+        "EF669527",
+        "EF669528",
+        "EF669542",
+        "EF669566",
+        "EF669568",
+        "EF669571",
+        "EF669573",
+        "EF669626",
+        "EF669650",
+        "EF669652",
+        "EF669657",
+        "FJ491719",
+        "FJ531224",
+        "LR216694",
+        "LR217786",
+        "PV179497",
+        "PV179604",
+        "PV179605",
+        "PV179607",
+        "PV179608",
+        "PV179610",
+        "PV179612",
+        "PV180562",
+        "PV180563",
+        "PV180565",
+        "PV180568",
+        "PV181288",
+        "PV181296",
+        "PV181315",
+        "PV181609",
+        "PV181611",
+        "PV181613",
+        "PV181616",
+        "PV182329",
+        "PV182336",
+        "PV182356"
+      ],
+      "nomenclature_catalog_only": [
+        "272402"
+      ],
+      "reference_library": [
+        "REF_5215_Aspergillus_niveus_CCF4725",
+        "REF_5216_Aspergillus_niveus_CCF5694",
+        "REF_5218_Aspergillus_niveus_CCF5852",
+        "REF_5221_Aspergillus_niveus_CCF6196",
+        "REF_5225_Aspergillus_niveus_DTO067-C2",
+        "REF_5229_Aspergillus_niveus_DTO198-G8",
+        "REF_5233_Aspergillus_niveus_DTO362-E5",
+        "REF_570_Aspergillus_niveus_NRRL1955",
+        "REF_571_Aspergillus_niveus_NRRL4751",
+        "REF_572_Aspergillus_niveus_NRRL515",
+        "REF_573_Aspergillus_niveus_CBS11527",
+        "REF_574_Aspergillus_niveus_CBS47191",
+        "REF_575_Aspergillus_niveus_URM5851"
+      ],
+      "used_complete230": [
+        "REF_5215_Aspergillus_niveus_CCF4725",
+        "REF_5216_Aspergillus_niveus_CCF5694",
+        "REF_5218_Aspergillus_niveus_CCF5852",
+        "REF_5221_Aspergillus_niveus_CCF6196",
+        "REF_5225_Aspergillus_niveus_DTO067-C2",
+        "REF_5229_Aspergillus_niveus_DTO198-G8",
+        "REF_5233_Aspergillus_niveus_DTO362-E5",
+        "REF_570_Aspergillus_niveus_NRRL1955",
+        "REF_571_Aspergillus_niveus_NRRL4751",
+        "REF_572_Aspergillus_niveus_NRRL515",
+        "REF_573_Aspergillus_niveus_CBS11527"
+      ],
+      "used_full283": [
+        "REF_5215_Aspergillus_niveus_CCF4725",
+        "REF_5216_Aspergillus_niveus_CCF5694",
+        "REF_5218_Aspergillus_niveus_CCF5852",
+        "REF_5221_Aspergillus_niveus_CCF6196",
+        "REF_5225_Aspergillus_niveus_DTO067-C2",
+        "REF_5229_Aspergillus_niveus_DTO198-G8",
+        "REF_5233_Aspergillus_niveus_DTO362-E5",
+        "REF_570_Aspergillus_niveus_NRRL1955",
+        "REF_571_Aspergillus_niveus_NRRL4751",
+        "REF_572_Aspergillus_niveus_NRRL515",
+        "REF_573_Aspergillus_niveus_CBS11527",
+        "REF_574_Aspergillus_niveus_CBS47191",
+        "REF_575_Aspergillus_niveus_URM5851"
+      ],
+      "used_type108": [
+        "REF_573_Aspergillus_niveus_CBS11527"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491715",
+        "FJ491716",
+        "FJ491719",
+        "FJ531197",
+        "FJ531204",
+        "FJ531224",
+        "FJ531225"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus okavangoensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "MW480706",
+        "MW480788",
+        "MW480790",
+        "PV179683",
+        "PV180651",
+        "PV181699"
+      ],
+      "nomenclature_catalog_only": [
+        "840269"
+      ],
+      "reference_library": [
+        "REF_3186_Aspergillus_okavangoensis_CMW56636",
+        "REF_3794_Aspergillus_okavangoensis_CMW59725"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus olivimuriae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "MH492010",
+        "MH492011",
+        "MH492012"
+      ],
+      "nomenclature_catalog_only": [
+        "826866"
+      ],
+      "reference_library": [
+        "REF_3889_Aspergillus_olivimuriae_NRRL66783",
+        "REF_456_Aspergillus_olivimuriae_NRRL66783"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus pelloeae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "OR737765",
+        "OR737770",
+        "OR737775"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus plumeriae",
+    "genus": "Aspergillus",
+    "sequence_fetched": false,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "nomenclature_catalog_only": [
+        "571614"
+      ],
+      "reference_library": [
+        "REF_4068_Aspergillus_plumeriae_CGMCC325202"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus polyporicola",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "EF669553",
+        "EU014088",
+        "LM644252",
+        "LM644254",
+        "LM644274",
+        "MW478504",
+        "MW478505",
+        "MW478523",
+        "MW478524",
+        "MW478552",
+        "MW478553"
+      ],
+      "nomenclature_catalog_only": [
+        "808145"
+      ],
+      "reference_library": [
+        "REF_3196_Aspergillus_polyporicola_CCF5427",
+        "REF_3197_Aspergillus_polyporicola_CCF6262",
+        "REF_462_Aspergillus_polyporicola_NRRL32683",
+        "REF_463_Aspergillus_polyporicola_NRRL58570"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus pseudoalabamensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_3981_Aspergillus_pseudoalabamensis_CBS149794",
+        "REF_3982_Aspergillus_pseudoalabamensis_CBS149793",
+        "REF_3983_Aspergillus_pseudoalabamensis_CBS149790",
+        "REF_3984_Aspergillus_pseudoalabamensis_CBS149791",
+        "REF_3985_Aspergillus_pseudoalabamensis_CBS149792"
+      ],
+      "analysis_name_full283": [
+        "REF_3981_Aspergillus_pseudoalabamensis_CBS149794",
+        "REF_3982_Aspergillus_pseudoalabamensis_CBS149793",
+        "REF_3983_Aspergillus_pseudoalabamensis_CBS149790",
+        "REF_3984_Aspergillus_pseudoalabamensis_CBS149791",
+        "REF_3985_Aspergillus_pseudoalabamensis_CBS149792"
+      ],
+      "analysis_name_type108": [
+        "REF_3983_Aspergillus_pseudoalabamensis_CBS149790"
+      ],
+      "marker_sequence_fetched": [
+        "OL764871",
+        "OL764876"
+      ],
+      "nomenclature_catalog_only": [
+        "847407"
+      ],
+      "reference_library": [
+        "REF_3981_Aspergillus_pseudoalabamensis_CBS149794",
+        "REF_3982_Aspergillus_pseudoalabamensis_CBS149793",
+        "REF_3983_Aspergillus_pseudoalabamensis_CBS149790",
+        "REF_3984_Aspergillus_pseudoalabamensis_CBS149791",
+        "REF_3985_Aspergillus_pseudoalabamensis_CBS149792"
+      ],
+      "used_complete230": [
+        "REF_3981_Aspergillus_pseudoalabamensis_CBS149794",
+        "REF_3982_Aspergillus_pseudoalabamensis_CBS149793",
+        "REF_3983_Aspergillus_pseudoalabamensis_CBS149790",
+        "REF_3984_Aspergillus_pseudoalabamensis_CBS149791",
+        "REF_3985_Aspergillus_pseudoalabamensis_CBS149792"
+      ],
+      "used_full283": [
+        "REF_3981_Aspergillus_pseudoalabamensis_CBS149794",
+        "REF_3982_Aspergillus_pseudoalabamensis_CBS149793",
+        "REF_3983_Aspergillus_pseudoalabamensis_CBS149790",
+        "REF_3984_Aspergillus_pseudoalabamensis_CBS149791",
+        "REF_3985_Aspergillus_pseudoalabamensis_CBS149792"
+      ],
+      "used_type108": [
+        "REF_3983_Aspergillus_pseudoalabamensis_CBS149790"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus pseudoterreus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; genome_source_name; marker_sequence_fetched; nomenclature_catalog_only; provisional_core_assignment; reference_library; used_complete230; used_core_source_name; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_3901_Aspergillus_pseudoterreus_ATCC32359",
+        "REF_3902_Aspergillus_pseudoterreus_IFO6365",
+        "REF_4657_Aspergillus_pseudoterreus_AT2022",
+        "REF_5241_Aspergillus_pseudoterreus_CCF55",
+        "REF_613_Aspergillus_pseudoterreus_CBS123890"
+      ],
+      "analysis_name_full283": [
+        "REF_3901_Aspergillus_pseudoterreus_ATCC32359",
+        "REF_3902_Aspergillus_pseudoterreus_IFO6365",
+        "REF_4657_Aspergillus_pseudoterreus_AT2022",
+        "REF_5241_Aspergillus_pseudoterreus_CCF55",
+        "REF_613_Aspergillus_pseudoterreus_CBS123890"
+      ],
+      "analysis_name_type108": [
+        "REF_613_Aspergillus_pseudoterreus_CBS123890"
+      ],
+      "genome_source_name": [
+        "SRR10511973",
+        "SRR25636141",
+        "SRR25636143"
+      ],
+      "marker_sequence_fetched": [
+        "EF669523",
+        "EF669556",
+        "EF669640",
+        "PV179599",
+        "PV180560",
+        "PV181610"
+      ],
+      "nomenclature_catalog_only": [
+        "560396"
+      ],
+      "provisional_core_assignment": [
+        "AT2022",
+        "IFO6365",
+        "IFO6365_DRR204676",
+        "SRR10511973",
+        "TN-484",
+        "TN-484_DRR191518"
+      ],
+      "reference_library": [
+        "REF_3901_Aspergillus_pseudoterreus_ATCC32359",
+        "REF_3902_Aspergillus_pseudoterreus_IFO6365",
+        "REF_4657_Aspergillus_pseudoterreus_AT2022",
+        "REF_5241_Aspergillus_pseudoterreus_CCF55",
+        "REF_613_Aspergillus_pseudoterreus_CBS123890"
+      ],
+      "used_complete230": [
+        "REF_3901_Aspergillus_pseudoterreus_ATCC32359",
+        "REF_3902_Aspergillus_pseudoterreus_IFO6365",
+        "REF_4657_Aspergillus_pseudoterreus_AT2022",
+        "REF_5241_Aspergillus_pseudoterreus_CCF55",
+        "REF_613_Aspergillus_pseudoterreus_CBS123890"
+      ],
+      "used_core_source_name": [
+        "SRR10511973",
+        "SRR25636141",
+        "SRR25636143"
+      ],
+      "used_full283": [
+        "REF_3901_Aspergillus_pseudoterreus_ATCC32359",
+        "REF_3902_Aspergillus_pseudoterreus_IFO6365",
+        "REF_4657_Aspergillus_pseudoterreus_AT2022",
+        "REF_5241_Aspergillus_pseudoterreus_CCF55",
+        "REF_613_Aspergillus_pseudoterreus_CBS123890"
+      ],
+      "used_type108": [
+        "REF_613_Aspergillus_pseudoterreus_CBS123890"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus ralucae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": true,
+    "roles": "analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_full283": [
+        "REF_5388_Aspergillus_ralucae_MST-F28554"
+      ],
+      "analysis_name_type108": [
+        "REF_5388_Aspergillus_ralucae_MST-F28554"
+      ],
+      "marker_sequence_fetched": [
+        "PV574425",
+        "PV574426"
+      ],
+      "nomenclature_catalog_only": [
+        "903803"
+      ],
+      "reference_library": [
+        "REF_5388_Aspergillus_ralucae_MST-F28554"
+      ],
+      "used_full283": [
+        "REF_5388_Aspergillus_ralucae_MST-F28554"
+      ],
+      "used_type108": [
+        "REF_5388_Aspergillus_ralucae_MST-F28554"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus recifensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_4412_Aspergillus_recifensis_MST-F22283",
+        "REF_576_Aspergillus_recifensis_URM6628",
+        "REF_577_Aspergillus_recifensis_CBS145864",
+        "REF_578_Aspergillus_recifensis_URM5262",
+        "REF_579_Aspergillus_recifensis_URM5461",
+        "REF_580_Aspergillus_recifensis_URM3571",
+        "REF_581_Aspergillus_recifensis_URM2803"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_CBS26581",
+        "REF_4412_Aspergillus_recifensis_MST-F22283",
+        "REF_576_Aspergillus_recifensis_URM6628",
+        "REF_577_Aspergillus_recifensis_CBS145864",
+        "REF_578_Aspergillus_recifensis_URM5262",
+        "REF_579_Aspergillus_recifensis_URM5461",
+        "REF_580_Aspergillus_recifensis_URM3571",
+        "REF_581_Aspergillus_recifensis_URM2803",
+        "REF_589_Aspergillus_recifensis_CBS26581"
+      ],
+      "analysis_name_type108": [
+        "REF_577_Aspergillus_recifensis_CBS145864"
+      ],
+      "marker_sequence_fetched": [
+        "LR031370",
+        "LR031385",
+        "LR031400"
+      ],
+      "nomenclature_catalog_only": [
+        "830081"
+      ],
+      "reference_library": [
+        "REF_4412_Aspergillus_recifensis_MST-F22283",
+        "REF_576_Aspergillus_recifensis_URM6628",
+        "REF_577_Aspergillus_recifensis_CBS145864",
+        "REF_578_Aspergillus_recifensis_URM5262",
+        "REF_579_Aspergillus_recifensis_URM5461",
+        "REF_580_Aspergillus_recifensis_URM3571",
+        "REF_581_Aspergillus_recifensis_URM2803",
+        "REF_589_Aspergillus_recifensis_CBS26581"
+      ],
+      "used_complete230": [
+        "REF_4412_Aspergillus_recifensis_MST-F22283",
+        "REF_576_Aspergillus_recifensis_URM6628",
+        "REF_577_Aspergillus_recifensis_CBS145864",
+        "REF_578_Aspergillus_recifensis_URM5262",
+        "REF_579_Aspergillus_recifensis_URM5461",
+        "REF_580_Aspergillus_recifensis_URM3571",
+        "REF_581_Aspergillus_recifensis_URM2803"
+      ],
+      "used_full283": [
+        "REF_4412_Aspergillus_recifensis_MST-F22283",
+        "REF_576_Aspergillus_recifensis_URM6628",
+        "REF_577_Aspergillus_recifensis_CBS145864",
+        "REF_578_Aspergillus_recifensis_URM5262",
+        "REF_579_Aspergillus_recifensis_URM5461",
+        "REF_580_Aspergillus_recifensis_URM3571",
+        "REF_581_Aspergillus_recifensis_URM2803",
+        "REF_589_Aspergillus_recifensis_CBS26581"
+      ],
+      "used_type108": [
+        "REF_577_Aspergillus_recifensis_CBS145864"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus sofiae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "PV574427",
+        "PV574428",
+        "PV574429"
+      ],
+      "nomenclature_catalog_only": [
+        "903804"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus sp",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "genome_source_name; historical_sequence_fetched; marker_sequence_fetched",
+    "evidence": {
+      "genome_source_name": [
+        "ERR14883637",
+        "MCA10_SRR24718917",
+        "MCA7_SRR24718919",
+        "MCA8_SRR24718918",
+        "SRR33476766",
+        "SRR9691929",
+        "SRR9691931",
+        "SRR9691932"
+      ],
+      "marker_sequence_fetched": [
+        "FJ491724",
+        "FJ491728",
+        "FJ531221",
+        "LT798939",
+        "LT798940",
+        "LT798941",
+        "LT798942",
+        "LT798943",
+        "LT798944",
+        "MK450766",
+        "MK450769",
+        "MK450988",
+        "MK450991",
+        "MK451313",
+        "MK451316",
+        "OL764869",
+        "OL764870",
+        "OL764872",
+        "OL764873",
+        "OL764874",
+        "OL764875",
+        "OL764877",
+        "OL764878",
+        "OL792692",
+        "OL792693",
+        "OL792694",
+        "OL792695",
+        "OL792696",
+        "ON231292",
+        "ON470835",
+        "ON470843",
+        "PP544440",
+        "PP544442",
+        "PP544444",
+        "PQ587367",
+        "PQ587369",
+        "PQ588709",
+        "PQ588710",
+        "PQ963942",
+        "PQ963944"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491724",
+        "FJ491728",
+        "FJ531200",
+        "FJ531217",
+        "FJ531221",
+        "FJ531236"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus spelaeus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_464_Aspergillus_spelaeus_CCF4425"
+      ],
+      "analysis_name_full283": [
+        "REF_464_Aspergillus_spelaeus_CCF4425"
+      ],
+      "analysis_name_type108": [
+        "REF_464_Aspergillus_spelaeus_CCF4425"
+      ],
+      "marker_sequence_fetched": [
+        "HG916698",
+        "HG916699",
+        "HG916702",
+        "HG916719",
+        "HG916720",
+        "HG916723",
+        "HG916741",
+        "HG916742",
+        "HG916745",
+        "HG916748",
+        "LM644259",
+        "LM644272",
+        "MW478506",
+        "MW478525",
+        "MW478554",
+        "PV179684",
+        "PV181060",
+        "PV182108"
+      ],
+      "nomenclature_catalog_only": [
+        "808146"
+      ],
+      "reference_library": [
+        "REF_3198_Aspergillus_spelaeus_EMSL4874",
+        "REF_4438_Aspergillus_spelaeus_CN191G5",
+        "REF_464_Aspergillus_spelaeus_CCF4425",
+        "REF_465_Aspergillus_spelaeus_CCF544",
+        "REF_466_Aspergillus_spelaeus_CCF4680",
+        "REF_467_Aspergillus_spelaeus_CCF4886"
+      ],
+      "used_complete230": [
+        "REF_464_Aspergillus_spelaeus_CCF4425"
+      ],
+      "used_full283": [
+        "REF_464_Aspergillus_spelaeus_CCF4425"
+      ],
+      "used_type108": [
+        "REF_464_Aspergillus_spelaeus_CCF4425"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus stefaniae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; marker_sequence_fetched; nomenclature_catalog_only; reference_library; used_complete230; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_5364_Aspergillus_stefaniae_MST-F28555",
+        "REF_5390_Aspergillus_stefaniae_MST-F28552"
+      ],
+      "analysis_name_full283": [
+        "REF_5364_Aspergillus_stefaniae_MST-F28555",
+        "REF_5390_Aspergillus_stefaniae_MST-F28552"
+      ],
+      "analysis_name_type108": [
+        "REF_5390_Aspergillus_stefaniae_MST-F28552"
+      ],
+      "marker_sequence_fetched": [
+        "PV574430",
+        "PV574431",
+        "PV574432",
+        "PV574433",
+        "PV574434",
+        "PV574435"
+      ],
+      "nomenclature_catalog_only": [
+        "903805"
+      ],
+      "reference_library": [
+        "REF_5364_Aspergillus_stefaniae_MST-F28555",
+        "REF_5390_Aspergillus_stefaniae_MST-F28552"
+      ],
+      "used_complete230": [
+        "REF_5364_Aspergillus_stefaniae_MST-F28555",
+        "REF_5390_Aspergillus_stefaniae_MST-F28552"
+      ],
+      "used_full283": [
+        "REF_5364_Aspergillus_stefaniae_MST-F28555",
+        "REF_5390_Aspergillus_stefaniae_MST-F28552"
+      ],
+      "used_type108": [
+        "REF_5390_Aspergillus_stefaniae_MST-F28552"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus sunderbanii",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "KP987026",
+        "KP987052",
+        "KP987069"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus suttoniae",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "LT899536",
+        "LT899589",
+        "LT899644"
+      ],
+      "nomenclature_catalog_only": [
+        "823689"
+      ],
+      "reference_library": [
+        "REF_445_Aspergillus_suttoniae_CBS143866"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus templicola",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "HG916695",
+        "HG916696",
+        "HG916716",
+        "HG916717",
+        "HG916738",
+        "HG916739",
+        "KJ775087",
+        "KJ775092",
+        "KJ775394",
+        "KP987017",
+        "KP987038",
+        "KP987064",
+        "LM644242",
+        "LM644256",
+        "LM644271",
+        "PV179682",
+        "PV180412",
+        "PV180631",
+        "PV181571",
+        "PV181679",
+        "PV182611"
+      ],
+      "nomenclature_catalog_only": [
+        "809191"
+      ],
+      "reference_library": [
+        "REF_3204_Aspergillus_templicola_CBS138180",
+        "REF_3775_Aspergillus_templicola_CMW59696",
+        "REF_446_Aspergillus_templicola_CCF4698",
+        "REF_447_Aspergillus_templicola_CCF869",
+        "REF_448_Aspergillus_templicola_CBS138181",
+        "REF_449_Aspergillus_templicola_NRRL4893",
+        "REF_5328_Aspergillus_templicola_SLOAN3618"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus terreus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": true,
+    "used_complete230": true,
+    "used_full283": true,
+    "roles": "analysis_name_complete230; analysis_name_full283; analysis_name_type108; assembly_metadata_queried; genome_download_verified; genome_source_name; historical_sequence_fetched; marker_sequence_fetched; nomenclature_catalog_only; protein_reference_fetched; provisional_core_assignment; read_metadata_queried; reference_library; used_complete230; used_core_source_name; used_full283; used_type108",
+    "evidence": {
+      "analysis_name_complete230": [
+        "REF_3807_Aspergillus_terreus_CMW59759",
+        "REF_3903_Aspergillus_terreus_P3406A",
+        "REF_4014_Aspergillus_terreus_CMW60392",
+        "REF_5258_Aspergillus_terreus_DTO270-H3",
+        "REF_5277_Aspergillus_terreus_DTO437-G1",
+        "REF_5280_Aspergillus_terreus_DTO440-H7",
+        "REF_614_Aspergillus_terreus_CBS60165"
+      ],
+      "analysis_name_full283": [
+        "HIST2011_IBT14590",
+        "HIST2011_IBT16744",
+        "HIST2011_IBT16745",
+        "HIST2011_IBT22563",
+        "HIST2011_IBT24859",
+        "HIST2011_IBT26915",
+        "REF_3807_Aspergillus_terreus_CMW59759",
+        "REF_3903_Aspergillus_terreus_P3406A",
+        "REF_4014_Aspergillus_terreus_CMW60392",
+        "REF_5258_Aspergillus_terreus_DTO270-H3",
+        "REF_5277_Aspergillus_terreus_DTO437-G1",
+        "REF_5280_Aspergillus_terreus_DTO440-H7",
+        "REF_614_Aspergillus_terreus_CBS60165",
+        "REF_615_Aspergillus_terreus_IBT24859",
+        "REF_616_Aspergillus_terreus_CBS11827",
+        "REF_617_Aspergillus_terreus_CBS10625",
+        "REF_618_Aspergillus_terreus_CBS12538"
+      ],
+      "analysis_name_type108": [
+        "REF_614_Aspergillus_terreus_CBS60165"
+      ],
+      "assembly_metadata_queried": [
+        "GCA_000149615.1",
+        "GCA_000166915.1",
+        "GCA_001630395.1",
+        "GCA_002749855.1",
+        "GCA_002930435.1",
+        "GCA_009014675.2",
+        "GCA_009834425.1",
+        "GCA_009932835.1",
+        "GCA_015266375.1",
+        "GCA_015333565.1",
+        "GCA_016808415.1",
+        "GCA_023625495.1",
+        "GCA_023625515.1",
+        "GCA_023625535.1",
+        "GCA_023625575.1",
+        "GCA_033632065.1",
+        "GCA_034642025.1",
+        "GCA_037041615.1",
+        "GCA_037041815.1",
+        "GCA_049862995.1",
+        "GCA_054661595.1",
+        "GCA_056506665.1",
+        "GCA_057814615.1",
+        "GCA_058225725.1",
+        "GCA_061584345.1",
+        "GCA_982397235.1",
+        "GCA_986281685.1",
+        "GCA_988135485.1",
+        "GCF_000149615.1"
+      ],
+      "genome_download_verified": [
+        "GCA_061584345.1",
+        "GCA_988135485.1"
+      ],
+      "genome_source_name": [
+        "11",
+        "26",
+        "29",
+        "39",
+        "40",
+        "45A",
+        "47",
+        "48",
+        "50",
+        "56",
+        "57",
+        "67",
+        "73",
+        "ASM-1",
+        "AT-1",
+        "AT.1",
+        "AT2022",
+        "ATCC20541",
+        "ATCC20542",
+        "ERR17672364",
+        "IFO6365",
+        "IFO6365_DRR204676",
+        "M6925",
+        "ML-44",
+        "NIH2624",
+        "P3406A",
+        "PA2902",
+        "PB4404",
+        "PG6503",
+        "R22",
+        "R23",
+        "R24",
+        "R6201Q",
+        "S1101B",
+        "SRR13958306",
+        "SRR19634133",
+        "SRR24010557",
+        "SRR25621424",
+        "SRR25621436",
+        "SRR25636132",
+        "SRR25636149",
+        "SRR33623984",
+        "SRR33623985",
+        "SRR9691930",
+        "SRR9691934",
+        "SRR9691935",
+        "SRR9691936",
+        "T59-F",
+        "T59-F_ERR14883637",
+        "TN-484",
+        "TN-484_DRR191518",
+        "TT0037",
+        "UA-600B",
+        "UA-600B_SRR33476766",
+        "w25"
+      ],
+      "marker_sequence_fetched": [
+        "EF669516",
+        "EF669517",
+        "EF669518",
+        "EF669519",
+        "EF669521",
+        "EF669537",
+        "EF669543",
+        "EF669544",
+        "EF669545",
+        "EF669561",
+        "EF669621",
+        "EF669627",
+        "EF669628",
+        "EF669629",
+        "EF669645",
+        "EU147504",
+        "EU147506",
+        "EU147509",
+        "EU147513",
+        "EU147519",
+        "EU147521",
+        "EU147524",
+        "EU147525",
+        "EU147526",
+        "EU147583",
+        "EU147690",
+        "EU147692",
+        "EU147695",
+        "EU147699",
+        "EU147705",
+        "EU147707",
+        "EU147710",
+        "EU147711",
+        "EU147712",
+        "FJ491705",
+        "FJ531240",
+        "LR031368",
+        "LR031369",
+        "LR031371",
+        "LR031372",
+        "LR031373",
+        "LR031375",
+        "LR031376",
+        "LR031378",
+        "LR031383",
+        "LR031384",
+        "LR031386",
+        "LR031387",
+        "LR031388",
+        "LR031390",
+        "LR031391",
+        "LR031393",
+        "LR031399",
+        "LR031401",
+        "LR031402",
+        "LR031403",
+        "LR031405",
+        "LR031406",
+        "LR031408",
+        "LT899541",
+        "LT899596",
+        "LT899651",
+        "PV179650",
+        "PV179651",
+        "PV179672",
+        "PV181304",
+        "PV181327",
+        "PV181330",
+        "PV182345",
+        "PV182368",
+        "PV182371"
+      ],
+      "nomenclature_catalog_only": [
+        "191719"
+      ],
+      "provisional_core_assignment": [
+        "11",
+        "26",
+        "29",
+        "40",
+        "45A",
+        "47",
+        "48",
+        "56",
+        "57",
+        "67",
+        "AT-1",
+        "AT.1",
+        "P3406A",
+        "PA2902",
+        "PB4404",
+        "PG6503",
+        "R24",
+        "SRR13958306",
+        "SRR24010557",
+        "SRR25621424",
+        "SRR25621436",
+        "SRR33623985"
+      ],
+      "read_metadata_queried": [
+        "DRR191518",
+        "DRR204676",
+        "ERR14883637",
+        "ERR17672364",
+        "SRR13958306",
+        "SRR19634133",
+        "SRR24010557",
+        "SRR25621424",
+        "SRR25621436",
+        "SRR25636132",
+        "SRR25636149",
+        "SRR30681804",
+        "SRR30681805",
+        "SRR33623979",
+        "SRR33623984",
+        "SRR33623985",
+        "SRR9389224",
+        "SRR9389225",
+        "SRR9389226",
+        "SRR9389227",
+        "SRR9389228",
+        "SRR9389229",
+        "SRR9389230",
+        "SRR9389231",
+        "SRR9389232",
+        "SRR9389233",
+        "SRR9389234",
+        "SRR9389235",
+        "SRR9389236",
+        "SRR9389237",
+        "SRR9389238",
+        "SRR9389239",
+        "SRR9389240",
+        "SRR9389241",
+        "SRR9389242",
+        "SRR9389243",
+        "SRR9389244",
+        "SRR9389245",
+        "SRR9389246",
+        "SRR9389247",
+        "SRR9389248",
+        "SRR9389249",
+        "SRR9389250",
+        "SRR9389251",
+        "SRR9389252",
+        "SRR9389253",
+        "SRR9389254",
+        "SRR9389255",
+        "SRR9389256",
+        "SRR9389257",
+        "SRR9389258",
+        "SRR9389259",
+        "SRR9691930",
+        "SRR9691932",
+        "SRR9691934",
+        "SRR9691935",
+        "SRR9691936"
+      ],
+      "reference_library": [
+        "REF_3807_Aspergillus_terreus_CMW59759",
+        "REF_3903_Aspergillus_terreus_P3406A",
+        "REF_4014_Aspergillus_terreus_CMW60392",
+        "REF_5258_Aspergillus_terreus_DTO270-H3",
+        "REF_5277_Aspergillus_terreus_DTO437-G1",
+        "REF_5280_Aspergillus_terreus_DTO440-H7",
+        "REF_614_Aspergillus_terreus_CBS60165",
+        "REF_615_Aspergillus_terreus_IBT24859",
+        "REF_616_Aspergillus_terreus_CBS11827",
+        "REF_617_Aspergillus_terreus_CBS10625",
+        "REF_618_Aspergillus_terreus_CBS12538"
+      ],
+      "used_complete230": [
+        "REF_3807_Aspergillus_terreus_CMW59759",
+        "REF_3903_Aspergillus_terreus_P3406A",
+        "REF_4014_Aspergillus_terreus_CMW60392",
+        "REF_5258_Aspergillus_terreus_DTO270-H3",
+        "REF_5277_Aspergillus_terreus_DTO437-G1",
+        "REF_5280_Aspergillus_terreus_DTO440-H7",
+        "REF_614_Aspergillus_terreus_CBS60165"
+      ],
+      "used_core_source_name": [
+        "11",
+        "26",
+        "29",
+        "39",
+        "40",
+        "45A",
+        "47",
+        "48",
+        "50",
+        "56",
+        "57",
+        "67",
+        "73",
+        "ASM-1",
+        "AT-1",
+        "AT.1",
+        "AT2022",
+        "ATCC20541",
+        "ATCC20542",
+        "ERR17672364",
+        "IFO6365",
+        "IFO6365_DRR204676",
+        "M6925",
+        "ML-44",
+        "NIH2624",
+        "P3406A",
+        "PA2902",
+        "PB4404",
+        "PG6503",
+        "R22",
+        "R23",
+        "R24",
+        "R6201Q",
+        "S1101B",
+        "SRR13958306",
+        "SRR19634133",
+        "SRR24010557",
+        "SRR25621424",
+        "SRR25621436",
+        "SRR25636132",
+        "SRR25636149",
+        "SRR33623984",
+        "SRR33623985",
+        "SRR9691930",
+        "SRR9691934",
+        "SRR9691935",
+        "SRR9691936",
+        "T59-F",
+        "T59-F_ERR14883637",
+        "TN-484",
+        "TN-484_DRR191518",
+        "TT0037",
+        "UA-600B",
+        "UA-600B_SRR33476766",
+        "w25"
+      ],
+      "used_full283": [
+        "REF_3807_Aspergillus_terreus_CMW59759",
+        "REF_3903_Aspergillus_terreus_P3406A",
+        "REF_4014_Aspergillus_terreus_CMW60392",
+        "REF_5258_Aspergillus_terreus_DTO270-H3",
+        "REF_5277_Aspergillus_terreus_DTO437-G1",
+        "REF_5280_Aspergillus_terreus_DTO440-H7",
+        "REF_614_Aspergillus_terreus_CBS60165",
+        "REF_615_Aspergillus_terreus_IBT24859",
+        "REF_616_Aspergillus_terreus_CBS11827",
+        "REF_617_Aspergillus_terreus_CBS10625",
+        "REF_618_Aspergillus_terreus_CBS12538"
+      ],
+      "used_type108": [
+        "REF_614_Aspergillus_terreus_CBS60165"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491703",
+        "FJ491705",
+        "FJ491707",
+        "FJ491708",
+        "FJ491709",
+        "FJ491710",
+        "FJ491711",
+        "FJ491712",
+        "FJ491713",
+        "FJ491725",
+        "FJ531207",
+        "FJ531208",
+        "FJ531209",
+        "FJ531210",
+        "FJ531211",
+        "FJ531212",
+        "FJ531213",
+        "FJ531214",
+        "FJ531215",
+        "FJ531216",
+        "FJ531218",
+        "FJ531230",
+        "FJ531231",
+        "FJ531232",
+        "FJ531234",
+        "FJ531235",
+        "FJ531237",
+        "FJ531238",
+        "FJ531239",
+        "FJ531240",
+        "FJ531241",
+        "FJ531243"
+      ],
+      "protein_reference_fetched": [
+        "Q0C8L6",
+        "Q0C8M4",
+        "Q0C8M3",
+        "Q0C8M2",
+        "Q0C8M1",
+        "Q0C8L8",
+        "Q0C8M0",
+        "Q0C8L9",
+        "A0ACN5CPM8"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus terreus var. subfloccosus",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": true,
+    "roles": "analysis_name_full283; historical_sequence_fetched",
+    "evidence": {
+      "analysis_name_full283": [
+        "HIST2011_CBS11737"
+      ],
+      "historical_sequence_fetched": [
+        "FJ491704",
+        "FJ531206",
+        "FJ531223"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus urmiensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "KP987029",
+        "KP987030",
+        "KP987031",
+        "KP987039",
+        "KP987041",
+        "KP987042",
+        "KP987055",
+        "KP987056",
+        "KP987057"
+      ],
+      "nomenclature_catalog_only": [
+        "817474"
+      ],
+      "reference_library": [
+        "REF_450_Aspergillus_urmiensis_CBS139557",
+        "REF_451_Aspergillus_urmiensis_CBS139558",
+        "REF_452_Aspergillus_urmiensis_CBS139766"
+      ]
+    }
+  },
+  {
+    "taxon_name": "Aspergillus xishaensis",
+    "genus": "Aspergillus",
+    "sequence_fetched": true,
+    "used_core": false,
+    "used_complete230": false,
+    "used_full283": false,
+    "roles": "marker_sequence_fetched; nomenclature_catalog_only; reference_library",
+    "evidence": {
+      "marker_sequence_fetched": [
+        "OM475628",
+        "OM475632",
+        "OM475636"
+      ],
+      "nomenclature_catalog_only": [
+        "570970"
+      ],
+      "reference_library": [
+        "REF_3289_Aspergillus_xishaensis_CGMCC320890"
+      ]
+    }
+  }
+]
