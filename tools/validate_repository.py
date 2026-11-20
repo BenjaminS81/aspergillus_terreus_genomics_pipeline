@@ -64,6 +64,10 @@ def validate(root: Path, security_only: bool = False) -> dict:
     files = repository_files(root)
     problems = [issue for p in files for issue in publication_issues(p, root)]
     if not security_only:
+        citation = (root / 'CITATION.cff').read_text(encoding='utf-8')
+        for field in ('authors', 'cff-version', 'message', 'title'):
+            if not re.search(r'^' + re.escape(field) + r':', citation, re.M):
+                problems.append(f'CITATION.cff: missing required field {field}')
         records = json.loads((root / 'manifests/script_versions.json').read_text(encoding='utf-8'))
         summary = json.loads((root / 'manifests/publication_summary.json').read_text(encoding='utf-8'))
         if summary['script_source_records'] != len(records):
